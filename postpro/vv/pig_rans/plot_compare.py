@@ -35,9 +35,9 @@ P0 = 804804
 D=6.5
 
 
-mesh6 = pd.read_csv("m6new.csv", ",", skiprows=0)
-mesh7 = pd.read_csv("m7new.csv", ",", skiprows=0)
-mesh8 = pd.read_csv("m8new.csv", ",", skiprows=0)
+mesh8= pd.read_csv("m8.csv", ",", skiprows=0)
+mesh9 = pd.read_csv("m9.csv", ",", skiprows=0)
+mesh10 = pd.read_csv("m10.csv", ",", skiprows=0)
 
 
 
@@ -49,9 +49,9 @@ fig1 = plt.figure( dpi=300)
 lwh = 2
 axes = fig1.add_axes([0.15, 0.15, 0.7, 0.7]) #size of figure
 
-axes.plot(mesh6.iloc[:,-5]/D , mesh6.iloc[:,9]/P0, 'r', lw=lwh, label="126k")
-axes.plot(mesh7.iloc[:,-5]/D , mesh7.iloc[:,9]/P0, 'g', lw=lwh, label="160k")
-axes.plot(mesh8.iloc[:,-5]/D , mesh8.iloc[:,9]/P0, 'b', lw=lwh, label="214k")
+axes.plot(mesh8.iloc[:,-3]/D , mesh8.iloc[:,10]/P0, 'r', lw=lwh, label="74k")
+axes.plot(mesh9.iloc[:,-3]/D , mesh9.iloc[:,10]/P0, 'g', lw=lwh, label="93k")
+axes.plot(mesh10.iloc[:,-3]/D , mesh10.iloc[:,10]/P0, 'b', lw=lwh, label="108k")
 
 # axes.yaxis.set_major_formatter(FormatStrFormatter('%.2f'))
 
@@ -60,15 +60,15 @@ axes.set_ylabel('$P/P_0$',fontsize=12)
 axes.set_title('$P/P_0$ along centerline',fontsize=14)
 axes.legend(loc=0) # 
 
-fig1.savefig("vv_pig_ns_p.pdf")
+fig1.savefig("vv_pig_rans_p.pdf")
 
 # fig 2
 fig2 = plt.figure( dpi=300)
 lwh = 2
 axes = fig2.add_axes([0.15, 0.15, 0.7, 0.7]) #size of figure
-axes.plot(mesh6.iloc[:,-5]/D , mesh6.iloc[:,5], 'r', lw=lwh, label="126k")
-axes.plot(mesh7.iloc[:,-5]/D , mesh7.iloc[:,5], 'g', lw=lwh, label="160k")
-axes.plot(mesh8.iloc[:,-5]/D , mesh8.iloc[:,5], 'b', lw=lwh, label="214k")
+axes.plot(mesh8.iloc[:,-3]/D , mesh8.iloc[:,5], 'r', lw=lwh, label="74k")
+axes.plot(mesh9.iloc[:,-3]/D , mesh9.iloc[:,5], 'g', lw=lwh, label="93k")
+axes.plot(mesh10.iloc[:,-3]/D , mesh10.iloc[:,5], 'b', lw=lwh, label="108k")
 
 # axes.yaxis.set_major_formatter(FormatStrFormatter('%.2f'))
 
@@ -77,7 +77,7 @@ axes.set_ylabel('Mach',fontsize=12)
 axes.set_title('Mach number along centerline',fontsize=14)
 axes.legend(loc=0) # 
 
-fig2.savefig("vv_pig_ns_m.pdf")
+fig2.savefig("vv_pig_rans_m.pdf")
 
 
 

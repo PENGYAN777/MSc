@@ -15,11 +15,16 @@ get_ipython().magic('reset -sf')
 os.system('clear')
 
 fluidname = "HEOS::nitrogen"
-data = pd.read_csv("m9.csv", ",")
-P = data.iloc[:,8] 
-T = data.iloc[:,13] 
+
+Pt = 804804
+Tt = 339.56
+ht = CP.CoolProp.PropsSI('Hmass','T',Tt,'P',Pt,fluidname)
+
+data = pd.read_csv("m10.csv", ",")
+P = data.iloc[:,10] 
+T = data.iloc[:,15] 
 D = data.iloc[:,0] 
-M = data.iloc[:,4] 
+M = data.iloc[:,5] 
 g = 1.4
 print("size", P.index)
 
@@ -39,7 +44,6 @@ for i in P.index:
         h =  CP.CoolProp.PropsSI('Hmass','T',T[i],'P',P[i],fluidname)
         c =  CP.CoolProp.PropsSI('A','T',T[i],'P',P[i],fluidname)
         u = c*M[i] 
-        ht = h + 0.5*u*u
         Pt[i] = CP.CoolProp.PropsSI('P','Smass',s ,'Hmass',ht, fluidname)
         # normal shock realtion Pt1/Pt2
         f1[i] = ((g+1)*M[i]*M[i] / ( (g-1)*M[i]*M[i]+2 ))**(g/(g-1))
@@ -51,7 +55,6 @@ for i in P.index:
         h =  CP.CoolProp.PropsSI('Hmass','T',T[i],'P',P[i],fluidname)
         c =  CP.CoolProp.PropsSI('A','T',T[i],'P',P[i],fluidname)
         u = c*M[i] 
-        ht = h + 0.5*u*u
         pt[i] = CP.CoolProp.PropsSI('P','Smass',s ,'Hmass',ht, fluidname)
 # append new columns
 # shG =pd.DataFrame({'G':G, })
@@ -59,4 +62,4 @@ shG =pd.DataFrame({'Ptot':pt, 'Z':Z, })
 newData = pd.concat([data, shG], join = 'outer', axis = 1)
 # save newData in csv file
 # newData.to_csv("m4sh.csv")
-newData.to_csv("m9new.csv")
+newData.to_csv("m10new.csv")

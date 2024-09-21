@@ -1,5 +1,38 @@
 #!/bin/bash
 
+# Define a variable with a numerical value of CPU cores
+cpu=4
+
+# change marker name from integer to string for grid_INL.su2
+# Assigning variables
+FILENAME1="initial_grid/grid.INL.su2"
+OLD_WORD2="MARKER_TAG=       2"
+NEW_WORD2="MARKER_TAG=       w2"
+OLD_WORD3="MARKER_TAG=       3"
+NEW_WORD3="MARKER_TAG=       w3"
+OLD_WORD4="MARKER_TAG=       4"
+NEW_WORD4="MARKER_TAG=       w4"
+
+# Check if the file exists
+if [ ! -f "$FILENAME1" ]; then
+  echo "File $FILENAME1 does not exist."
+  exit 1
+fi
+
+# Confirming the words to be replaced
+echo "Replacing '$OLD_WORD2' with '$NEW_WORD2' in file '$FILENAME1'."
+
+# Perform the replacement using sed
+sed -i.bak "s/$OLD_WORD2/$NEW_WORD2/g" "$FILENAME1"
+sed -i.bak "s/$OLD_WORD3/$NEW_WORD3/g" "$FILENAME1"
+sed -i.bak "s/$OLD_WORD4/$NEW_WORD4/g" "$FILENAME1"
+
+# Verify the replacement
+if grep -q "$NEW_WORD6" "$FILENAME2"; then
+  echo "Replacement successful. Backup saved as '$FILENAM1E.bak'."
+else
+  echo "Replacement failed or '$OLD_WORD6' not found in the file."
+fi
 
 
 #----------------------------
@@ -75,22 +108,37 @@ if [ "$ADAPT_MESH_SIZE" = YES ]; then
 	sed -i 's/^\s*REF_ELEM_LENGTH=.*$/REF_ELEM_LENGTH= '$REF_LENGTH'/' su2.cfg
 fi
 
-mpirun -n 6 SU2_CFD su2.cfg 
+mpirun -n $cpu SU2_CFD su2.cfg
 
 # Set restart input file name in su2.cfg and restart
 
 #sed -i 's/^\s*READ_BINARY_RESTART=.*$/READ_BINARY_RESTART= NO/' su2.cfg
 sed -i 's/^\s*RESTART_SOL=.*$/RESTART_SOL= YES/' su2.cfg # THIS IS FOR RESTART AT HIGHER LEVELS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 sed -i 's/^\s*ITER=.*$/ITER= 1000/' su2.cfg
-#sed -i 's/^\s*MUSCL_FLOW=.*$/MUSCL_FLOW= YES/' su2.cfg
+sed -i 's/^\s*MUSCL_FLOW=.*$/MUSCL_FLOW= YES/' su2.cfg
 sed -i 's/^\s*SOLUTION_FILENAME=.*$/SOLUTION_FILENAME= 'solution_interpolated.dat'/' su2.cfg
-#sed -i 's/^\s*OUTPUT_WRT_FREQ=.*$/OUTPUT_WRT_FREQ = 1/' su2.cfg
+#sed -i 's/^\s*OUTPUT_WRT_FREQ=.*$/OUTPUT_WRT_FREQ= 50/' su2.cfg
+
+#delete and add a new line
+pattern1="^MARKER_EULER"
+
+# The file to modify
+file="su2.cfg"
+# A temporary file to hold the modified content
+temp_file="su2_temp.cfg"
+
+sed "/$pattern1/d" "$file" > "$temp_file"
+mv "$temp_file" "$file"
+
+pattern2="^%MARKER_HEATFLUX"
+sed -i "/$pattern2/s/^.//" "$file"
 
 cp solution.dat solution_interpolated.dat
 
 # Get vtk of initial solution
 sed -i 's/,/ /g' solution.csv
 cp solution.csv solution.dat
+mv history_2nd.csv ../history_0.csv
 
 if test -f "flow.vtu"; then
         mv flow.vtu ../flow_0.vtu
@@ -145,20 +193,26 @@ do
 		REF_LENGTH=$(awk "BEGIN {print ${REF_LENGTH}*0.7}")
 		sed -i 's/^\s*REF_ELEM_LENGTH=.*$/REF_ELEM_LENGTH= '${REF_LENGTH}'/' su2.cfg
 	fi
+	# change marker name from integer to string for admesh.INL.su2
+	# Assigning variables
+	FILENAME2="admesh.INL.su2"
+	# Perform the replacement using sed
+	sed -i.bak "s/$OLD_WORD2/$NEW_WORD2/g" "$FILENAME2"
+	sed -i.bak "s/$OLD_WORD3/$NEW_WORD3/g" "$FILENAME2"
+	sed -i.bak "s/$OLD_WORD4/$NEW_WORD4/g" "$FILENAME2"
 
-	mpirun -n 6 SU2_CFD su2.cfg 
+	mpirun -n $cpu SU2_CFD su2.cfg
 
 	cp solution.dat solution_interpolated.dat
 
 	sed -i 's/,/ /g' solution.csv
 	cp solution.csv solution.dat
-
+	mv history_2nd.csv ../history_$ADAPT_LEVEL.csv
 	if test -f "flow.vtu"; then
 		mv flow.vtu ../flow_$ADAPT_LEVEL.vtu
 	fi
 done
 
-mv ../slurm-log.out .
 mv history_2nd.csv ../
 
 cd ../
