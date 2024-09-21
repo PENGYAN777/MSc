@@ -46,7 +46,7 @@ D=6.5
 ex = pd.read_csv("ex.csv", ",", skiprows=0)
 cfd_p = pd.read_csv("cfd_p.csv", ",", skiprows=0)
 cfd_m = pd.read_csv("cfd_m.csv", ",", skiprows=0)
-euler = pd.read_csv("pig_euler/m8new.csv", ",", skiprows=0)
+euler = pd.read_csv("pig_euler/m10new.csv", ",", skiprows=0)
 ns = pd.read_csv("pig_ns/m8new.csv", ",", skiprows=0)
 
 # fig 1

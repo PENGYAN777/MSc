@@ -35,14 +35,10 @@ P0 = 804804
 D=6.5
 
 
-# mesh3 = pd.read_csv("m3new.csv", ",", skiprows=0)
-# mesh4 = pd.read_csv("m4new.csv", ",", skiprows=0)
-# mesh5 = pd.read_csv("m5new.csv", ",", skiprows=0)
-# mesh6 = pd.read_csv("m6new.csv", ",", skiprows=0)
-mesh7 = pd.read_csv("m7new.csv", ",", skiprows=0)
 mesh8 = pd.read_csv("m8new.csv", ",", skiprows=0)
 mesh9 = pd.read_csv("m9new.csv", ",", skiprows=0)
-# mesh6s = pd.read_csv("m6news.csv", ",", skiprows=0)
+mesh10 = pd.read_csv("m10new.csv", ",", skiprows=0)
+
 
 
 
@@ -50,10 +46,9 @@ mesh9 = pd.read_csv("m9new.csv", ",", skiprows=0)
 fig1 = plt.figure( dpi=300)
 lwh = 2
 axes = fig1.add_axes([0.15, 0.15, 0.7, 0.7]) #size of figure
-# axes.plot(mesh3.iloc[:,-5]/D , mesh3.iloc[:,7]/P0, 'k', lw=lwh, label="25k")
-axes.plot(mesh7.iloc[:,-5]/D , mesh7.iloc[:,7]/P0, 'r', lw=lwh, label="139k")
-axes.plot(mesh8.iloc[:,-5]/D , mesh8.iloc[:,7]/P0, 'g', lw=lwh, label="155k")
-axes.plot(mesh9.iloc[:,-5]/D , mesh9.iloc[:,7]/P0, 'b', lw=lwh, label="169k")
+axes.plot(mesh8.iloc[:,-5]/D , mesh8.iloc[:,7]/P0, 'r', lw=lwh, label="8k")
+axes.plot(mesh9.iloc[:,-5]/D , mesh9.iloc[:,7]/P0, 'g', lw=lwh, label="10k")
+axes.plot(mesh10.iloc[:,-5]/D , mesh10.iloc[:,7]/P0, 'b', lw=lwh, label="11k")
 # axes.yaxis.set_major_formatter(FormatStrFormatter('%.2f'))
 
 axes.set_xlabel('$X/D$',fontsize=12)
@@ -67,10 +62,9 @@ fig1.savefig("vv_pig_euler_p.pdf")
 fig2 = plt.figure( dpi=300)
 lwh = 2
 axes = fig2.add_axes([0.15, 0.15, 0.7, 0.7]) #size of figure
-# axes.plot(mesh3.iloc[:,-5]/D , mesh3.iloc[:,3], 'k', lw=lwh, label="25k")
-axes.plot(mesh7.iloc[:,-5]/D , mesh7.iloc[:,3], 'r', lw=lwh, label="139k")
-axes.plot(mesh8.iloc[:,-5]/D , mesh8.iloc[:,3], 'g', lw=lwh, label="155k")
-axes.plot(mesh9.iloc[:,-5]/D , mesh9.iloc[:,3], 'b', lw=lwh, label="169k")
+axes.plot(mesh8.iloc[:,-5]/D , mesh8.iloc[:,3], 'r', lw=lwh, label="8k")
+axes.plot(mesh9.iloc[:,-5]/D , mesh9.iloc[:,3], 'g', lw=lwh, label="10k")
+axes.plot(mesh10.iloc[:,-5]/D , mesh10.iloc[:,3], 'b', lw=lwh, label="11k")
 # axes.yaxis.set_major_formatter(FormatStrFormatter('%.2f'))
 
 axes.set_xlabel('$X/D$',fontsize=12)

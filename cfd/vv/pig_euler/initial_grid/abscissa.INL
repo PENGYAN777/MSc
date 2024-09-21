@@ -1,7 +1,7 @@
  INL - grid name
            6  - number of boundaries
          604  - number of points
- 
+
        node index          curve coordinate          boundary index
   (boundary notation)
           1                 0.0000000E+00                  1

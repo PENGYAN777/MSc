@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Define a variable with a numerical value of CPU cores
+cpu=4
+
 
 
 #----------------------------
@@ -75,7 +78,7 @@ if [ "$ADAPT_MESH_SIZE" = YES ]; then
 	sed -i 's/^\s*REF_ELEM_LENGTH=.*$/REF_ELEM_LENGTH= '$REF_LENGTH'/' su2.cfg
 fi
 
-mpirun -n 6 SU2_CFD su2.cfg 
+mpirun -n $cpu SU2_CFD su2.cfg
 
 # Set restart input file name in su2.cfg and restart
 
@@ -84,13 +87,14 @@ sed -i 's/^\s*RESTART_SOL=.*$/RESTART_SOL= YES/' su2.cfg # THIS IS FOR RESTART A
 sed -i 's/^\s*ITER=.*$/ITER= 1000/' su2.cfg
 sed -i 's/^\s*MUSCL_FLOW=.*$/MUSCL_FLOW= YES/' su2.cfg
 sed -i 's/^\s*SOLUTION_FILENAME=.*$/SOLUTION_FILENAME= 'solution_interpolated.dat'/' su2.cfg
-#sed -i 's/^\s*SCREEN_WRT_FREQ_INNER=.*$/SCREEN_WRT_FREQ_INNER = 1/' su2.cfg
+
 
 cp solution.dat solution_interpolated.dat
 
 # Get vtk of initial solution
 sed -i 's/,/ /g' solution.csv
 cp solution.csv solution.dat
+mv history_2nd.csv ../history_0.csv
 
 if test -f "flow.vtu"; then
         mv flow.vtu ../flow_0.vtu
@@ -146,19 +150,18 @@ do
 		sed -i 's/^\s*REF_ELEM_LENGTH=.*$/REF_ELEM_LENGTH= '${REF_LENGTH}'/' su2.cfg
 	fi
 
-	mpirun -n 6 SU2_CFD su2.cfg 
+	mpirun -n $cpu SU2_CFD su2.cfg
 
 	cp solution.dat solution_interpolated.dat
 
 	sed -i 's/,/ /g' solution.csv
 	cp solution.csv solution.dat
-
+	mv history_2nd.csv ../history_$ADAPT_LEVEL.csv
 	if test -f "flow.vtu"; then
 		mv flow.vtu ../flow_$ADAPT_LEVEL.vtu
 	fi
 done
 
-mv ../slurm-log.out .
 mv history_2nd.csv ../
 
 cd ../
