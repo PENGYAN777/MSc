@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define a variable with a numerical value of CPU cores
-cpu=4
+cpu=8
 
 
 
@@ -84,7 +84,7 @@ mpirun -n $cpu SU2_CFD su2.cfg
 
 #sed -i 's/^\s*READ_BINARY_RESTART=.*$/READ_BINARY_RESTART= NO/' su2.cfg
 sed -i 's/^\s*RESTART_SOL=.*$/RESTART_SOL= YES/' su2.cfg # THIS IS FOR RESTART AT HIGHER LEVELS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-sed -i 's/^\s*ITER=.*$/ITER= 1000/' su2.cfg
+sed -i 's/^\s*ITER=.*$/ITER= 3000/' su2.cfg
 sed -i 's/^\s*MUSCL_FLOW=.*$/MUSCL_FLOW= YES/' su2.cfg
 sed -i 's/^\s*SOLUTION_FILENAME=.*$/SOLUTION_FILENAME= 'solution_interpolated.dat'/' su2.cfg
 
