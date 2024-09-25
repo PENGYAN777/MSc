@@ -49,9 +49,9 @@ fig1 = plt.figure( dpi=300)
 lwh = 2
 axes = fig1.add_axes([0.15, 0.15, 0.7, 0.7]) #size of figure
 
-axes.plot(mesh8.iloc[:,-3]/D , mesh8.iloc[:,10]/P0, 'r', lw=lwh, label="74k")
-axes.plot(mesh9.iloc[:,-3]/D , mesh9.iloc[:,10]/P0, 'g', lw=lwh, label="93k")
-axes.plot(mesh10.iloc[:,-3]/D , mesh10.iloc[:,10]/P0, 'b', lw=lwh, label="108k")
+axes.plot(mesh8.iloc[:,-3]/D , mesh8.iloc[:,10]/P0, 'r', lw=lwh, label="102k")
+axes.plot(mesh9.iloc[:,-3]/D , mesh9.iloc[:,10]/P0, 'g', lw=lwh, label="116k")
+axes.plot(mesh10.iloc[:,-3]/D , mesh10.iloc[:,10]/P0, 'b', lw=lwh, label="127k")
 
 # axes.yaxis.set_major_formatter(FormatStrFormatter('%.2f'))
 
@@ -66,9 +66,9 @@ fig1.savefig("vv_pig_rans_p.pdf")
 fig2 = plt.figure( dpi=300)
 lwh = 2
 axes = fig2.add_axes([0.15, 0.15, 0.7, 0.7]) #size of figure
-axes.plot(mesh8.iloc[:,-3]/D , mesh8.iloc[:,5], 'r', lw=lwh, label="74k")
-axes.plot(mesh9.iloc[:,-3]/D , mesh9.iloc[:,5], 'g', lw=lwh, label="93k")
-axes.plot(mesh10.iloc[:,-3]/D , mesh10.iloc[:,5], 'b', lw=lwh, label="108k")
+axes.plot(mesh8.iloc[:,-3]/D , mesh8.iloc[:,5], 'r', lw=lwh, label="102k")
+axes.plot(mesh9.iloc[:,-3]/D , mesh9.iloc[:,5], 'g', lw=lwh, label="116k")
+axes.plot(mesh10.iloc[:,-3]/D , mesh10.iloc[:,5], 'b', lw=lwh, label="127k")
 
 # axes.yaxis.set_major_formatter(FormatStrFormatter('%.2f'))
 

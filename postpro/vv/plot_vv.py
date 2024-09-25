@@ -70,45 +70,45 @@ axes.set_ylim([0, 1])
 
 fig1.savefig("vv_pt.pdf")
 
-# fig 2
-fig2 = plt.figure( dpi=300)
-lwh = 2
-axes = fig2.add_axes([0.15, 0.15, 0.7, 0.7]) #size of figure
-axes.plot(cfd_p.iloc[:,0] , cfd_p.iloc[:,1], 'k', lw=lwh, label="Guardon et.al")
-axes.plot(euler.iloc[:,-5]/D , euler.iloc[:,7]/P0, 'k--', lw=lwh, label="EULER")
-axes.plot(rans.iloc[:,-5]/D*1e3 , rans.iloc[:,11]/P0, 'b', lw=lwh, label="RANS")
+# # fig 2
+# fig2 = plt.figure( dpi=300)
+# lwh = 2
+# axes = fig2.add_axes([0.15, 0.15, 0.7, 0.7]) #size of figure
+# axes.plot(cfd_p.iloc[:,0] , cfd_p.iloc[:,1], 'k', lw=lwh, label="Guardon et.al")
+# axes.plot(euler.iloc[:,-5]/D , euler.iloc[:,7]/P0, 'k--', lw=lwh, label="EULER")
+# axes.plot(rans.iloc[:,-5]/D*1e3 , rans.iloc[:,11]/P0, 'b', lw=lwh, label="RANS")
 
 
-# axes.yaxis.set_major_formatter(FormatStrFormatter('%.2f'))
+# # axes.yaxis.set_major_formatter(FormatStrFormatter('%.2f'))
 
-axes.set_xlabel('$X/D$',fontsize=12)
-axes.set_ylabel('$P/P_0$',fontsize=12) 
-axes.set_title('$P/P_0$ along centerline',fontsize=14)
-axes.legend(loc=0) # 
+# axes.set_xlabel('$X/D$',fontsize=12)
+# axes.set_ylabel('$P/P_0$',fontsize=12) 
+# axes.set_title('$P/P_0$ along centerline',fontsize=14)
+# axes.legend(loc=0) # 
 
-axes.set_xlim([0, 10])
-axes.set_ylim([0, 0.4])
-
-fig2.savefig("vv_p.pdf")
-
-
-# fig 3
-fig3 = plt.figure( dpi=300)
-lwh = 2
-axes = fig3.add_axes([0.15, 0.15, 0.7, 0.7]) #size of figure
-axes.plot(cfd_m.iloc[:,0] , cfd_m.iloc[:,1], 'k', lw=lwh, label="Guardon et.al")
-axes.plot(euler.iloc[:,-5]/D , euler.iloc[:,3], 'k--', lw=lwh, label="EULER")
-axes.plot(rans.iloc[:,-5]/D*1e3 , rans.iloc[:,6], 'b', lw=lwh, label="RANS")
-
-
-# axes.yaxis.set_major_formatter(FormatStrFormatter('%.2f'))
-
-axes.set_xlabel('$X/D$',fontsize=12)
-axes.set_ylabel('Mach',fontsize=12) 
-axes.set_title('Mach number along centerline',fontsize=14)
-axes.legend(loc=0) # 
-
-axes.set_xlim([0, 10])
+# axes.set_xlim([0, 10])
 # axes.set_ylim([0, 0.4])
 
-fig3.savefig("vv_m.pdf")
+# fig2.savefig("vv_p.pdf")
+
+
+# # fig 3
+# fig3 = plt.figure( dpi=300)
+# lwh = 2
+# axes = fig3.add_axes([0.15, 0.15, 0.7, 0.7]) #size of figure
+# axes.plot(cfd_m.iloc[:,0] , cfd_m.iloc[:,1], 'k', lw=lwh, label="Guardon et.al")
+# axes.plot(euler.iloc[:,-5]/D , euler.iloc[:,3], 'k--', lw=lwh, label="EULER")
+# axes.plot(rans.iloc[:,-5]/D*1e3 , rans.iloc[:,6], 'b', lw=lwh, label="RANS")
+
+
+# # axes.yaxis.set_major_formatter(FormatStrFormatter('%.2f'))
+
+# axes.set_xlabel('$X/D$',fontsize=12)
+# axes.set_ylabel('Mach',fontsize=12) 
+# axes.set_title('Mach number along centerline',fontsize=14)
+# axes.legend(loc=0) # 
+
+# axes.set_xlim([0, 10])
+# # axes.set_ylim([0, 0.4])
+
+# fig3.savefig("vv_m.pdf")

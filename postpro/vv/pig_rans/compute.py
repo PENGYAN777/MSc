@@ -20,7 +20,7 @@ Pt = 804804
 Tt = 339.56
 ht = CP.CoolProp.PropsSI('Hmass','T',Tt,'P',Pt,fluidname)
 
-data = pd.read_csv("m10.csv", ",")
+data = pd.read_csv("m8.csv", ",")
 P = data.iloc[:,10] 
 T = data.iloc[:,15] 
 D = data.iloc[:,0] 
@@ -62,4 +62,4 @@ shG =pd.DataFrame({'Ptot':pt, 'Z':Z, })
 newData = pd.concat([data, shG], join = 'outer', axis = 1)
 # save newData in csv file
 # newData.to_csv("m4sh.csv")
-newData.to_csv("m10new.csv")
+newData.to_csv("m8new.csv")
