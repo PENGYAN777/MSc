@@ -59,7 +59,7 @@ axes.set_ylabel('$P/P_0$',fontsize=12)
 axes.set_title('$P/P_0$ along centerline',fontsize=14)
 axes.legend(loc=0) # 
 
-fig1.savefig("vv_pig_euler_p.pdf")
+fig1.savefig("vv_euler_stable_p.pdf")
 
 # fig 2
 fig2 = plt.figure( dpi=300)
@@ -75,7 +75,7 @@ axes.set_ylabel('Mach',fontsize=12)
 axes.set_title('Mach number along centerline',fontsize=14)
 axes.legend(loc=0) # 
 
-fig2.savefig("vv_pig_euler_m.pdf")
+fig2.savefig("vv_euler_stable_m.pdf")
 
 # fig 3
 fig3 = plt.figure( dpi=300)
