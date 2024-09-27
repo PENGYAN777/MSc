@@ -45,7 +45,7 @@ D=6.5
 
 ex = pd.read_csv("../ex.csv", ",", skiprows=0)
 sb = pd.read_csv("stable/m10new.csv", ",", skiprows=0)
-
+un = pd.read_csv("unstable/m10new.csv", ",", skiprows=0)
 
 # fig 1
 fig1 = plt.figure( dpi=300)
@@ -53,6 +53,7 @@ lwh = 2
 axes = fig1.add_axes([0.15, 0.15, 0.7, 0.7]) #size of figure
 axes.plot(ex.iloc[:,0] , ex.iloc[:,1], 'ko', lw=lwh, label="Ex")
 axes.plot(sb.iloc[:,-5]/D , sb.iloc[:,-2]/P0, 'k', lw=lwh, label="Stable")
+axes.plot(un.iloc[:,-5]/D , un.iloc[:,-2]/P0, 'k--', lw=lwh, label="Unstable")
 
 
 
