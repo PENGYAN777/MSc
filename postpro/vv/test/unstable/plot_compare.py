@@ -3,6 +3,8 @@
 """
 Created on Fri Dec 16 19:01:08 2022
 
+
+ line [0.13 0 0.13 0.005]
 @author: yan
 """
 
@@ -37,7 +39,7 @@ D=6.5
 
 # mesh8 = pd.read_csv("m8new.csv", ",", skiprows=0)
 # mesh9 = pd.read_csv("m9new.csv", ",", skiprows=0)
-# mesh10 = pd.read_csv("m10new.csv", ",", skiprows=0)
+mesh10 = pd.read_csv("m10new.csv", ",", skiprows=0)
 
 un= pd.read_csv("spnew.csv", ",", skiprows=0)
 st= pd.read_csv("../stable/spnew.csv", ",", skiprows=0)
@@ -84,6 +86,7 @@ lwh = 2
 axes = fig3.add_axes([0.15, 0.15, 0.7, 0.7]) #size of figure
 axes.plot(st.iloc[:,-4]/D , st.iloc[:,-2], 'k', lw=lwh, label="Stable")
 axes.plot(un.iloc[:,-4]/D , un.iloc[:,-2], 'g', lw=lwh, label="Unstable")
+# axes.plot(un.iloc[:,-4]/D , un.iloc[:,3], 'g', lw=lwh, label="Unstable")
 
 
 # axes.set_xlabel('$X/D$',fontsize=12)

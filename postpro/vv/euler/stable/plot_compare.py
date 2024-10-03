@@ -49,9 +49,9 @@ spnew= pd.read_csv("spnew.csv", ",", skiprows=0)
 fig1 = plt.figure( dpi=300)
 lwh = 2
 axes = fig1.add_axes([0.15, 0.15, 0.7, 0.7]) #size of figure
-axes.plot(mesh8.iloc[:,-5]/D , mesh8.iloc[:,7]/P0, 'r', lw=lwh, label="38k")
-axes.plot(mesh9.iloc[:,-5]/D , mesh9.iloc[:,7]/P0, 'g', lw=lwh, label="41k")
-axes.plot(mesh10.iloc[:,-5]/D , mesh10.iloc[:,7]/P0, 'b', lw=lwh, label="44k")
+axes.plot(mesh8.iloc[:,-7]/D , mesh8.iloc[:,7]/P0, 'r', lw=lwh, label="38k")
+axes.plot(mesh9.iloc[:,-7]/D , mesh9.iloc[:,7]/P0, 'g', lw=lwh, label="41k")
+axes.plot(mesh10.iloc[:,-7]/D , mesh10.iloc[:,7]/P0, 'b', lw=lwh, label="44k")
 # axes.yaxis.set_major_formatter(FormatStrFormatter('%.2f'))
 
 axes.set_xlabel('$X/D$',fontsize=12)
@@ -65,9 +65,9 @@ fig1.savefig("vv_euler_stable_p.pdf")
 fig2 = plt.figure( dpi=300)
 lwh = 2
 axes = fig2.add_axes([0.15, 0.15, 0.7, 0.7]) #size of figure
-axes.plot(mesh8.iloc[:,-5]/D , mesh8.iloc[:,3], 'r', lw=lwh, label="38k")
-axes.plot(mesh9.iloc[:,-5]/D , mesh9.iloc[:,3], 'g', lw=lwh, label="41k")
-axes.plot(mesh10.iloc[:,-5]/D , mesh10.iloc[:,3], 'b', lw=lwh, label="44k")
+axes.plot(mesh8.iloc[:,-7]/D , mesh8.iloc[:,3], 'r', lw=lwh, label="38k")
+axes.plot(mesh9.iloc[:,-7]/D , mesh9.iloc[:,3], 'g', lw=lwh, label="41k")
+axes.plot(mesh10.iloc[:,-7]/D , mesh10.iloc[:,3], 'b', lw=lwh, label="44k")
 # axes.yaxis.set_major_formatter(FormatStrFormatter('%.2f'))
 
 axes.set_xlabel('$X/D$',fontsize=12)
@@ -77,20 +77,17 @@ axes.legend(loc=0) #
 
 fig2.savefig("vv_euler_stable_m.pdf")
 
+
 # fig 3
 fig3 = plt.figure( dpi=300)
 lwh = 2
 axes = fig3.add_axes([0.15, 0.15, 0.7, 0.7]) #size of figure
-axes.plot(spnew.iloc[:,-4]/D , spnew.iloc[:,-2], 'g', lw=lwh, label="sp")
+axes.plot(mesh10.iloc[:,-7]/D , mesh10.iloc[:,-2], 'b', lw=lwh, label="44k")
+# axes.yaxis.set_major_formatter(FormatStrFormatter('%.2f'))
 
-
-# axes.set_xlabel('$X/D$',fontsize=12)
-# axes.set_ylabel('$P/P_0$',fontsize=12) 
-# axes.set_title('$P/P_0$ along centerline',fontsize=14)
-# axes.legend(loc=0) # 
-
-# fig1.savefig("vv_pig_euler_p.pdf")
-
-
-
+axes.set_xlabel('$X/D$',fontsize=12)
+axes.set_ylabel('s',fontsize=12) 
+axes.set_title('Entropy along centerline',fontsize=14)
+axes.legend(loc=0) # 
+fig3.savefig("vv_euler_stable_s.pdf")
 

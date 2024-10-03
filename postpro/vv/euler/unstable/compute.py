@@ -20,14 +20,7 @@ g = 1.4
 R = 297
 print("size", P.index)
 
-# Z = np.zeros(P.size)
-# # ht = np.zeros(P.size)
-# s = np.zeros(P.size)
-# for i in P.index:                       
-#         # Z[i] =  CP.CoolProp.PropsSI('Z','T',T[i],'P',P[i],fluidname)
-#         Z[i] = P[i]/D[i]/R/T[i]
-#         # s[i] =  CP.CoolProp.PropsSI('Smass','T',T[i],'P',P[i],fluidname)
-#         s[i] = R/(g-1)*np.log(T[i]) + R*np.log(1/D[i] )
+
 
 pt = np.zeros(P.size)
 Pt = np.zeros(P.size)
@@ -65,5 +58,4 @@ for i in P.index:
 shG =pd.DataFrame({'pt':pt, 'Z':Z, })
 newData = pd.concat([data, shG], join = 'outer', axis = 1)
 # save newData in csv file
-# newData.to_csv("m4sh.csv")
 newData.to_csv("m10new.csv")

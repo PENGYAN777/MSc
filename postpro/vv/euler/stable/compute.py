@@ -11,17 +11,18 @@ import CoolProp as CP
 import pandas as pd
 
 fluidname = "HEOS::nitrogen"
-data = pd.read_csv("m8.csv", ",")
+data = pd.read_csv("m9.csv", ",")
 P = data.iloc[:,6] 
 T = data.iloc[:,8] 
 D = data.iloc[:,0] 
 M = data.iloc[:,2] 
 g = 1.4
-R = 297
+# R = 297
 print("size", P.index)
 
-# Z = np.zeros(P.size)
-# # ht = np.zeros(P.size)
+PT = 804804
+TT = 339.56
+ht = CP.CoolProp.PropsSI('Hmass','T',TT,'P',PT,fluidname)
 # s = np.zeros(P.size)
 # for i in P.index:                       
 #         # Z[i] =  CP.CoolProp.PropsSI('Z','T',T[i],'P',P[i],fluidname)
@@ -30,7 +31,7 @@ print("size", P.index)
 #         s[i] = R/(g-1)*np.log(T[i]) + R*np.log(1/D[i] )
 
 pt = np.zeros(P.size)
-Pt = np.zeros(P.size)
+pi = np.zeros(P.size)
 Z = np.zeros(P.size)
 # ht = np.zeros(P.size)
 s = np.zeros(P.size)
@@ -41,29 +42,22 @@ for i in P.index:
         # G[i] = CP.CoolProp.PropsSI('fundamental_derivative_of_gas_dynamics',
         #                             'T',T[i],'P',P[i],fluidname)
         Z[i] =  CP.CoolProp.PropsSI('Z','T',T[i],'P',P[i],fluidname)
-        s =  CP.CoolProp.PropsSI('Smass','T',T[i],'P',P[i],fluidname)
-        h =  CP.CoolProp.PropsSI('Hmass','T',T[i],'P',P[i],fluidname)
-        c =  CP.CoolProp.PropsSI('A','T',T[i],'P',P[i],fluidname)
-        u = c*M[i] 
-        ht = h + 0.5*u*u
-        Pt[i] = CP.CoolProp.PropsSI('P','Smass',s ,'Hmass',ht, fluidname)
+        s[i] =  CP.CoolProp.PropsSI('Smass','T',T[i],'P',P[i],fluidname)
+        pt[i] = CP.CoolProp.PropsSI('P','Smass',s[i] ,'Hmass',ht, fluidname)
         # normal shock realtion Pt1/Pt2
         f1[i] = ((g+1)*M[i]*M[i] / ( (g-1)*M[i]*M[i]+2 ))**(g/(g-1))
         f2[i] = ((g+1) / (2*g*M[i]*M[i] -g+1) )**(1/(g-1))
-        pt[i] = Pt[i]*f1[i]*f2[i]
+        pi[i] = pt[i]*f1[i]*f2[i]
     else:
         Z[i] =  CP.CoolProp.PropsSI('Z','T',T[i],'P',P[i],fluidname)
-        s =  CP.CoolProp.PropsSI('Smass','T',T[i],'P',P[i],fluidname)
-        h =  CP.CoolProp.PropsSI('Hmass','T',T[i],'P',P[i],fluidname)
-        c =  CP.CoolProp.PropsSI('A','T',T[i],'P',P[i],fluidname)
-        u = c*M[i] 
-        ht = h + 0.5*u*u
-        pt[i] = CP.CoolProp.PropsSI('P','Smass',s ,'Hmass',ht, fluidname)
+        s[i] =  CP.CoolProp.PropsSI('Smass','T',T[i],'P',P[i],fluidname)
+        pt[i] = CP.CoolProp.PropsSI('P','Smass',s[i] ,'Hmass',ht, fluidname)
+        pi[i] = pt[i]
         
 # append new columns
 # shG =pd.DataFrame({'G':G, })
-shG =pd.DataFrame({'pt':pt, 'Z':Z, })
+shG =pd.DataFrame({'pt':pt, 'pi':pi,'s':s, 'Z':Z, })
 newData = pd.concat([data, shG], join = 'outer', axis = 1)
 # save newData in csv file
 # newData.to_csv("m4sh.csv")
-newData.to_csv("m8new.csv")
+newData.to_csv("m9new.csv")
