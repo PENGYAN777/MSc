@@ -34,12 +34,9 @@ dc = CP.CoolProp.PropsSI('rhocrit',fluidname)
 P0 = 804804
 D=6.5
 
-
+mesh6 = pd.read_csv("m7new.csv", ",", skiprows=0)
+mesh7 = pd.read_csv("m8new.csv", ",", skiprows=0)
 mesh8 = pd.read_csv("m8new.csv", ",", skiprows=0)
-mesh9 = pd.read_csv("m9new.csv", ",", skiprows=0)
-mesh10 = pd.read_csv("m10new.csv", ",", skiprows=0)
-
-spnew= pd.read_csv("spnew.csv", ",", skiprows=0)
 
 
 
@@ -49,9 +46,9 @@ spnew= pd.read_csv("spnew.csv", ",", skiprows=0)
 fig1 = plt.figure( dpi=300)
 lwh = 2
 axes = fig1.add_axes([0.15, 0.15, 0.7, 0.7]) #size of figure
-axes.plot(mesh8.iloc[:,-7]/D , mesh8.iloc[:,7]/P0, 'r', lw=lwh, label="38k")
-axes.plot(mesh9.iloc[:,-7]/D , mesh9.iloc[:,7]/P0, 'g', lw=lwh, label="41k")
-axes.plot(mesh10.iloc[:,-7]/D , mesh10.iloc[:,7]/P0, 'b', lw=lwh, label="44k")
+axes.plot(mesh6.iloc[:,-7]/D , mesh6.iloc[:,7]/P0, 'r', lw=lwh, label="166k")
+axes.plot(mesh7.iloc[:,-7]/D , mesh7.iloc[:,7]/P0, 'g', lw=lwh, label="213k")
+axes.plot(mesh8.iloc[:,-7]/D , mesh8.iloc[:,7]/P0, 'b', lw=lwh, label="272k")
 # axes.yaxis.set_major_formatter(FormatStrFormatter('%.2f'))
 
 axes.set_xlabel('$X/D$',fontsize=12)
@@ -65,9 +62,9 @@ fig1.savefig("vv_euler_stable_p.pdf")
 fig2 = plt.figure( dpi=300)
 lwh = 2
 axes = fig2.add_axes([0.15, 0.15, 0.7, 0.7]) #size of figure
-axes.plot(mesh8.iloc[:,-7]/D , mesh8.iloc[:,3], 'r', lw=lwh, label="38k")
-axes.plot(mesh9.iloc[:,-7]/D , mesh9.iloc[:,3], 'g', lw=lwh, label="41k")
-axes.plot(mesh10.iloc[:,-7]/D , mesh10.iloc[:,3], 'b', lw=lwh, label="44k")
+axes.plot(mesh6.iloc[:,-7]/D , mesh6.iloc[:,3], 'r', lw=lwh, label="166k")
+axes.plot(mesh7.iloc[:,-7]/D , mesh7.iloc[:,3], 'g', lw=lwh, label="213k")
+axes.plot(mesh8.iloc[:,-7]/D , mesh8.iloc[:,3], 'b', lw=lwh, label="272k")
 # axes.yaxis.set_major_formatter(FormatStrFormatter('%.2f'))
 
 axes.set_xlabel('$X/D$',fontsize=12)
@@ -82,7 +79,8 @@ fig2.savefig("vv_euler_stable_m.pdf")
 fig3 = plt.figure( dpi=300)
 lwh = 2
 axes = fig3.add_axes([0.15, 0.15, 0.7, 0.7]) #size of figure
-axes.plot(mesh10.iloc[:,-7]/D , mesh10.iloc[:,-2], 'b', lw=lwh, label="44k")
+
+axes.plot(mesh8.iloc[:,-7]/D , mesh8.iloc[:,-2], 'b', lw=lwh, label="lvl 10")
 # axes.yaxis.set_major_formatter(FormatStrFormatter('%.2f'))
 
 axes.set_xlabel('$X/D$',fontsize=12)

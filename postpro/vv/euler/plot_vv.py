@@ -45,7 +45,7 @@ D=6.5
 
 ex = pd.read_csv("../ex.csv", ",", skiprows=0)
 cfd = pd.read_csv("../paper_cfd.csv", ",", skiprows=0)
-sb = pd.read_csv("stable/m10new.csv", ",", skiprows=0)
+sb = pd.read_csv("stable/m8new.csv", ",", skiprows=0)
 # un = pd.read_csv("unstable/m1new.csv", ",", skiprows=0)
 
 # fig 1
@@ -54,8 +54,8 @@ lwh = 2
 axes = fig1.add_axes([0.15, 0.15, 0.7, 0.7]) #size of figure
 axes.plot(ex.iloc[:,0] , ex.iloc[:,1], 'ko', lw=lwh, label="Katanoda et.al Ex $P_i$")
 axes.plot(cfd.iloc[:,0] , cfd.iloc[:,1], 'k', lw=lwh, label="Katanoda et.al CFD $P_i$")
-axes.plot(sb.iloc[:,-7]/D , sb.iloc[:,-4]/P0, 'b', lw=lwh, label="$P_0$")
-axes.plot(sb.iloc[:,-7]/D , sb.iloc[:,-3]/P0, 'b--', lw=lwh, label="$P_i$")
+# axes.plot(sb.iloc[:,-7]/D , sb.iloc[:,-4]/P0, 'b', lw=lwh, label="$P_0$")
+axes.plot(sb.iloc[:,-7]/D , sb.iloc[:,-3]/P0, 'b', lw=lwh, label="Euler $P_i$")
 
 # axes.plot(un.iloc[:,-5]/D , un.iloc[:,-2]/P0, 'k--', lw=lwh, label="Unstable")
 
