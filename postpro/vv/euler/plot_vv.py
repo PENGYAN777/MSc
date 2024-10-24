@@ -52,10 +52,10 @@ sb = pd.read_csv("stable/m8new.csv", ",", skiprows=0)
 fig1 = plt.figure( dpi=300)
 lwh = 2
 axes = fig1.add_axes([0.15, 0.15, 0.7, 0.7]) #size of figure
-axes.plot(ex.iloc[:,0] , ex.iloc[:,1], 'ko', lw=lwh, label="Katanoda et.al Ex $P_i$")
-axes.plot(cfd.iloc[:,0] , cfd.iloc[:,1], 'k', lw=lwh, label="Katanoda et.al CFD $P_i$")
+axes.plot(ex.iloc[:,0]+0.1, ex.iloc[:,1], 'ko', lw=lwh, markersize=6, label="Katanoda et.al Ex")
+axes.plot(cfd.iloc[:,0] , cfd.iloc[:,1], 'k', lw=lwh, label="Katanoda et.al CFD")
 # axes.plot(sb.iloc[:,-7]/D , sb.iloc[:,-4]/P0, 'b', lw=lwh, label="$P_0$")
-axes.plot(sb.iloc[:,-7]/D , sb.iloc[:,-3]/P0, 'b', lw=lwh, label="Euler $P_i$")
+axes.plot(sb.iloc[:,-7]/D , sb.iloc[:,-3]/P0, 'b', lw=lwh, label="Euler")
 
 # axes.plot(un.iloc[:,-5]/D , un.iloc[:,-2]/P0, 'k--', lw=lwh, label="Unstable")
 
@@ -64,8 +64,8 @@ axes.plot(sb.iloc[:,-7]/D , sb.iloc[:,-3]/P0, 'b', lw=lwh, label="Euler $P_i$")
 # axes.yaxis.set_major_formatter(FormatStrFormatter('%.2f'))
 
 axes.set_xlabel('$X/D$',fontsize=12)
-axes.set_ylabel('$P/P_t$',fontsize=12) 
-axes.set_title('$P/P_t$ along centerline',fontsize=14)
+axes.set_ylabel('$P_i/P_t$',fontsize=12) 
+axes.set_title('$P_i/P_t$ along centerline',fontsize=14)
 axes.legend(loc=0) # 
 
 axes.set_xlim([0, 10])
