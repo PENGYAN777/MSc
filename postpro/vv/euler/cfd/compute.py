@@ -11,7 +11,7 @@ import CoolProp as CP
 import pandas as pd
 
 fluidname = "HEOS::nitrogen"
-data = pd.read_csv("m8.csv", ",")
+data = pd.read_csv("m4.csv", ",")
 # data = pd.read_csv("rd035.csv", ",")
 P = data.iloc[:,6] 
 T = data.iloc[:,8] 
@@ -71,8 +71,8 @@ for i in P.index:
         
 # append new columns
 # shG =pd.DataFrame({'G':G, })
-shG =pd.DataFrame({'pt':pt, 'pi':pi,'s':s, 'Z':Z, })
+shG =pd.DataFrame({'pt':pt, 'pi':pi,'s':s, 'ht':ht,'Z':Z, })
 newData = pd.concat([data, shG], join = 'outer', axis = 1)
 # save newData in csv file
-newData.to_csv("m8new.csv")
+newData.to_csv("m4new.csv")
 # newData.to_csv("rd035new.csv")
