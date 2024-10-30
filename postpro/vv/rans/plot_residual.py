@@ -47,7 +47,7 @@ axes.set_ylabel('Residuals',fontsize=12)
 # axes.set_title('$P/P_t$ along nozzle centerline',fontsize=14)
 axes.legend(loc=0) # 
 
-fig2.savefig("vv_pig_rans_resudial.pdf")
+fig2.savefig("vv_rans_resudial.pdf")
 
 
 

@@ -45,7 +45,7 @@ D=0.0078
 
 ex = pd.read_csv("ex.csv", ",", skiprows=0)
 euler = pd.read_csv("euler/m9new.csv", ",", skiprows=0)
-# rans = pd.read_csv("rans/stable/m8new.csv", ",", skiprows=0)
+rans = pd.read_csv("rans/m10new.csv", ",", skiprows=0)
 # un = pd.read_csv("unstable/m1new.csv", ",", skiprows=0)
 
 # fig 1
@@ -54,7 +54,7 @@ lwh = 2
 axes = fig1.add_axes([0.15, 0.15, 0.7, 0.7]) #size of figure
 axes.plot(ex.iloc[:,0] , ex.iloc[:,1], 'ko', lw=lwh, label="Katanoda et.al Ex")
 axes.plot(euler.iloc[:,-8]/D , euler.iloc[:,-4]/P0, 'b', lw=lwh, label="EULER")
-# axes.plot(rans.iloc[:,-8]/D2 , rans.iloc[:,-4]/P0, 'b--', lw=lwh, label="RANS")
+axes.plot(rans.iloc[:,-8]/D , rans.iloc[:,-4]/P0, 'b--', lw=lwh, label="RANS")
 
 # axes.plot(un.iloc[:,-5]/D , un.iloc[:,-2]/P0, 'k--', lw=lwh, label="Unstable")
 
@@ -68,7 +68,7 @@ axes.set_title('$P_i/P_t$ along centerline',fontsize=14)
 axes.legend(loc=0) # 
 
 axes.set_xlim([0, 10])
-axes.set_ylim([0, 1])
+axes.set_ylim([0, 0.8])
 
 fig1.savefig("vv_pt.pdf")
 

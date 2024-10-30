@@ -31,11 +31,11 @@ Pc = CP.CoolProp.PropsSI('Pcrit',fluidname)
 Tc = CP.CoolProp.PropsSI('Tcrit',fluidname)
 dc = CP.CoolProp.PropsSI('rhocrit',fluidname)
 
-P0 = 804804
-D=0.0065
+P0 = 1.2e4
+D=0.0078
 
 # mesh7 = pd.read_csv("m7new.csv", ",", skiprows=0)
-mesh8 = pd.read_csv("m8new.csv", ",", skiprows=0)
+mesh10 = pd.read_csv("m10new.csv", ",", skiprows=0)
 
 
 
@@ -79,7 +79,7 @@ fig3 = plt.figure( dpi=300)
 lwh = 2
 axes = fig3.add_axes([0.15, 0.15, 0.7, 0.7]) #size of figure
 
-axes.plot(mesh8.iloc[:,-8]/D , mesh8.iloc[:,-3], 'b', lw=lwh, label="lvl 10")
+axes.plot(mesh10.iloc[:,-8]/D , mesh10.iloc[:,-3], 'b', lw=lwh, label="lvl 10")
 # axes.plot(mesh8.iloc[:,-8]/D , mesh8.iloc[:,-5]/P0, 'b', lw=lwh, label="lvl 10")
 # axes.yaxis.set_major_formatter(FormatStrFormatter('%.2f'))
 
