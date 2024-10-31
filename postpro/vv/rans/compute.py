@@ -12,7 +12,7 @@ import pandas as pd
 import math
 
 fluidname = "PR::nitrogen"
-data = pd.read_csv("m10.csv", ",")
+data = pd.read_csv("m8.csv", ",")
 g = 1.4
 R = 297
 cp = g*R/(g-1)
@@ -81,5 +81,5 @@ for i in P.index:
 shG =pd.DataFrame({'pt':pt, 'pi':pi,'s':s, 'ht':ht,  'Z':Z, })
 newData = pd.concat([data, shG], join = 'outer', axis = 1)
 # save newData in csv file
-newData.to_csv("m10new.csv")
+newData.to_csv("m8new.csv")
 # newData.to_csv("rd035new.csv")

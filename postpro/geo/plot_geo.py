@@ -55,7 +55,7 @@ axes.plot(top.iloc[:,0] , top.iloc[:,1], 'k', lw=lwh)
 
 axes.set_xlabel('$X[mm]$',fontsize=12)
 axes.set_ylabel('$Y[mm]$',fontsize=12) 
-axes.set_title('Geometry of jet',fontsize=14)
+axes.set_title('Nozzle 2.0C and downstream domain',fontsize=14)
 axes.legend(loc=0, fontsize="8" ) # 
 axes.set_aspect('equal')
 

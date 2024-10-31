@@ -33,20 +33,17 @@ get_ipython().magic('reset -sf')
 os.system('clear')
 
 
-fluidname = "HEOS::Nitrogen"
-# fluidname = "HEOS::D6"
-Pc = CP.CoolProp.PropsSI('Pcrit',fluidname)
-Tc = CP.CoolProp.PropsSI('Tcrit',fluidname)
-dc = CP.CoolProp.PropsSI('rhocrit',fluidname)
-
 P0 = 1.2e4
 D=0.0078
 
 
 ex = pd.read_csv("ex.csv", ",", skiprows=0)
 euler = pd.read_csv("euler/m9new.csv", ",", skiprows=0)
-rans = pd.read_csv("rans/m10new.csv", ",", skiprows=0)
-# un = pd.read_csv("unstable/m1new.csv", ",", skiprows=0)
+rans = pd.read_csv("rans/m3new.csv", ",", skiprows=0)
+
+"""
+1. plot
+"""
 
 # fig 1
 fig1 = plt.figure( dpi=300)
@@ -56,9 +53,6 @@ axes.plot(ex.iloc[:,0] , ex.iloc[:,1], 'ko', lw=lwh, label="Katanoda et.al Ex")
 axes.plot(euler.iloc[:,-8]/D , euler.iloc[:,-4]/P0, 'b', lw=lwh, label="EULER")
 axes.plot(rans.iloc[:,-8]/D , rans.iloc[:,-4]/P0, 'b--', lw=lwh, label="RANS")
 
-# axes.plot(un.iloc[:,-5]/D , un.iloc[:,-2]/P0, 'k--', lw=lwh, label="Unstable")
-
-
 
 # axes.yaxis.set_major_formatter(FormatStrFormatter('%.2f'))
 
@@ -67,8 +61,25 @@ axes.set_ylabel('$P_i/P_t$',fontsize=12)
 axes.set_title('$P_i/P_t$ along centerline',fontsize=14)
 axes.legend(loc=0) # 
 
-axes.set_xlim([0, 10])
+axes.set_xlim([0, 8])
 axes.set_ylim([0, 0.8])
 
 fig1.savefig("vv_pt.pdf")
 
+"""
+2. compute the average difference
+"""
+n = 11
+diff = np.zeros(n)
+x = np.zeros(n)
+x1 = np.zeros(n)
+y = np.zeros(n)
+for i in range(0,n,1):
+    x[i] = ex.iloc[i,0]
+    x1[i] = np.argmin(abs(rans.iloc[:,-8]/D-x[i]))
+    y[i] = rans.iloc[:,-4][x1[i]]/P0
+    diff[i] =  (y[i] - ex.iloc[i,1])/ex.iloc[i,1]*100
+    # diff[i] =  (y[i] - ex.iloc[i,1])/y[i]*100
+
+diff_ave = sum(diff)/n
+print('average diff:',diff_ave)
