@@ -40,7 +40,10 @@ z9_pr = [15,  ]
 z9_x = [2.98, ]
 
 z8_pr = [15,  ]
-z8_x = [2.82, ]
+z8_x = [2.89, ]
+
+z7_pr = [15,  ]
+z7_x = [2.82, ]
 
 # z9_r = [0.56, ]
 
@@ -58,6 +61,7 @@ axes = fig1.add_axes([0.15, 0.15, 0.7, 0.7]) #size of figure
 axes.plot(x, y1, 'k', lw=lwh, label="Ideal")
 axes.plot(z9_pr  , z9_x ,'o', color=colors[0], lw=lwh, label="$Z_t = 0.9$")
 axes.plot(z8_pr  , z8_x ,'o', color=colors[1], lw=lwh, label="$Z_t = 0.8$")
+axes.plot(z7_pr  , z7_x ,'o', color=colors[2], lw=lwh, label="$Z_t = 0.7$")
 
 # axes.yaxis.set_major_formatter(FormatStrFormatter('%.2f'))
 
