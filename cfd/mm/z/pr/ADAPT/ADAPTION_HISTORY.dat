@@ -1,0 +1,2310 @@
+ Level           0
+ N_refined_edges:         748
+ Inserted_nodes:        3195        3196        3197        3198        3199
+        3200        3201        3202        3203        3204        3205
+        3206        3207        3208        3209        3210        3211
+        3212        3213        3214        3215        3216        3217
+        3218        3219        3220        3221        3222        3223
+        3224        3225        3226        3227        3228        3229
+        3230        3231        3232        3233        3234        3235
+        3236        3237        3238        3239        3240        3241
+        3242        3243        3244        3245        3246        3247
+        3248        3249        3250        3251        3252        3253
+        3254        3255        3256        3257        3258        3259
+        3260        3261        3262        3263        3264        3265
+        3266        3267        3268        3269        3270        3271
+        3272        3273        3274        3275        3276        3277
+        3278        3279        3280        3281        3282        3283
+        3284        3285        3286        3287        3288        3289
+        3290        3291        3292        3293        3294        3295
+        3296        3297        3298        3299        3300        3301
+        3302        3303        3304        3305        3306        3307
+        3308        3309        3310        3311        3312        3313
+        3314        3315        3316        3317        3318        3319
+        3320        3321        3322        3323        3324        3325
+        3326        3327        3328        3329        3330        3331
+        3332        3333        3334        3335        3336        3337
+        3338        3339        3340        3341        3342        3343
+        3344        3345        3346        3347        3348        3349
+        3350        3351        3352        3353        3354        3355
+        3356        3357        3358        3359        3360        3361
+        3362        3363        3364        3365        3366        3367
+        3368        3369        3370        3371        3372        3373
+        3374        3375        3376        3377        3378        3379
+        3380        3381        3382        3383        3384        3385
+        3386        3387        3388        3389        3390        3391
+        3392        3393        3394        3395        3396        3397
+        3398        3399        3400        3401        3402        3403
+        3404        3405        3406        3407        3408        3409
+        3410        3411        3412        3413        3414        3415
+        3416        3417        3418        3419        3420        3421
+        3422        3423        3424        3425        3426        3427
+        3428        3429        3430        3431        3432        3433
+        3434        3435        3436        3437        3438        3439
+        3440        3441        3442        3443        3444        3445
+        3446        3447        3448        3449        3450        3451
+        3452        3453        3454        3455        3456        3457
+        3458        3459        3460        3461        3462        3463
+        3464        3465        3466        3467        3468        3469
+        3470        3471        3472        3473        3474        3475
+        3476        3477        3478        3479        3480        3481
+        3482        3483        3484        3485        3486        3487
+        3488        3489        3490        3491        3492        3493
+        3494        3495        3496        3497        3498        3499
+        3500        3501        3502        3503        3504        3505
+        3506        3507        3508        3509        3510        3511
+        3512        3513        3514        3515        3516        3517
+        3518        3519        3520        3521        3522        3523
+        3524        3525        3526        3527        3528        3529
+        3530        3531        3532        3533        3534        3535
+        3536        3537        3538        3539        3540        3541
+        3542        3543        3544        3545        3546        3547
+        3548        3549        3550        3551        3552        3553
+        3554        3555        3556        3557        3558        3559
+        3560        3561        3562        3563        3564        3565
+        3566        3567        3568        3569        3570        3571
+        3572        3573        3574        3575        3576        3577
+        3578        3579        3580        3581        3582        3583
+        3584        3585        3586        3587        3588        3589
+        3590        3591        3592        3593        3594        3595
+        3596        3597        3598        3599        3600        3601
+        3602        3603        3604        3605        3606        3607
+        3608        3609        3610        3611        3612        3613
+        3614        3615        3616        3617        3618        3619
+        3620        3621        3622        3623        3624        3625
+        3626        3627        3628        3629        3630        3631
+        3632        3633        3634        3635        3636        3637
+        3638        3639        3640        3641        3642        3643
+        3644        3645        3646        3647        3648        3649
+        3650        3651        3652        3653        3654        3655
+        3656        3657        3658        3659        3660        3661
+        3662        3663        3664        3665        3666        3667
+        3668        3669        3670        3671        3672        3673
+        3674        3675        3676        3677        3678        3679
+        3680        3681        3682        3683        3684        3685
+        3686        3687        3688        3689        3690        3691
+        3692        3693        3694        3695        3696        3697
+        3698        3699        3700        3701        3702        3703
+        3704        3705        3706        3707        3708        3709
+        3710        3711        3712        3713        3714        3715
+        3716        3717        3718        3719        3720        3721
+        3722        3723        3724        3725        3726        3727
+        3728        3729        3730        3731        3732        3733
+        3734        3735        3736        3737        3738        3739
+        3740        3741        3742        3743        3744        3745
+        3746        3747        3748        3749        3750        3751
+        3752        3753        3754        3755        3756        3757
+        3758        3759        3760        3761        3762        3763
+        3764        3765        3766        3767        3768        3769
+        3770        3771        3772        3773        3774        3775
+        3776        3777        3778        3779        3780        3781
+        3782        3783        3784        3785        3786        3787
+        3788        3789        3790        3791        3792        3793
+        3794        3795        3796        3797        3798        3799
+        3800        3801        3802        3803        3804        3805
+        3806        3807        3808        3809        3810        3811
+        3812        3813        3814        3815        3816        3817
+        3818        3819        3820        3821        3822        3823
+        3824        3825        3826        3827        3828        3829
+        3830        3831        3832        3833        3834        3835
+        3836        3837        3838        3839        3840        3841
+        3842        3843        3844        3845        3846        3847
+        3848        3849        3850        3851        3852        3853
+        3854        3855        3856        3857        3858        3859
+        3860        3861        3862        3863        3864        3865
+        3866        3867        3868        3869        3870        3871
+        3872        3873        3874        3875        3876        3877
+        3878        3879        3880        3881        3882        3883
+        3884        3885        3886        3887        3888        3889
+        3890        3891        3892        3893        3894        3895
+        3896        3897        3898        3899        3900        3901
+        3902        3903        3904        3905        3906        3907
+        3908        3909        3910        3911        3912        3913
+        3914        3915        3916        3917        3918        3919
+        3920        3921        3922        3923        3924        3925
+        3926        3927        3928        3929        3930        3931
+        3932        3933        3934        3935        3936        3937
+        3938        3939        3940        3941        3942
+        3195 Edge_nodes:        2956        2957
+        3196 Edge_nodes:        2856        2957
+        3197 Edge_nodes:        2957        2958
+        3198 Edge_nodes:        2855        2958
+        3199 Edge_nodes:        2853        2959
+        3200 Edge_nodes:        2959        2960
+        3201 Edge_nodes:        2852        2960
+        3202 Edge_nodes:        2851        2960
+        3203 Edge_nodes:        2960        2961
+        3204 Edge_nodes:        2851        2961
+        3205 Edge_nodes:        2961        2962
+        3206 Edge_nodes:        2849        2962
+        3207 Edge_nodes:        2803        3002
+        3208 Edge_nodes:        3149        3150
+        3209 Edge_nodes:        2702        3150
+        3210 Edge_nodes:        2702        3149
+        3211 Edge_nodes:        3150        3151
+        3212 Edge_nodes:        2704        3151
+        3213 Edge_nodes:        2704        3150
+        3214 Edge_nodes:        3151        3152
+        3215 Edge_nodes:        2706        3152
+        3216 Edge_nodes:        2706        3151
+        3217 Edge_nodes:        3152        3153
+        3218 Edge_nodes:        2708        3153
+        3219 Edge_nodes:        3153        3154
+        3220 Edge_nodes:        2710        3154
+        3221 Edge_nodes:        3154        3155
+        3222 Edge_nodes:        2712        3155
+        3223 Edge_nodes:        2714        3156
+        3224 Edge_nodes:        3156        3157
+        3225 Edge_nodes:        2716        3157
+        3226 Edge_nodes:        3157        3158
+        3227 Edge_nodes:        2718        3158
+        3228 Edge_nodes:        3158        3159
+        3229 Edge_nodes:        2720        3159
+        3230 Edge_nodes:        2720        3158
+        3231 Edge_nodes:        3159        3160
+        3232 Edge_nodes:        2722        3160
+        3233 Edge_nodes:        2722        3159
+        3234 Edge_nodes:        3160        3161
+        3235 Edge_nodes:        2724        3161
+        3236 Edge_nodes:        3161        3162
+        3237 Edge_nodes:        2726        3162
+        3238 Edge_nodes:        2726        3161
+        3239 Edge_nodes:        3162        3163
+        3240 Edge_nodes:        2728        3163
+        3241 Edge_nodes:        2728        3162
+        3242 Edge_nodes:        3163        3164
+        3243 Edge_nodes:        2730        3164
+        3244 Edge_nodes:        3164        3165
+        3245 Edge_nodes:        2732        3165
+        3246 Edge_nodes:        2732        3164
+        3247 Edge_nodes:        3165        3166
+        3248 Edge_nodes:        2736        3166
+        3249 Edge_nodes:        3166        3167
+        3250 Edge_nodes:        2741        3167
+        3251 Edge_nodes:        2741        3166
+        3252 Edge_nodes:        3167        3168
+        3253 Edge_nodes:        2748        3168
+        3254 Edge_nodes:        2748        3167
+        3255 Edge_nodes:        3168        3169
+        3256 Edge_nodes:        2759        3169
+        3257 Edge_nodes:        2759        3168
+        3258 Edge_nodes:        3169        3170
+        3259 Edge_nodes:        2793        3170
+        3260 Edge_nodes:        2793        3169
+        3261 Edge_nodes:        2799        3171
+        3262 Edge_nodes:        3171        3172
+        3263 Edge_nodes:        3172        3173
+        3264 Edge_nodes:        2801        3173
+        3265 Edge_nodes:        3174        3175
+        3266 Edge_nodes:        2809        3175
+        3267 Edge_nodes:        3175        3176
+        3268 Edge_nodes:        2818        3176
+        3269 Edge_nodes:        3176        3177
+        3270 Edge_nodes:        2825        3177
+        3271 Edge_nodes:        3177        3178
+        3272 Edge_nodes:        2832        3178
+        3273 Edge_nodes:        2832        3177
+        3274 Edge_nodes:        3178        3179
+        3275 Edge_nodes:        2838        3179
+        3276 Edge_nodes:        2838        3178
+        3277 Edge_nodes:        3179        3180
+        3278 Edge_nodes:        2844        3180
+        3279 Edge_nodes:        2844        3179
+        3280 Edge_nodes:        3180        3181
+        3281 Edge_nodes:        2850        3181
+        3282 Edge_nodes:        2850        3180
+        3283 Edge_nodes:        3181        3182
+        3284 Edge_nodes:        2854        3182
+        3285 Edge_nodes:        2854        3181
+        3286 Edge_nodes:        3182        3183
+        3287 Edge_nodes:        2859        3183
+        3288 Edge_nodes:        2859        3182
+        3289 Edge_nodes:        3183        3184
+        3290 Edge_nodes:        2864        3184
+        3291 Edge_nodes:        3184        3185
+        3292 Edge_nodes:        2868        3185
+        3293 Edge_nodes:        3185        3186
+        3294 Edge_nodes:        2872        3186
+        3295 Edge_nodes:        3186        3187
+        3296 Edge_nodes:        2876        3187
+        3297 Edge_nodes:        2876        3186
+        3298 Edge_nodes:        3187        3188
+        3299 Edge_nodes:        2880        3188
+        3300 Edge_nodes:        2880        3187
+        3301 Edge_nodes:        3188        3189
+        3302 Edge_nodes:        2884        3189
+        3303 Edge_nodes:        2884        3188
+        3304 Edge_nodes:        3189        3190
+        3305 Edge_nodes:        2887        3190
+        3306 Edge_nodes:        2887        3189
+        3307 Edge_nodes:        3190        3191
+        3308 Edge_nodes:        2891        3191
+        3309 Edge_nodes:        2891        3190
+        3310 Edge_nodes:        3191        3192
+        3311 Edge_nodes:        2894        3192
+        3312 Edge_nodes:        2894        3191
+        3313 Edge_nodes:        3192        3193
+        3314 Edge_nodes:        2897        3193
+        3315 Edge_nodes:        2900        3194
+        3316 Edge_nodes:        2857        2858
+        3317 Edge_nodes:        2856        2857
+        3318 Edge_nodes:        2855        2856
+        3319 Edge_nodes:        2853        2855
+        3320 Edge_nodes:        2852        2853
+        3321 Edge_nodes:        2851        2852
+        3322 Edge_nodes:        2849        2851
+        3323 Edge_nodes:        2848        2849
+        3324 Edge_nodes:        2700        2702
+        3325 Edge_nodes:        2702        2704
+        3326 Edge_nodes:        2704        2706
+        3327 Edge_nodes:        2706        2708
+        3328 Edge_nodes:        2708        2710
+        3329 Edge_nodes:        2710        2712
+        3330 Edge_nodes:        2712        2714
+        3331 Edge_nodes:        2714        2716
+        3332 Edge_nodes:        2716        2718
+        3333 Edge_nodes:        2718        2720
+        3334 Edge_nodes:        2720        2722
+        3335 Edge_nodes:        2722        2724
+        3336 Edge_nodes:        2724        2726
+        3337 Edge_nodes:        2726        2728
+        3338 Edge_nodes:        2728        2730
+        3339 Edge_nodes:        2730        2732
+        3340 Edge_nodes:        2732        2736
+        3341 Edge_nodes:        2736        2741
+        3342 Edge_nodes:        2741        2748
+        3343 Edge_nodes:        2748        2759
+        3344 Edge_nodes:        2759        2793
+        3345 Edge_nodes:        2793        2799
+        3346 Edge_nodes:        2799        2800
+        3347 Edge_nodes:        2800        2801
+        3348 Edge_nodes:        2801        2802
+        3349 Edge_nodes:        2802        2809
+        3350 Edge_nodes:        2809        2818
+        3351 Edge_nodes:        2818        2825
+        3352 Edge_nodes:        2825        2832
+        3353 Edge_nodes:        2832        2838
+        3354 Edge_nodes:        2838        2844
+        3355 Edge_nodes:        2844        2850
+        3356 Edge_nodes:        2850        2854
+        3357 Edge_nodes:        2854        2859
+        3358 Edge_nodes:        2859        2864
+        3359 Edge_nodes:        2864        2868
+        3360 Edge_nodes:        2868        2872
+        3361 Edge_nodes:        2872        2876
+        3362 Edge_nodes:        2876        2880
+        3363 Edge_nodes:        2880        2884
+        3364 Edge_nodes:        2884        2887
+        3365 Edge_nodes:        2887        2891
+        3366 Edge_nodes:        2891        2894
+        3367 Edge_nodes:        2894        2897
+        3368 Edge_nodes:        2897        2900
+        3369 Edge_nodes:        2900        2902
+        3370 Edge_nodes:        2496        2856
+        3371 Edge_nodes:        2497        2855
+        3372 Edge_nodes:        2494        2853
+        3373 Edge_nodes:        2493        2853
+        3374 Edge_nodes:        2493        2852
+        3375 Edge_nodes:        2492        2851
+        3376 Edge_nodes:        2490        2851
+        3377 Edge_nodes:        2490        2849
+        3378 Edge_nodes:        2489        2848
+        3379 Edge_nodes:        2348        2702
+        3380 Edge_nodes:        2350        2704
+        3381 Edge_nodes:        2350        2702
+        3382 Edge_nodes:        2352        2706
+        3383 Edge_nodes:        2352        2704
+        3384 Edge_nodes:        2354        2708
+        3385 Edge_nodes:        2354        2706
+        3386 Edge_nodes:        2356        2710
+        3387 Edge_nodes:        2358        2712
+        3388 Edge_nodes:        2360        2714
+        3389 Edge_nodes:        2362        2716
+        3390 Edge_nodes:        2364        2718
+        3391 Edge_nodes:        2366        2720
+        3392 Edge_nodes:        2368        2722
+        3393 Edge_nodes:        2368        2720
+        3394 Edge_nodes:        2370        2724
+        3395 Edge_nodes:        2370        2722
+        3396 Edge_nodes:        2372        2726
+        3397 Edge_nodes:        2374        2728
+        3398 Edge_nodes:        2374        2726
+        3399 Edge_nodes:        2376        2730
+        3400 Edge_nodes:        2376        2728
+        3401 Edge_nodes:        2378        2732
+        3402 Edge_nodes:        2229        2736
+        3403 Edge_nodes:        2229        2732
+        3404 Edge_nodes:        2381        2741
+        3405 Edge_nodes:        2385        2748
+        3406 Edge_nodes:        2385        2741
+        3407 Edge_nodes:        2390        2759
+        3408 Edge_nodes:        2390        2748
+        3409 Edge_nodes:        2397        2793
+        3410 Edge_nodes:        2397        2759
+        3411 Edge_nodes:        2406        2799
+        3412 Edge_nodes:        2204        2801
+        3413 Edge_nodes:        2206        2809
+        3414 Edge_nodes:        2450        2818
+        3415 Edge_nodes:        2459        2825
+        3416 Edge_nodes:        2466        2832
+        3417 Edge_nodes:        2473        2838
+        3418 Edge_nodes:        2473        2832
+        3419 Edge_nodes:        2479        2844
+        3420 Edge_nodes:        2479        2838
+        3421 Edge_nodes:        2485        2850
+        3422 Edge_nodes:        2485        2844
+        3423 Edge_nodes:        2491        2854
+        3424 Edge_nodes:        2491        2850
+        3425 Edge_nodes:        2495        2859
+        3426 Edge_nodes:        2495        2854
+        3427 Edge_nodes:        2500        2864
+        3428 Edge_nodes:        2500        2859
+        3429 Edge_nodes:        2505        2868
+        3430 Edge_nodes:        2505        2864
+        3431 Edge_nodes:        2509        2872
+        3432 Edge_nodes:        2513        2876
+        3433 Edge_nodes:        2513        2872
+        3434 Edge_nodes:        2517        2880
+        3435 Edge_nodes:        2517        2876
+        3436 Edge_nodes:        2521        2884
+        3437 Edge_nodes:        2521        2880
+        3438 Edge_nodes:        2525        2887
+        3439 Edge_nodes:        2525        2884
+        3440 Edge_nodes:        2528        2891
+        3441 Edge_nodes:        2528        2887
+        3442 Edge_nodes:        2532        2894
+        3443 Edge_nodes:        2532        2891
+        3444 Edge_nodes:        2535        2897
+        3445 Edge_nodes:        2535        2894
+        3446 Edge_nodes:        2537        2900
+        3447 Edge_nodes:        2537        2897
+        3448 Edge_nodes:        2498        2499
+        3449 Edge_nodes:        2496        2498
+        3450 Edge_nodes:        2496        2497
+        3451 Edge_nodes:        2494        2497
+        3452 Edge_nodes:        2493        2494
+        3453 Edge_nodes:        2492        2493
+        3454 Edge_nodes:        2490        2492
+        3455 Edge_nodes:        2489        2490
+        3456 Edge_nodes:        2488        2489
+        3457 Edge_nodes:        2486        2488
+        3458 Edge_nodes:        2348        2350
+        3459 Edge_nodes:        2350        2352
+        3460 Edge_nodes:        2352        2354
+        3461 Edge_nodes:        2354        2356
+        3462 Edge_nodes:        2356        2358
+        3463 Edge_nodes:        2358        2360
+        3464 Edge_nodes:        2360        2362
+        3465 Edge_nodes:        2362        2364
+        3466 Edge_nodes:        2364        2366
+        3467 Edge_nodes:        2366        2368
+        3468 Edge_nodes:        2368        2370
+        3469 Edge_nodes:        2370        2372
+        3470 Edge_nodes:        2372        2374
+        3471 Edge_nodes:        2374        2376
+        3472 Edge_nodes:        2376        2378
+        3473 Edge_nodes:        2229        2378
+        3474 Edge_nodes:        2229        2381
+        3475 Edge_nodes:        2381        2385
+        3476 Edge_nodes:        2385        2390
+        3477 Edge_nodes:        2390        2397
+        3478 Edge_nodes:        2397        2406
+        3479 Edge_nodes:        2406        2419
+        3480 Edge_nodes:        2204        2419
+        3481 Edge_nodes:        1872        2809
+        3482 Edge_nodes:        2107        2818
+        3483 Edge_nodes:        2107        2459
+        3484 Edge_nodes:        2115        2825
+        3485 Edge_nodes:        2115        2466
+        3486 Edge_nodes:        2123        2832
+        3487 Edge_nodes:        2123        2466
+        3488 Edge_nodes:        2123        2473
+        3489 Edge_nodes:        2131        2838
+        3490 Edge_nodes:        2131        2473
+        3491 Edge_nodes:        2131        2479
+        3492 Edge_nodes:        2135        2844
+        3493 Edge_nodes:        2135        2479
+        3494 Edge_nodes:        2135        2485
+        3495 Edge_nodes:        2141        2850
+        3496 Edge_nodes:        2141        2485
+        3497 Edge_nodes:        2141        2491
+        3498 Edge_nodes:        2146        2854
+        3499 Edge_nodes:        2146        2491
+        3500 Edge_nodes:        2146        2495
+        3501 Edge_nodes:        2150        2859
+        3502 Edge_nodes:        2150        2495
+        3503 Edge_nodes:        2150        2500
+        3504 Edge_nodes:        2155        2864
+        3505 Edge_nodes:        2155        2500
+        3506 Edge_nodes:        2155        2505
+        3507 Edge_nodes:        1842        2868
+        3508 Edge_nodes:        1842        2509
+        3509 Edge_nodes:        2509        2513
+        3510 Edge_nodes:        2513        2517
+        3511 Edge_nodes:        2517        2521
+        3512 Edge_nodes:        2521        2525
+        3513 Edge_nodes:        2525        2528
+        3514 Edge_nodes:        2528        2532
+        3515 Edge_nodes:        2532        2535
+        3516 Edge_nodes:        2535        2537
+        3517 Edge_nodes:        2188        2900
+        3518 Edge_nodes:        2152        2497
+        3519 Edge_nodes:        2148        2494
+        3520 Edge_nodes:        2145        2493
+        3521 Edge_nodes:        2147        2493
+        3522 Edge_nodes:        2147        2492
+        3523 Edge_nodes:        2144        2490
+        3524 Edge_nodes:        2139        2489
+        3525 Edge_nodes:        2140        2488
+        3526 Edge_nodes:        2014        2350
+        3527 Edge_nodes:        2016        2352
+        3528 Edge_nodes:        2016        2350
+        3529 Edge_nodes:        2018        2354
+        3530 Edge_nodes:        2020        2356
+        3531 Edge_nodes:        2022        2358
+        3532 Edge_nodes:        2024        2360
+        3533 Edge_nodes:        2028        2364
+        3534 Edge_nodes:        2030        2366
+        3535 Edge_nodes:        2032        2368
+        3536 Edge_nodes:        2034        2370
+        3537 Edge_nodes:        2036        2372
+        3538 Edge_nodes:        2038        2374
+        3539 Edge_nodes:        2040        2376
+        3540 Edge_nodes:        2042        2378
+        3541 Edge_nodes:        1894        2229
+        3542 Edge_nodes:        1895        2381
+        3543 Edge_nodes:        2043        2385
+        3544 Edge_nodes:        2048        2390
+        3545 Edge_nodes:        2048        2385
+        3546 Edge_nodes:        2053        2397
+        3547 Edge_nodes:        2053        2390
+        3548 Edge_nodes:        2059        2406
+        3549 Edge_nodes:        2059        2397
+        3550 Edge_nodes:        2069        2419
+        3551 Edge_nodes:        1865        2204
+        3552 Edge_nodes:        1865        2419
+        3553 Edge_nodes:        1817        2459
+        3554 Edge_nodes:        1570        2115
+        3555 Edge_nodes:        1822        2466
+        3556 Edge_nodes:        1574        2123
+        3557 Edge_nodes:        1826        2473
+        3558 Edge_nodes:        1828        2131
+        3559 Edge_nodes:        1831        2479
+        3560 Edge_nodes:        1832        2135
+        3561 Edge_nodes:        1832        2479
+        3562 Edge_nodes:        1834        2485
+        3563 Edge_nodes:        1836        2141
+        3564 Edge_nodes:        1838        2491
+        3565 Edge_nodes:        1838        2141
+        3566 Edge_nodes:        1839        2146
+        3567 Edge_nodes:        1841        2495
+        3568 Edge_nodes:        2149        2495
+        3569 Edge_nodes:        2149        2150
+        3570 Edge_nodes:        2153        2500
+        3571 Edge_nodes:        2158        2505
+        3572 Edge_nodes:        1842        2160
+        3573 Edge_nodes:        2164        2509
+        3574 Edge_nodes:        2163        2509
+        3575 Edge_nodes:        2163        2513
+        3576 Edge_nodes:        2166        2517
+        3577 Edge_nodes:        2166        2513
+        3578 Edge_nodes:        2170        2521
+        3579 Edge_nodes:        2170        2517
+        3580 Edge_nodes:        2174        2525
+        3581 Edge_nodes:        2174        2521
+        3582 Edge_nodes:        2178        2528
+        3583 Edge_nodes:        2181        2532
+        3584 Edge_nodes:        2181        2528
+        3585 Edge_nodes:        2185        2535
+        3586 Edge_nodes:        2149        2153
+        3587 Edge_nodes:        2149        2151
+        3588 Edge_nodes:        2151        2152
+        3589 Edge_nodes:        2148        2152
+        3590 Edge_nodes:        2145        2148
+        3591 Edge_nodes:        2145        2147
+        3592 Edge_nodes:        2144        2147
+        3593 Edge_nodes:        2139        2144
+        3594 Edge_nodes:        2139        2140
+        3595 Edge_nodes:        2140        2142
+        3596 Edge_nodes:        2133        2134
+        3597 Edge_nodes:        2012        2014
+        3598 Edge_nodes:        2014        2016
+        3599 Edge_nodes:        2016        2018
+        3600 Edge_nodes:        2018        2020
+        3601 Edge_nodes:        2020        2022
+        3602 Edge_nodes:        2022        2024
+        3603 Edge_nodes:        2024        2026
+        3604 Edge_nodes:        2026        2028
+        3605 Edge_nodes:        2028        2030
+        3606 Edge_nodes:        2030        2032
+        3607 Edge_nodes:        2032        2034
+        3608 Edge_nodes:        2034        2036
+        3609 Edge_nodes:        2036        2038
+        3610 Edge_nodes:        2038        2040
+        3611 Edge_nodes:        2040        2042
+        3612 Edge_nodes:        1894        2042
+        3613 Edge_nodes:        1894        1895
+        3614 Edge_nodes:        1895        2043
+        3615 Edge_nodes:        2043        2048
+        3616 Edge_nodes:        2048        2053
+        3617 Edge_nodes:        2053        2059
+        3618 Edge_nodes:        2059        2069
+        3619 Edge_nodes:        1603        2069
+        3620 Edge_nodes:        1603        1865
+        3621 Edge_nodes:        1574        1826
+        3622 Edge_nodes:        1826        1828
+        3623 Edge_nodes:        1828        1831
+        3624 Edge_nodes:        1831        1832
+        3625 Edge_nodes:        1832        1834
+        3626 Edge_nodes:        1837        2485
+        3627 Edge_nodes:        1834        1837
+        3628 Edge_nodes:        1836        1838
+        3629 Edge_nodes:        1836        1837
+        3630 Edge_nodes:        1840        2491
+        3631 Edge_nodes:        1838        1840
+        3632 Edge_nodes:        1839        1841
+        3633 Edge_nodes:        1839        1840
+        3634 Edge_nodes:        1841        2151
+        3635 Edge_nodes:        2151        2495
+        3636 Edge_nodes:        2157        2500
+        3637 Edge_nodes:        2168        2513
+        3638 Edge_nodes:        2172        2517
+        3639 Edge_nodes:        2170        2172
+        3640 Edge_nodes:        2181        2185
+        3641 Edge_nodes:        1858        2185
+        3642 Edge_nodes:        1841        2152
+        3643 Edge_nodes:        1841        2148
+        3644 Edge_nodes:        1839        2145
+        3645 Edge_nodes:        1840        2147
+        3646 Edge_nodes:        1838        2147
+        3647 Edge_nodes:        1838        2144
+        3648 Edge_nodes:        1838        2139
+        3649 Edge_nodes:        1836        2140
+        3650 Edge_nodes:        1837        2142
+        3651 Edge_nodes:        1837        2140
+        3652 Edge_nodes:        1837        2143
+        3653 Edge_nodes:        1833        2143
+        3654 Edge_nodes:        1833        2133
+        3655 Edge_nodes:        1833        2134
+        3656 Edge_nodes:        1835        2137
+        3657 Edge_nodes:        1749        2014
+        3658 Edge_nodes:        1751        2016
+        3659 Edge_nodes:        1753        2018
+        3660 Edge_nodes:        1755        2020
+        3661 Edge_nodes:        1757        2022
+        3662 Edge_nodes:        1759        2024
+        3663 Edge_nodes:        1761        2026
+        3664 Edge_nodes:        1763        2028
+        3665 Edge_nodes:        1763        2026
+        3666 Edge_nodes:        1765        2030
+        3667 Edge_nodes:        1765        2028
+        3668 Edge_nodes:        1767        2032
+        3669 Edge_nodes:        1767        2030
+        3670 Edge_nodes:        1769        2034
+        3671 Edge_nodes:        1769        2032
+        3672 Edge_nodes:        1771        2036
+        3673 Edge_nodes:        1771        2034
+        3674 Edge_nodes:        1773        2038
+        3675 Edge_nodes:        1773        2036
+        3676 Edge_nodes:        1775        2040
+        3677 Edge_nodes:        1775        2038
+        3678 Edge_nodes:        1777        2042
+        3679 Edge_nodes:        1633        1894
+        3680 Edge_nodes:        1629        1895
+        3681 Edge_nodes:        1629        1894
+        3682 Edge_nodes:        1635        2043
+        3683 Edge_nodes:        1635        1895
+        3684 Edge_nodes:        1778        2048
+        3685 Edge_nodes:        1782        2053
+        3686 Edge_nodes:        1788        2059
+        3687 Edge_nodes:        1788        2053
+        3688 Edge_nodes:        1794        2069
+        3689 Edge_nodes:        1794        2059
+        3690 Edge_nodes:        1373        1603
+        3691 Edge_nodes:        1373        2069
+        3692 Edge_nodes:        1360        1865
+        3693 Edge_nodes:        1148        1596
+        3694 Edge_nodes:        1165        1817
+        3695 Edge_nodes:        1574        1575
+        3696 Edge_nodes:        1578        1828
+        3697 Edge_nodes:        1829        1831
+        3698 Edge_nodes:        1832        1835
+        3699 Edge_nodes:        1833        1834
+        3700 Edge_nodes:        1833        1837
+        3701 Edge_nodes:        1845        2185
+        3702 Edge_nodes:        1833        1835
+        3703 Edge_nodes:        1829        1835
+        3704 Edge_nodes:        1749        1751
+        3705 Edge_nodes:        1751        1753
+        3706 Edge_nodes:        1753        1755
+        3707 Edge_nodes:        1755        1757
+        3708 Edge_nodes:        1757        1759
+        3709 Edge_nodes:        1759        1761
+        3710 Edge_nodes:        1763        1765
+        3711 Edge_nodes:        1765        1767
+        3712 Edge_nodes:        1767        1769
+        3713 Edge_nodes:        1769        1771
+        3714 Edge_nodes:        1771        1773
+        3715 Edge_nodes:        1775        1777
+        3716 Edge_nodes:        1633        1777
+        3717 Edge_nodes:        1629        1633
+        3718 Edge_nodes:        1629        1635
+        3719 Edge_nodes:        1635        1778
+        3720 Edge_nodes:        1778        1782
+        3721 Edge_nodes:        1555        2059
+        3722 Edge_nodes:        1555        1794
+        3723 Edge_nodes:        1373        1794
+        3724 Edge_nodes:        1360        1373
+        3725 Edge_nodes:        1148        1360
+        3726 Edge_nodes:        1828        1830
+        3727 Edge_nodes:        1518        1751
+        3728 Edge_nodes:        1518        1749
+        3729 Edge_nodes:        1520        1753
+        3730 Edge_nodes:        1520        1751
+        3731 Edge_nodes:        1522        1755
+        3732 Edge_nodes:        1522        1753
+        3733 Edge_nodes:        1524        1757
+        3734 Edge_nodes:        1526        1759
+        3735 Edge_nodes:        1528        1761
+        3736 Edge_nodes:        1530        1763
+        3737 Edge_nodes:        1532        1765
+        3738 Edge_nodes:        1532        1763
+        3739 Edge_nodes:        1534        1767
+        3740 Edge_nodes:        1534        1765
+        3741 Edge_nodes:        1536        1769
+        3742 Edge_nodes:        1536        1767
+        3743 Edge_nodes:        1538        1771
+        3744 Edge_nodes:        1538        1769
+        3745 Edge_nodes:        1540        1773
+        3746 Edge_nodes:        1540        1771
+        3747 Edge_nodes:        1542        1775
+        3748 Edge_nodes:        1542        1773
+        3749 Edge_nodes:        1544        1777
+        3750 Edge_nodes:        1405        1633
+        3751 Edge_nodes:        1403        1633
+        3752 Edge_nodes:        1403        1629
+        3753 Edge_nodes:        1402        1629
+        3754 Edge_nodes:        1402        1635
+        3755 Edge_nodes:        1407        1778
+        3756 Edge_nodes:        1407        1635
+        3757 Edge_nodes:        1545        1782
+        3758 Edge_nodes:        1545        1778
+        3759 Edge_nodes:        1549        1788
+        3760 Edge_nodes:        1549        1782
+        3761 Edge_nodes:        1331        1788
+        3762 Edge_nodes:        1331        1555
+        3763 Edge_nodes:        1157        1794
+        3764 Edge_nodes:        1157        1555
+        3765 Edge_nodes:        1157        1373
+        3766 Edge_nodes:        1150        1360
+        3767 Edge_nodes:        1150        1373
+        3768 Edge_nodes:         956        1148
+        3769 Edge_nodes:        1522        1524
+        3770 Edge_nodes:        1524        1526
+        3771 Edge_nodes:        1526        1528
+        3772 Edge_nodes:        1534        1536
+        3773 Edge_nodes:        1536        1538
+        3774 Edge_nodes:        1405        1544
+        3775 Edge_nodes:        1403        1405
+        3776 Edge_nodes:        1402        1403
+        3777 Edge_nodes:        1402        1407
+        3778 Edge_nodes:        1407        1545
+        3779 Edge_nodes:         961        1555
+        3780 Edge_nodes:         772        1157
+        3781 Edge_nodes:        1150        1157
+        3782 Edge_nodes:         956        1150
+        3783 Edge_nodes:         956         957
+        3784 Edge_nodes:        1300        1518
+        3785 Edge_nodes:        1302        1520
+        3786 Edge_nodes:        1302        1518
+        3787 Edge_nodes:        1304        1522
+        3788 Edge_nodes:        1304        1520
+        3789 Edge_nodes:        1306        1524
+        3790 Edge_nodes:        1306        1522
+        3791 Edge_nodes:        1308        1526
+        3792 Edge_nodes:        1308        1524
+        3793 Edge_nodes:        1310        1528
+        3794 Edge_nodes:        1312        1530
+        3795 Edge_nodes:        1314        1532
+        3796 Edge_nodes:        1314        1530
+        3797 Edge_nodes:        1316        1534
+        3798 Edge_nodes:        1316        1532
+        3799 Edge_nodes:        1318        1536
+        3800 Edge_nodes:        1318        1534
+        3801 Edge_nodes:        1320        1538
+        3802 Edge_nodes:        1320        1536
+        3803 Edge_nodes:        1322        1540
+        3804 Edge_nodes:        1322        1538
+        3805 Edge_nodes:        1324        1542
+        3806 Edge_nodes:        1324        1540
+        3807 Edge_nodes:        1326        1542
+        3808 Edge_nodes:        1191        1405
+        3809 Edge_nodes:        1189        1403
+        3810 Edge_nodes:        1189        1405
+        3811 Edge_nodes:        1182        1403
+        3812 Edge_nodes:        1182        1402
+        3813 Edge_nodes:        1188        1402
+        3814 Edge_nodes:        1188        1407
+        3815 Edge_nodes:        1194        1407
+        3816 Edge_nodes:        1194        1545
+        3817 Edge_nodes:        1327        1549
+        3818 Edge_nodes:        1327        1545
+        3819 Edge_nodes:        1124        1549
+        3820 Edge_nodes:        1124        1331
+        3821 Edge_nodes:         772         961
+        3822 Edge_nodes:         775         961
+        3823 Edge_nodes:         775        1331
+        3824 Edge_nodes:         959        1157
+        3825 Edge_nodes:         959        1150
+        3826 Edge_nodes:         769         956
+        3827 Edge_nodes:         755         957
+        3828 Edge_nodes:         755         940
+        3829 Edge_nodes:        1182        1189
+        3830 Edge_nodes:        1182        1188
+        3831 Edge_nodes:        1188        1194
+        3832 Edge_nodes:        1194        1327
+        3833 Edge_nodes:        1124        1327
+        3834 Edge_nodes:         589         772
+        3835 Edge_nodes:         590         961
+        3836 Edge_nodes:         589         959
+        3837 Edge_nodes:         768        1150
+        3838 Edge_nodes:         768         769
+        3839 Edge_nodes:         755         769
+        3840 Edge_nodes:         569         940
+        3841 Edge_nodes:         569         750
+        3842 Edge_nodes:        1098        1302
+        3843 Edge_nodes:        1098        1300
+        3844 Edge_nodes:        1100        1304
+        3845 Edge_nodes:        1100        1302
+        3846 Edge_nodes:        1102        1306
+        3847 Edge_nodes:        1102        1304
+        3848 Edge_nodes:        1104        1308
+        3849 Edge_nodes:        1104        1306
+        3850 Edge_nodes:        1106        1310
+        3851 Edge_nodes:        1106        1308
+        3852 Edge_nodes:        1110        1314
+        3853 Edge_nodes:        1112        1316
+        3854 Edge_nodes:        1112        1314
+        3855 Edge_nodes:        1114        1318
+        3856 Edge_nodes:        1114        1316
+        3857 Edge_nodes:        1116        1320
+        3858 Edge_nodes:        1116        1318
+        3859 Edge_nodes:        1118        1322
+        3860 Edge_nodes:        1118        1320
+        3861 Edge_nodes:        1120        1324
+        3862 Edge_nodes:        1120        1322
+        3863 Edge_nodes:        1122        1324
+        3864 Edge_nodes:         991        1191
+        3865 Edge_nodes:         989        1189
+        3866 Edge_nodes:         984        1189
+        3867 Edge_nodes:         984        1182
+        3868 Edge_nodes:         981        1188
+        3869 Edge_nodes:         981        1182
+        3870 Edge_nodes:         988        1194
+        3871 Edge_nodes:         988        1188
+        3872 Edge_nodes:         994        1327
+        3873 Edge_nodes:         994        1194
+        3874 Edge_nodes:         994        1124
+        3875 Edge_nodes:         592         775
+        3876 Edge_nodes:         592        1124
+        3877 Edge_nodes:         589         590
+        3878 Edge_nodes:         415         590
+        3879 Edge_nodes:         415         775
+        3880 Edge_nodes:         587         959
+        3881 Edge_nodes:         587         768
+        3882 Edge_nodes:         578         769
+        3883 Edge_nodes:         579         755
+        3884 Edge_nodes:         569         579
+        3885 Edge_nodes:         568         569
+        3886 Edge_nodes:         568         939
+        3887 Edge_nodes:         981         988
+        3888 Edge_nodes:         988         994
+        3889 Edge_nodes:         807        1124
+        3890 Edge_nodes:         807         994
+        3891 Edge_nodes:         413         589
+        3892 Edge_nodes:         246         590
+        3893 Edge_nodes:         413         587
+        3894 Edge_nodes:         410         578
+        3895 Edge_nodes:         578         579
+        3896 Edge_nodes:         400         569
+        3897 Edge_nodes:         398         568
+        3898 Edge_nodes:         568         574
+        3899 Edge_nodes:         906        1098
+        3900 Edge_nodes:         908        1100
+        3901 Edge_nodes:         908        1098
+        3902 Edge_nodes:         910        1102
+        3903 Edge_nodes:         910        1100
+        3904 Edge_nodes:         912        1104
+        3905 Edge_nodes:         912        1102
+        3906 Edge_nodes:         914        1106
+        3907 Edge_nodes:         914        1104
+        3908 Edge_nodes:         916        1106
+        3909 Edge_nodes:         922        1114
+        3910 Edge_nodes:         924        1116
+        3911 Edge_nodes:         924        1114
+        3912 Edge_nodes:         926        1118
+        3913 Edge_nodes:         926        1116
+        3914 Edge_nodes:         928        1120
+        3915 Edge_nodes:         928        1118
+        3916 Edge_nodes:         930        1120
+        3917 Edge_nodes:         797         984
+        3918 Edge_nodes:         793         981
+        3919 Edge_nodes:         796         988
+        3920 Edge_nodes:         801         994
+        3921 Edge_nodes:         801         988
+        3922 Edge_nodes:         801         807
+        3923 Edge_nodes:         417         592
+        3924 Edge_nodes:         417         807
+        3925 Edge_nodes:         249         592
+        3926 Edge_nodes:         246         413
+        3927 Edge_nodes:         243         587
+        3928 Edge_nodes:         243         410
+        3929 Edge_nodes:         241         578
+        3930 Edge_nodes:         396         398
+        3931 Edge_nodes:         396         574
+        3932 Edge_nodes:         396         405
+        3933 Edge_nodes:         617         807
+        3934 Edge_nodes:         197         413
+        3935 Edge_nodes:         194         243
+        3936 Edge_nodes:         194         413
+        3937 Edge_nodes:         241         407
+        3938 Edge_nodes:         236         398
+        3939 Edge_nodes:         613         801
+        3940 Edge_nodes:         195         243
+        3941 Edge_nodes:         193         241
+        3942 Edge_nodes:         236         237
+           3           6           3           6           5           3
+           6           6           4           6           3           6
+           4           4           6           5           4           6
+           6           4           6           6           3           6
+           3           6           3           6           5           3
+           6           3           6           4           6           6
+           4           6           6           3           6           4
+           6           6           4           6           6           3
+           6           4           6           6           3           6
+           4           6           6           4           6           6
+           4           6           6           4           6           6
+           5           3           3           6           3           6
+           3           6           3           6           4           6
+           6           4           6           6           4           6
+           6           4           6           6           4           6
+           6           4           6           6           3           6
+           3           6           3           6           4           6
+           6           4           6           6           4           6
+           6           4           6           6           4           6
+           6           4           6           6           3           6
+           5           4           4           4           4           5
+           5           5           4           5           6           6
+           5           4           4           4           4           4
+           5           6           5           5           6           5
+           5           5           5           6           6           6
+           4           4           4           4           4           4
+           4           5           6           6           6           6
+           6           5           5           4           6           6
+           6           6           6           6           5           5
+           4           6           6           6           6           6
+           6           6           6           6           6           6
+           6           6           6           6           6           6
+           6           6           6           6           6           6
+           6           6           6           6           6           6
+           6           6           6           6           6           6
+           6           6           6           6           6           6
+           6           5           5           5           5           6
+           6           6           6           6           6           6
+           6           6           6           6           6           6
+           5           6           6           6           6           6
+           6           6           6           6           6           6
+           6           6           6           6           6           5
+           6           4           4           4           4           5
+           5           5           4           4           4           5
+           6           5           4           4           4           4
+           4           4           5           5           4           5
+           5           4           5           4           5           6
+           6           5           4           5           5           6
+           4           6           4           6           5           5
+           6           5           5           6           6           5
+           6           5           6           6           5           5
+           6           6           5           6           5           5
+           6           4           6           6           6           6
+           5           6           5           5           5           6
+           6           6           6           6           6           6
+           6           6           6           6           6           6
+           6           6           6           6           6           6
+           6           6           6           6           6           6
+           6           6           6           6           6           6
+           6           6           5           5           5           4
+           5           6           6           6           6           6
+           6           6           6           6           6           6
+           6           6           6           5           5           4
+           5           5           5           5           5           5
+           6           5           5           5           6           5
+           6           4           5           5           5           4
+           5           5           5           4           5           5
+           4           5           4           4           4           4
+           4           5           5           5           5           5
+           5           5           4           4           5           5
+           5           5           6           5           5           5
+           4           4           4           5           4           6
+           6           5           5           6           6           4
+           4           6           6           5           5           6
+           5           4           4           6           6           6
+           6           6           6           6           6           6
+           6           5           5           5           6           5
+           6           6           6           6           6           6
+           5           6           6           6           6           6
+           6           6           6           6           6           5
+           6           6           6           6           6           6
+           6           6           6           6           5           5
+           6           6           6           6           6           6
+           4           4           4           5           6           6
+           6           6           5           4           4           5
+           5           5           4           4           4           6
+           6           6           6           6           4           4
+           6           6           5           5           6           6
+           6           5           4           5           5           5
+           5           6           6           6           6           6
+           5           4           5           6           6           6
+           6           6           5           6           5           6
+           4           6           6           6           6           6
+           6           6           6           6           5           6
+           4           6           6           4           6           5
+           6           6           6           6           5           5
+           4           6           6           4           6           6
+           6           6           6           5           6           4
+           4           4           4           6           4           6
+           5           6           5           6           5           4
+           4           6           4           6           5           6
+           5           6           4           6           4           6
+           5           5           6           6           6           6
+           6           6           6           6           5           6
+           6           4           4           4           6           6
+           5           6           6           4           6           6
+           6           6           6           6           6           4
+           6           4           4           6           5           4
+           5           4           6           4           6           4
+           6           4           6           4           4           6
+           4           6           4           6           4           6
+           4           6           5           4           4           6
+           5           6           6           6           6           6
+           6           6           4           6           4           4
+           6           6           4           6           6           4
+           4           5           5           6           5           6
+           6           6           4           4           4           5
+           6           4           4           4           6           4
+           6           4           6           4           6           5
+           4           4           6           4           6           4
+           6           5           4           4           5           6
+           6           5           4           6           5           4
+           6           4           6           4           6           4
+           5           5           4           6           4           4
+           4           5           4           4
+        3195 Adjacent_nodes:        2956        2957        3196
+        3196 Adjacent_nodes:        3318        2855        3195        2957
+        2956        2856
+        3197 Adjacent_nodes:        2957        2958        3198
+        3198 Adjacent_nodes:        3319        2853        3197        2958
+        2957        2855
+        3199 Adjacent_nodes:        3320        2852        2959        2958
+        2853
+        3200 Adjacent_nodes:        2959        2960        3201
+        3201 Adjacent_nodes:        3321        3202        3200        2960
+        2959        2852
+        3202 Adjacent_nodes:        3321        3201        3204        2851
+        3203        2960
+        3203 Adjacent_nodes:        2961        3204        3202        2960
+        3204 Adjacent_nodes:        3322        2849        3203        2961
+        2851        3202
+        3205 Adjacent_nodes:        2961        2962        3206
+        3206 Adjacent_nodes:        3323        2848        3205        2962
+        2961        2849
+        3207 Adjacent_nodes:        2554        3002        3001        2803
+        3208 Adjacent_nodes:        3210        3149        3209        3150
+        3209 Adjacent_nodes:        3325        3213        2702        3210
+        3208        3150
+        3210 Adjacent_nodes:        3324        3209        2702        3149
+        3208
+        3211 Adjacent_nodes:        3213        3150        3212        3151
+        3212 Adjacent_nodes:        3326        3216        2704        3213
+        3211        3151
+        3213 Adjacent_nodes:        3325        3209        3212        2704
+        3150        3211
+        3214 Adjacent_nodes:        3216        3151        3215        3152
+        3215 Adjacent_nodes:        3327        2708        2706        3216
+        3214        3152
+        3216 Adjacent_nodes:        3326        3212        3215        2706
+        3151        3214
+        3217 Adjacent_nodes:        3152        3153        3218
+        3218 Adjacent_nodes:        3328        2710        3217        3153
+        3152        2708
+        3219 Adjacent_nodes:        3153        3154        3220
+        3220 Adjacent_nodes:        3329        2712        3219        3154
+        3153        2710
+        3221 Adjacent_nodes:        3154        3155        3222
+        3222 Adjacent_nodes:        3330        2714        3221        3155
+        3154        2712
+        3223 Adjacent_nodes:        3331        2716        3156        3155
+        2714
+        3224 Adjacent_nodes:        3156        3157        3225
+        3225 Adjacent_nodes:        3332        2718        3224        3157
+        3156        2716
+        3226 Adjacent_nodes:        3157        3158        3227
+        3227 Adjacent_nodes:        3333        3230        3226        3158
+        3157        2718
+        3228 Adjacent_nodes:        3230        3158        3229        3159
+        3229 Adjacent_nodes:        3334        3233        2720        3230
+        3228        3159
+        3230 Adjacent_nodes:        3333        3227        3229        2720
+        3158        3228
+        3231 Adjacent_nodes:        3233        3159        3232        3160
+        3232 Adjacent_nodes:        3335        2724        2722        3233
+        3231        3160
+        3233 Adjacent_nodes:        3334        3229        3232        2722
+        3159        3231
+        3234 Adjacent_nodes:        3160        3161        3235
+        3235 Adjacent_nodes:        3336        3238        3234        3161
+        3160        2724
+        3236 Adjacent_nodes:        3238        3161        3237        3162
+        3237 Adjacent_nodes:        3337        3241        2726        3238
+        3236        3162
+        3238 Adjacent_nodes:        3336        3235        3237        2726
+        3161        3236
+        3239 Adjacent_nodes:        3241        3162        3240        3163
+        3240 Adjacent_nodes:        3338        2730        2728        3241
+        3239        3163
+        3241 Adjacent_nodes:        3337        3237        3240        2728
+        3162        3239
+        3242 Adjacent_nodes:        3163        3164        3243
+        3243 Adjacent_nodes:        3339        3246        3242        3164
+        3163        2730
+        3244 Adjacent_nodes:        3246        3164        3245        3165
+        3245 Adjacent_nodes:        3340        2736        2732        3246
+        3244        3165
+        3246 Adjacent_nodes:        3339        3243        3245        2732
+        3164        3244
+        3247 Adjacent_nodes:        3165        3166        3248
+        3248 Adjacent_nodes:        3341        3251        3247        3166
+        3165        2736
+        3249 Adjacent_nodes:        3251        3166        3250        3167
+        3250 Adjacent_nodes:        3342        3254        2741        3251
+        3249        3167
+        3251 Adjacent_nodes:        3341        3248        3250        2741
+        3166        3249
+        3252 Adjacent_nodes:        3254        3167        3253        3168
+        3253 Adjacent_nodes:        3343        3257        2748        3254
+        3252        3168
+        3254 Adjacent_nodes:        3342        3250        3253        2748
+        3167        3252
+        3255 Adjacent_nodes:        3257        3168        3256        3169
+        3256 Adjacent_nodes:        3344        3260        2759        3257
+        3255        3169
+        3257 Adjacent_nodes:        3343        3253        3256        2759
+        3168        3255
+        3258 Adjacent_nodes:        3260        3169        3259        3170
+        3259 Adjacent_nodes:        3345        2799        2793        3260
+        3258        3170
+        3260 Adjacent_nodes:        3344        3256        3259        2793
+        3169        3258
+        3261 Adjacent_nodes:        3346        2800        3171        3170
+        2799
+        3262 Adjacent_nodes:        3171        2800        3172
+        3263 Adjacent_nodes:        3172        3173        3264
+        3264 Adjacent_nodes:        3348        2802        3263        3173
+        3172        2801
+        3265 Adjacent_nodes:        3174        3175        3266
+        3266 Adjacent_nodes:        3350        2818        3265        3175
+        3174        2809
+        3267 Adjacent_nodes:        3175        3176        3268
+        3268 Adjacent_nodes:        3351        2825        3267        3176
+        3175        2818
+        3269 Adjacent_nodes:        3176        3177        3270
+        3270 Adjacent_nodes:        3352        3273        3269        3177
+        3176        2825
+        3271 Adjacent_nodes:        3273        3177        3272        3178
+        3272 Adjacent_nodes:        3353        3276        2832        3273
+        3271        3178
+        3273 Adjacent_nodes:        3352        3270        3272        2832
+        3177        3271
+        3274 Adjacent_nodes:        3276        3178        3275        3179
+        3275 Adjacent_nodes:        3354        3279        2838        3276
+        3274        3179
+        3276 Adjacent_nodes:        3353        3272        3275        2838
+        3178        3274
+        3277 Adjacent_nodes:        3279        3179        3278        3180
+        3278 Adjacent_nodes:        3355        3282        2844        3279
+        3277        3180
+        3279 Adjacent_nodes:        3354        3275        3278        2844
+        3179        3277
+        3280 Adjacent_nodes:        3282        3180        3281        3181
+        3281 Adjacent_nodes:        3356        3285        2850        3282
+        3280        3181
+        3282 Adjacent_nodes:        3355        3278        3281        2850
+        3180        3280
+        3283 Adjacent_nodes:        3285        3181        3284        3182
+        3284 Adjacent_nodes:        3357        3288        2854        3285
+        3283        3182
+        3285 Adjacent_nodes:        3356        3281        3284        2854
+        3181        3283
+        3286 Adjacent_nodes:        3288        3182        3287        3183
+        3287 Adjacent_nodes:        3358        2864        2859        3288
+        3286        3183
+        3288 Adjacent_nodes:        3357        3284        3287        2859
+        3182        3286
+        3289 Adjacent_nodes:        3183        3184        3290
+        3290 Adjacent_nodes:        3359        2868        3289        3184
+        3183        2864
+        3291 Adjacent_nodes:        3184        3185        3292
+        3292 Adjacent_nodes:        3360        2872        3291        3185
+        3184        2868
+        3293 Adjacent_nodes:        3185        3186        3294
+        3294 Adjacent_nodes:        3361        3297        3293        3186
+        3185        2872
+        3295 Adjacent_nodes:        3297        3186        3296        3187
+        3296 Adjacent_nodes:        3362        3300        2876        3297
+        3295        3187
+        3297 Adjacent_nodes:        3361        3294        3296        2876
+        3186        3295
+        3298 Adjacent_nodes:        3300        3187        3299        3188
+        3299 Adjacent_nodes:        3363        3303        2880        3300
+        3298        3188
+        3300 Adjacent_nodes:        3362        3296        3299        2880
+        3187        3298
+        3301 Adjacent_nodes:        3303        3188        3302        3189
+        3302 Adjacent_nodes:        3364        3306        2884        3303
+        3301        3189
+        3303 Adjacent_nodes:        3363        3299        3302        2884
+        3188        3301
+        3304 Adjacent_nodes:        3306        3189        3305        3190
+        3305 Adjacent_nodes:        3365        3309        2887        3306
+        3304        3190
+        3306 Adjacent_nodes:        3364        3302        3305        2887
+        3189        3304
+        3307 Adjacent_nodes:        3309        3190        3308        3191
+        3308 Adjacent_nodes:        3366        3312        2891        3309
+        3307        3191
+        3309 Adjacent_nodes:        3365        3305        3308        2891
+        3190        3307
+        3310 Adjacent_nodes:        3312        3191        3311        3192
+        3311 Adjacent_nodes:        3367        2897        2894        3312
+        3310        3192
+        3312 Adjacent_nodes:        3366        3308        3311        2894
+        3191        3310
+        3313 Adjacent_nodes:        3192        3193        3314
+        3314 Adjacent_nodes:        3368        2900        3313        3193
+        3192        2897
+        3315 Adjacent_nodes:        3369        2902        3194        3193
+        2900
+        3316 Adjacent_nodes:        2498        2857        2955        2858
+        3317 Adjacent_nodes:        3370        2856        2956        2857
+        3318 Adjacent_nodes:        3371        2855        2856        3196
+        3319 Adjacent_nodes:        3372        2853        2855        3198
+        3320 Adjacent_nodes:        3374        3373        2852        2853
+        3199
+        3321 Adjacent_nodes:        3375        3202        2851        2852
+        3201
+        3322 Adjacent_nodes:        3377        3376        2849        2851
+        3204
+        3323 Adjacent_nodes:        3378        2848        2849        3206
+        3324 Adjacent_nodes:        3379        3210        2702        3149
+        2700
+        3325 Adjacent_nodes:        3381        3380        3213        2704
+        2702        3209
+        3326 Adjacent_nodes:        3383        3382        3216        2706
+        2704        3212
+        3327 Adjacent_nodes:        3385        3384        2708        2706
+        3215
+        3328 Adjacent_nodes:        3386        2710        2708        3218
+        3329 Adjacent_nodes:        3387        2712        2710        3220
+        3330 Adjacent_nodes:        3388        2714        2712        3222
+        3331 Adjacent_nodes:        3389        2716        2714        3223
+        3332 Adjacent_nodes:        3390        2718        2716        3225
+        3333 Adjacent_nodes:        3391        3230        2720        2718
+        3227
+        3334 Adjacent_nodes:        3393        3392        3233        2722
+        2720        3229
+        3335 Adjacent_nodes:        3395        3394        2724        2722
+        3232
+        3336 Adjacent_nodes:        3396        3238        2726        2724
+        3235
+        3337 Adjacent_nodes:        3398        3397        3241        2728
+        2726        3237
+        3338 Adjacent_nodes:        3400        3399        2730        2728
+        3240
+        3339 Adjacent_nodes:        3401        3246        2732        2730
+        3243
+        3340 Adjacent_nodes:        3403        3402        2736        2732
+        3245
+        3341 Adjacent_nodes:        3404        3251        2741        2736
+        3248
+        3342 Adjacent_nodes:        3406        3405        3254        2748
+        2741        3250
+        3343 Adjacent_nodes:        3408        3407        3257        2759
+        2748        3253
+        3344 Adjacent_nodes:        3410        3409        3260        2793
+        2759        3256
+        3345 Adjacent_nodes:        3411        2799        2793        3259
+        3346 Adjacent_nodes:        2419        2800        2799        3261
+        3347 Adjacent_nodes:        3412        2801        3172        2800
+        3348 Adjacent_nodes:        2202        2802        2801        3264
+        3349 Adjacent_nodes:        3413        2809        3174        2802
+        3350 Adjacent_nodes:        3414        2818        2809        3266
+        3351 Adjacent_nodes:        3415        2825        2818        3268
+        3352 Adjacent_nodes:        3416        3273        2832        2825
+        3270
+        3353 Adjacent_nodes:        3418        3417        3276        2838
+        2832        3272
+        3354 Adjacent_nodes:        3420        3419        3279        2844
+        2838        3275
+        3355 Adjacent_nodes:        3422        3421        3282        2850
+        2844        3278
+        3356 Adjacent_nodes:        3424        3423        3285        2854
+        2850        3281
+        3357 Adjacent_nodes:        3426        3425        3288        2859
+        2854        3284
+        3358 Adjacent_nodes:        3428        3427        2864        2859
+        3287
+        3359 Adjacent_nodes:        3430        3429        2868        2864
+        3290
+        3360 Adjacent_nodes:        3431        2872        2868        3292
+        3361 Adjacent_nodes:        3433        3432        3297        2876
+        2872        3294
+        3362 Adjacent_nodes:        3435        3434        3300        2880
+        2876        3296
+        3363 Adjacent_nodes:        3437        3436        3303        2884
+        2880        3299
+        3364 Adjacent_nodes:        3439        3438        3306        2887
+        2884        3302
+        3365 Adjacent_nodes:        3441        3440        3309        2891
+        2887        3305
+        3366 Adjacent_nodes:        3443        3442        3312        2894
+        2891        3308
+        3367 Adjacent_nodes:        3445        3444        2897        2894
+        3311
+        3368 Adjacent_nodes:        3447        3446        2900        2897
+        3314
+        3369 Adjacent_nodes:        2539        2902        2900        3315
+        3370 Adjacent_nodes:        3450        2497        3317        2856
+        2857        2496
+        3371 Adjacent_nodes:        3451        2494        3318        2855
+        2856        2497
+        3372 Adjacent_nodes:        3452        3373        3319        2853
+        2855        2494
+        3373 Adjacent_nodes:        3452        3372        3374        2493
+        3320        2853
+        3374 Adjacent_nodes:        3453        2492        3320        2852
+        2493        3373
+        3375 Adjacent_nodes:        3454        3376        3321        2851
+        2852        2492
+        3376 Adjacent_nodes:        3454        3375        3377        2490
+        3322        2851
+        3377 Adjacent_nodes:        3455        2489        3322        2849
+        2490        3376
+        3378 Adjacent_nodes:        3456        2488        3323        2848
+        2849        2489
+        3379 Adjacent_nodes:        3458        3381        3324        2702
+        2700        2348
+        3380 Adjacent_nodes:        3459        3383        2350        3381
+        3325        2704
+        3381 Adjacent_nodes:        3458        3379        3380        2350
+        2702        3325
+        3382 Adjacent_nodes:        3460        3385        2352        3383
+        3326        2706
+        3383 Adjacent_nodes:        3459        3380        3382        2352
+        2704        3326
+        3384 Adjacent_nodes:        3461        2356        2354        3385
+        3327        2708
+        3385 Adjacent_nodes:        3460        3382        3384        2354
+        2706        3327
+        3386 Adjacent_nodes:        3462        2358        3328        2710
+        2708        2356
+        3387 Adjacent_nodes:        3463        2360        3329        2712
+        2710        2358
+        3388 Adjacent_nodes:        3464        2362        3330        2714
+        2712        2360
+        3389 Adjacent_nodes:        3465        2364        3331        2716
+        2714        2362
+        3390 Adjacent_nodes:        3466        2366        3332        2718
+        2716        2364
+        3391 Adjacent_nodes:        3467        3393        3333        2720
+        2718        2366
+        3392 Adjacent_nodes:        3468        3395        2368        3393
+        3334        2722
+        3393 Adjacent_nodes:        3467        3391        3392        2368
+        2720        3334
+        3394 Adjacent_nodes:        3469        2372        2370        3395
+        3335        2724
+        3395 Adjacent_nodes:        3468        3392        3394        2370
+        2722        3335
+        3396 Adjacent_nodes:        3470        3398        3336        2726
+        2724        2372
+        3397 Adjacent_nodes:        3471        3400        2374        3398
+        3337        2728
+        3398 Adjacent_nodes:        3470        3396        3397        2374
+        2726        3337
+        3399 Adjacent_nodes:        3472        2378        2376        3400
+        3338        2730
+        3400 Adjacent_nodes:        3471        3397        3399        2376
+        2728        3338
+        3401 Adjacent_nodes:        3403        3473        3339        2732
+        2730        2378
+        3402 Adjacent_nodes:        3474        2381        3340        2736
+        3403        2229
+        3403 Adjacent_nodes:        3401        3473        2732        3340
+        3402        2229
+        3404 Adjacent_nodes:        3475        3406        3341        2741
+        2736        2381
+        3405 Adjacent_nodes:        3476        3408        3342        2748
+        3406        2385
+        3406 Adjacent_nodes:        3404        3475        2741        3342
+        3405        2385
+        3407 Adjacent_nodes:        3477        3410        3343        2759
+        3408        2390
+        3408 Adjacent_nodes:        3405        3476        2748        3343
+        3407        2390
+        3409 Adjacent_nodes:        3478        2406        3344        2793
+        3410        2397
+        3410 Adjacent_nodes:        3407        3477        2759        3344
+        3409        2397
+        3411 Adjacent_nodes:        3479        2419        3345        2799
+        2793        2406
+        3412 Adjacent_nodes:        1863        3347        2801        2800
+        2204
+        3413 Adjacent_nodes:        3481        3349        2809        2802
+        2206
+        3414 Adjacent_nodes:        3482        3350        2818        2809
+        2450
+        3415 Adjacent_nodes:        3484        3351        2825        2818
+        2459
+        3416 Adjacent_nodes:        3487        3486        3352        2832
+        2825        2466
+        3417 Adjacent_nodes:        3490        3489        3353        2838
+        3418        2473
+        3418 Adjacent_nodes:        3486        3488        2832        3353
+        3417        2473
+        3419 Adjacent_nodes:        3493        3492        3354        2844
+        3420        2479
+        3420 Adjacent_nodes:        3489        3491        2838        3354
+        3419        2479
+        3421 Adjacent_nodes:        3496        3495        3355        2850
+        3422        2485
+        3422 Adjacent_nodes:        3492        3494        2844        3355
+        3421        2485
+        3423 Adjacent_nodes:        3499        3498        3356        2854
+        3424        2491
+        3424 Adjacent_nodes:        3495        3497        2850        3356
+        3423        2491
+        3425 Adjacent_nodes:        3502        3501        3357        2859
+        3426        2495
+        3426 Adjacent_nodes:        3500        3498        2854        3357
+        3425        2495
+        3427 Adjacent_nodes:        3505        3504        3358        2864
+        3428        2500
+        3428 Adjacent_nodes:        3503        3501        2859        3358
+        3427        2500
+        3429 Adjacent_nodes:        3507        3359        2868        3430
+        2505
+        3430 Adjacent_nodes:        3504        3506        2864        3359
+        3429        2505
+        3431 Adjacent_nodes:        3509        3433        3360        2872
+        2868        2509
+        3432 Adjacent_nodes:        3510        3435        2513        3433
+        3361        2876
+        3433 Adjacent_nodes:        3509        3431        3432        2513
+        2872        3361
+        3434 Adjacent_nodes:        3511        3437        2517        3435
+        3362        2880
+        3435 Adjacent_nodes:        3510        3432        3434        2517
+        2876        3362
+        3436 Adjacent_nodes:        3512        3439        3363        2884
+        3437        2521
+        3437 Adjacent_nodes:        3511        3434        2880        3363
+        3436        2521
+        3438 Adjacent_nodes:        3513        3441        3364        2887
+        3439        2525
+        3439 Adjacent_nodes:        3436        3512        2884        3364
+        3438        2525
+        3440 Adjacent_nodes:        3514        3443        2528        3441
+        3365        2891
+        3441 Adjacent_nodes:        3438        3513        3440        2528
+        2887        3365
+        3442 Adjacent_nodes:        3515        3445        3366        2894
+        3443        2532
+        3443 Adjacent_nodes:        3514        3440        2891        3366
+        3442        2532
+        3444 Adjacent_nodes:        3516        3447        3367        2897
+        3445        2535
+        3445 Adjacent_nodes:        3442        3515        2894        3367
+        3444        2535
+        3446 Adjacent_nodes:        3517        3368        2900        3447
+        2537
+        3447 Adjacent_nodes:        3444        3516        2897        3368
+        3446        2537
+        3448 Adjacent_nodes:        2149        2498        2858        2499
+        3449 Adjacent_nodes:        2151        2496        2857        2498
+        3450 Adjacent_nodes:        3518        2497        2496        3370
+        3451 Adjacent_nodes:        3519        2494        2497        3371
+        3452 Adjacent_nodes:        3520        3373        2493        2494
+        3372
+        3453 Adjacent_nodes:        3522        3521        2492        2493
+        3374
+        3454 Adjacent_nodes:        3523        3376        2490        2492
+        3375
+        3455 Adjacent_nodes:        3524        2489        2490        3377
+        3456 Adjacent_nodes:        3525        2488        2489        3378
+        3457 Adjacent_nodes:        2142        2486        2847        2488
+        3458 Adjacent_nodes:        3526        3381        2350        2348
+        3379
+        3459 Adjacent_nodes:        3528        3527        3383        2352
+        2350        3380
+        3460 Adjacent_nodes:        3529        3385        2354        2352
+        3382
+        3461 Adjacent_nodes:        3530        2356        2354        3384
+        3462 Adjacent_nodes:        3531        2358        2356        3386
+        3463 Adjacent_nodes:        3532        2360        2358        3387
+        3464 Adjacent_nodes:        2026        2362        2360        3388
+        3465 Adjacent_nodes:        3533        2364        2362        3389
+        3466 Adjacent_nodes:        3534        2366        2364        3390
+        3467 Adjacent_nodes:        3535        3393        2368        2366
+        3391
+        3468 Adjacent_nodes:        3536        3395        2370        2368
+        3392
+        3469 Adjacent_nodes:        3537        2372        2370        3394
+        3470 Adjacent_nodes:        3538        3398        2374        2372
+        3396
+        3471 Adjacent_nodes:        3539        3400        2376        2374
+        3397
+        3472 Adjacent_nodes:        3540        2378        2376        3399
+        3473 Adjacent_nodes:        3541        3403        2229        3401
+        2378
+        3474 Adjacent_nodes:        3542        2381        2229        3402
+        3475 Adjacent_nodes:        3543        2381        3404        3406
+        2385
+        3476 Adjacent_nodes:        3545        3544        2385        3405
+        3408        2390
+        3477 Adjacent_nodes:        3547        3546        2390        3407
+        3410        2397
+        3478 Adjacent_nodes:        3549        3548        2406        2397
+        3409
+        3479 Adjacent_nodes:        3550        2419        2406        3411
+        3480 Adjacent_nodes:        3552        3551        2204        2800
+        2419
+        3481 Adjacent_nodes:        2450        3413        2809        2206
+        1872
+        3482 Adjacent_nodes:        3483        2459        3414        2818
+        2450        2107
+        3483 Adjacent_nodes:        3553        2459        2107        3482
+        3484 Adjacent_nodes:        3485        2466        3415        2825
+        2459        2115
+        3485 Adjacent_nodes:        3555        2466        2115        3484
+        3486 Adjacent_nodes:        3488        3418        3416        2832
+        3487        2123
+        3487 Adjacent_nodes:        3556        2466        3416        3486
+        2123
+        3488 Adjacent_nodes:        3557        2123        3486        3418
+        2473
+        3489 Adjacent_nodes:        3491        3420        3417        2838
+        3490        2131
+        3490 Adjacent_nodes:        3558        2473        3417        3489
+        2131
+        3491 Adjacent_nodes:        3559        2131        3489        3420
+        2479
+        3492 Adjacent_nodes:        3494        3422        3419        2844
+        3493        2135
+        3493 Adjacent_nodes:        3561        3560        2479        3419
+        3492        2135
+        3494 Adjacent_nodes:        3562        2135        3492        3422
+        2485
+        3495 Adjacent_nodes:        3497        3424        3421        2850
+        3496        2141
+        3496 Adjacent_nodes:        3563        2485        3421        3495
+        2141
+        3497 Adjacent_nodes:        3565        3564        2141        3495
+        3424        2491
+        3498 Adjacent_nodes:        3500        3426        2146        3499
+        3423        2854
+        3499 Adjacent_nodes:        3566        3498        2146        2491
+        3423
+        3500 Adjacent_nodes:        3567        3426        2495        2146
+        3498
+        3501 Adjacent_nodes:        3503        3428        2150        3502
+        3425        2859
+        3502 Adjacent_nodes:        3569        3568        3501        2150
+        2495        3425
+        3503 Adjacent_nodes:        3570        3428        2500        2150
+        3501
+        3504 Adjacent_nodes:        3506        3430        3427        2864
+        3505        2155
+        3505 Adjacent_nodes:        2154        2500        3427        3504
+        2155
+        3506 Adjacent_nodes:        3571        2155        3504        3430
+        2505
+        3507 Adjacent_nodes:        3508        2509        3429        2868
+        2505        1842
+        3508 Adjacent_nodes:        3573        2509        1842        3507
+        3509 Adjacent_nodes:        3575        3574        3433        2513
+        2509        3431
+        3510 Adjacent_nodes:        3577        3576        3435        2517
+        2513        3432
+        3511 Adjacent_nodes:        3579        3578        3437        2521
+        2517        3434
+        3512 Adjacent_nodes:        3581        3580        2521        3436
+        3439        2525
+        3513 Adjacent_nodes:        3582        2525        3438        3441
+        2528
+        3514 Adjacent_nodes:        3584        3583        3443        2532
+        2528        3440
+        3515 Adjacent_nodes:        3585        2532        3442        3445
+        2535
+        3516 Adjacent_nodes:        1858        2535        3444        3447
+        2537
+        3517 Adjacent_nodes:        2539        3446        2900        2537
+        2188
+        3518 Adjacent_nodes:        3589        2148        3450        2497
+        2496        2152
+        3519 Adjacent_nodes:        3590        2145        3451        2494
+        2497        2148
+        3520 Adjacent_nodes:        3591        3521        3452        2493
+        2494        2145
+        3521 Adjacent_nodes:        3591        3520        3522        2147
+        3453        2493
+        3522 Adjacent_nodes:        3592        2144        3453        2492
+        2147        3521
+        3523 Adjacent_nodes:        3593        2139        3454        2490
+        2492        2144
+        3524 Adjacent_nodes:        3594        2140        3455        2489
+        2490        2139
+        3525 Adjacent_nodes:        3595        2142        3456        2488
+        2489        2140
+        3526 Adjacent_nodes:        3598        3528        3458        2350
+        2348        2014
+        3527 Adjacent_nodes:        3599        2018        2016        3528
+        3459        2352
+        3528 Adjacent_nodes:        3598        3526        3527        2016
+        2350        3459
+        3529 Adjacent_nodes:        3600        2020        3460        2354
+        2352        2018
+        3530 Adjacent_nodes:        3601        2022        3461        2356
+        2354        2020
+        3531 Adjacent_nodes:        3602        2024        3462        2358
+        2356        2022
+        3532 Adjacent_nodes:        3603        2026        3463        2360
+        2358        2024
+        3533 Adjacent_nodes:        3605        2030        3465        2364
+        2362        2028
+        3534 Adjacent_nodes:        3606        2032        3466        2366
+        2364        2030
+        3535 Adjacent_nodes:        3607        2034        3467        2368
+        2366        2032
+        3536 Adjacent_nodes:        3608        2036        3468        2370
+        2368        2034
+        3537 Adjacent_nodes:        3609        2038        3469        2372
+        2370        2036
+        3538 Adjacent_nodes:        3610        2040        3470        2374
+        2372        2038
+        3539 Adjacent_nodes:        3611        2042        3471        2376
+        2374        2040
+        3540 Adjacent_nodes:        3612        1894        3472        2378
+        2376        2042
+        3541 Adjacent_nodes:        3613        1895        3473        2229
+        2378        1894
+        3542 Adjacent_nodes:        3614        2043        3474        2381
+        2229        1895
+        3543 Adjacent_nodes:        3545        3615        3475        2385
+        2381        2043
+        3544 Adjacent_nodes:        3616        3547        3476        2390
+        3545        2048
+        3545 Adjacent_nodes:        3543        3615        2385        3476
+        3544        2048
+        3546 Adjacent_nodes:        3617        3549        3477        2397
+        3547        2053
+        3547 Adjacent_nodes:        3544        3616        2390        3477
+        3546        2053
+        3548 Adjacent_nodes:        3618        2069        3478        2406
+        3549        2059
+        3549 Adjacent_nodes:        3546        3617        2397        3478
+        3548        2059
+        3550 Adjacent_nodes:        3619        1603        3479        2419
+        2406        2069
+        3551 Adjacent_nodes:        1359        1865        3552        3480
+        2204
+        3552 Adjacent_nodes:        3620        3551        1865        2419
+        3480
+        3553 Adjacent_nodes:        1570        3483        2459        2107
+        1817
+        3554 Adjacent_nodes:        1822        2115        2459        1570
+        3555 Adjacent_nodes:        1574        3485        2466        2115
+        1822
+        3556 Adjacent_nodes:        3621        1826        3487        2123
+        2466        1574
+        3557 Adjacent_nodes:        3622        1828        3488        2473
+        2123        1826
+        3558 Adjacent_nodes:        3623        1831        3490        2131
+        2473        1828
+        3559 Adjacent_nodes:        3624        3561        3491        2479
+        2131        1831
+        3560 Adjacent_nodes:        3625        1834        1832        3561
+        3493        2135
+        3561 Adjacent_nodes:        3559        3624        3560        1832
+        2479        3493
+        3562 Adjacent_nodes:        3627        3626        3494        2485
+        2135        1834
+        3563 Adjacent_nodes:        3565        3628        3496        2141
+        2485        1836
+        3564 Adjacent_nodes:        3631        3630        3497        2491
+        3565        1838
+        3565 Adjacent_nodes:        3563        3628        2141        3497
+        3564        1838
+        3566 Adjacent_nodes:        3632        1841        3499        2146
+        2491        1839
+        3567 Adjacent_nodes:        3635        3634        3500        2495
+        2146        1841
+        3568 Adjacent_nodes:        3635        3587        3569        2149
+        3502        2495
+        3569 Adjacent_nodes:        3586        2153        3502        2150
+        2149        3568
+        3570 Adjacent_nodes:        3636        3503        2500        2150
+        2153
+        3571 Adjacent_nodes:        2160        3506        2505        2155
+        2158
+        3572 Adjacent_nodes:        2159        1842        2505        2160
+        3573 Adjacent_nodes:        2162        3508        2509        1842
+        2164
+        3574 Adjacent_nodes:        2162        3575        2163        3509
+        2509
+        3575 Adjacent_nodes:        3637        3509        2513        2163
+        3574
+        3576 Adjacent_nodes:        3638        2166        3577        3510
+        2517
+        3577 Adjacent_nodes:        2167        3576        2166        2513
+        3510
+        3578 Adjacent_nodes:        1843        2170        3579        3511
+        2521
+        3579 Adjacent_nodes:        3639        3638        3578        2170
+        2517        3511
+        3580 Adjacent_nodes:        1844        3512        2525        3581
+        2174
+        3581 Adjacent_nodes:        1843        2521        3512        3580
+        2174
+        3582 Adjacent_nodes:        1847        3513        2528        2525
+        2178
+        3583 Adjacent_nodes:        3640        2185        2181        3584
+        3514        2532
+        3584 Adjacent_nodes:        1847        3583        2181        2528
+        3514
+        3585 Adjacent_nodes:        3641        1858        3515        2535
+        2532        2185
+        3586 Adjacent_nodes:        3569        2149        2499        2153
+        3587 Adjacent_nodes:        3568        3635        2151        2498
+        2149
+        3588 Adjacent_nodes:        3634        3642        2152        2496
+        2151
+        3589 Adjacent_nodes:        3642        3643        2148        2152
+        3518
+        3590 Adjacent_nodes:        3644        2145        2148        3519
+        3591 Adjacent_nodes:        3645        3521        2147        2145
+        3520
+        3592 Adjacent_nodes:        3647        3646        2144        2147
+        3522
+        3593 Adjacent_nodes:        3647        3648        2139        2144
+        3523
+        3594 Adjacent_nodes:        3649        2140        2139        3524
+        3595 Adjacent_nodes:        3651        3650        2142        2140
+        3525
+        3596 Adjacent_nodes:        3655        3654        2134        2483
+        2133
+        3597 Adjacent_nodes:        3657        2014        2348        2012
+        3598 Adjacent_nodes:        3658        3528        2016        2014
+        3526
+        3599 Adjacent_nodes:        3659        2018        2016        3527
+        3600 Adjacent_nodes:        3660        2020        2018        3529
+        3601 Adjacent_nodes:        3661        2022        2020        3530
+        3602 Adjacent_nodes:        3662        2024        2022        3531
+        3603 Adjacent_nodes:        3663        2026        2024        3532
+        3604 Adjacent_nodes:        3665        3664        2028        2362
+        2026
+        3605 Adjacent_nodes:        3667        3666        2030        2028
+        3533
+        3606 Adjacent_nodes:        3669        3668        2032        2030
+        3534
+        3607 Adjacent_nodes:        3671        3670        2034        2032
+        3535
+        3608 Adjacent_nodes:        3673        3672        2036        2034
+        3536
+        3609 Adjacent_nodes:        3675        3674        2038        2036
+        3537
+        3610 Adjacent_nodes:        3677        3676        2040        2038
+        3538
+        3611 Adjacent_nodes:        3678        2042        2040        3539
+        3612 Adjacent_nodes:        3679        1894        2042        3540
+        3613 Adjacent_nodes:        3681        3680        1895        1894
+        3541
+        3614 Adjacent_nodes:        3683        3682        2043        1895
+        3542
+        3615 Adjacent_nodes:        3684        3545        2048        3543
+        2043
+        3616 Adjacent_nodes:        3685        2048        3544        3547
+        2053
+        3617 Adjacent_nodes:        3687        3686        2053        3546
+        3549        2059
+        3618 Adjacent_nodes:        3689        3688        2069        2059
+        3548
+        3619 Adjacent_nodes:        3691        3690        1603        2069
+        3550
+        3620 Adjacent_nodes:        3692        3552        1865        2419
+        1603
+        3621 Adjacent_nodes:        1577        1826        1574        3556
+        3622 Adjacent_nodes:        3696        1828        1826        3557
+        3623 Adjacent_nodes:        3697        1831        1828        3558
+        3624 Adjacent_nodes:        3698        1831        3559        3561
+        1832
+        3625 Adjacent_nodes:        3699        1834        1832        3560
+        3626 Adjacent_nodes:        3629        1836        1837        3627
+        3562        2485
+        3627 Adjacent_nodes:        3699        3700        3626        1837
+        1834        3562
+        3628 Adjacent_nodes:        3648        3565        1838        3563
+        1836
+        3629 Adjacent_nodes:        3649        3651        1836        1837
+        3626
+        3630 Adjacent_nodes:        3633        1839        3564        2491
+        3631        1840
+        3631 Adjacent_nodes:        3646        3645        1838        3564
+        3630        1840
+        3632 Adjacent_nodes:        3643        1841        1839        3566
+        3633 Adjacent_nodes:        3644        1839        1840        3630
+        3634 Adjacent_nodes:        3642        3588        3635        2151
+        3567        1841
+        3635 Adjacent_nodes:        3568        3587        3567        2495
+        2151        3634
+        3636 Adjacent_nodes:        2156        3570        2500        2153
+        2157
+        3637 Adjacent_nodes:        2167        3575        2513        2163
+        2168
+        3638 Adjacent_nodes:        3639        3579        3576        2517
+        2166        2172
+        3639 Adjacent_nodes:        2171        3579        2170        2172
+        3638
+        3640 Adjacent_nodes:        3701        2185        2181        3583
+        3641 Adjacent_nodes:        1587        1858        2185        3585
+        3642 Adjacent_nodes:        3643        3589        1841        3634
+        3588        2152
+        3643 Adjacent_nodes:        3632        1839        1841        3642
+        3589        2148
+        3644 Adjacent_nodes:        3633        1840        3590        2145
+        2148        1839
+        3645 Adjacent_nodes:        3631        3646        3591        2147
+        2145        1840
+        3646 Adjacent_nodes:        3631        3645        3647        1838
+        3592        2147
+        3647 Adjacent_nodes:        3593        3648        3592        2144
+        1838        3646
+        3648 Adjacent_nodes:        3628        1836        3593        2139
+        3647        1838
+        3649 Adjacent_nodes:        3629        3651        3594        2140
+        2139        1836
+        3650 Adjacent_nodes:        3652        2143        3595        2142
+        3651        1837
+        3651 Adjacent_nodes:        3649        3629        2140        3595
+        3650        1837
+        3652 Adjacent_nodes:        3653        3700        2143        1837
+        3650
+        3653 Adjacent_nodes:        3652        3700        1833        2138
+        2143
+        3654 Adjacent_nodes:        3655        3596        2133        2138
+        1833
+        3655 Adjacent_nodes:        3702        1835        3596        2134
+        1833        3654
+        3656 Adjacent_nodes:        3703        1829        2137        2136
+        1835
+        3657 Adjacent_nodes:        3704        1751        3597        2014
+        2012        1749
+        3658 Adjacent_nodes:        3705        1753        3598        2016
+        2014        1751
+        3659 Adjacent_nodes:        3706        1755        3599        2018
+        2016        1753
+        3660 Adjacent_nodes:        3707        1757        3600        2020
+        2018        1755
+        3661 Adjacent_nodes:        3708        1759        3601        2022
+        2020        1757
+        3662 Adjacent_nodes:        3709        1761        3602        2024
+        2022        1759
+        3663 Adjacent_nodes:        3665        3603        2026        2024
+        1761
+        3664 Adjacent_nodes:        3710        3667        1763        3665
+        3604        2028
+        3665 Adjacent_nodes:        3663        1761        3664        1763
+        2026        3604
+        3666 Adjacent_nodes:        3711        3669        1765        3667
+        3605        2030
+        3667 Adjacent_nodes:        3710        3664        3666        1765
+        2028        3605
+        3668 Adjacent_nodes:        3712        3671        1767        3669
+        3606        2032
+        3669 Adjacent_nodes:        3711        3666        3668        1767
+        2030        3606
+        3670 Adjacent_nodes:        3713        3673        1769        3671
+        3607        2034
+        3671 Adjacent_nodes:        3712        3668        3670        1769
+        2032        3607
+        3672 Adjacent_nodes:        3714        3675        1771        3673
+        3608        2036
+        3673 Adjacent_nodes:        3713        3670        3672        1771
+        2034        3608
+        3674 Adjacent_nodes:        3677        1773        3675        3609
+        2038
+        3675 Adjacent_nodes:        3714        3672        3674        1773
+        2036        3609
+        3676 Adjacent_nodes:        3715        1777        1775        3677
+        3610        2040
+        3677 Adjacent_nodes:        3674        1773        3676        1775
+        2038        3610
+        3678 Adjacent_nodes:        3716        1633        3611        2042
+        2040        1777
+        3679 Adjacent_nodes:        3717        3681        3612        1894
+        2042        1633
+        3680 Adjacent_nodes:        3718        3683        3613        1895
+        3681        1629
+        3681 Adjacent_nodes:        3717        3679        1894        3613
+        3680        1629
+        3682 Adjacent_nodes:        3719        1778        1635        3683
+        3614        2043
+        3683 Adjacent_nodes:        3680        3718        3682        1635
+        1895        3614
+        3684 Adjacent_nodes:        3720        1782        3615        2048
+        2043        1778
+        3685 Adjacent_nodes:        3687        3616        2053        2048
+        1782
+        3686 Adjacent_nodes:        3721        1788        3687        3617
+        2059
+        3687 Adjacent_nodes:        3685        1782        3686        1788
+        2053        3617
+        3688 Adjacent_nodes:        3723        3691        3618        2069
+        3689        1794
+        3689 Adjacent_nodes:        3722        3721        2059        3618
+        3688        1794
+        3690 Adjacent_nodes:        3724        1360        1373        3691
+        3619        1603
+        3691 Adjacent_nodes:        3688        3723        3690        1373
+        2069        3619
+        3692 Adjacent_nodes:        3725        1148        3620        1865
+        1603        1360
+        3693 Adjacent_nodes:        1361        1596        1359        1148
+        3694 Adjacent_nodes:        1342        1817        1380        1165
+        3695 Adjacent_nodes:        1576        1574        1822        1575
+        3696 Adjacent_nodes:        3726        3622        1828        1826
+        1578
+        3697 Adjacent_nodes:        3703        1835        3623        1831
+        1828        1829
+        3698 Adjacent_nodes:        3702        1833        3624        1832
+        1831        1835
+        3699 Adjacent_nodes:        3700        3627        3625        1834
+        1832        1833
+        3700 Adjacent_nodes:        3653        3652        1833        3699
+        3627        1837
+        3701 Adjacent_nodes:        1848        3640        2185        2181
+        1845
+        3702 Adjacent_nodes:        3698        1835        1833        3655
+        3703 Adjacent_nodes:        3697        1829        1835        3656
+        3704 Adjacent_nodes:        3728        3727        1751        1749
+        3657
+        3705 Adjacent_nodes:        3730        3729        1753        1751
+        3658
+        3706 Adjacent_nodes:        3732        3731        1755        1753
+        3659
+        3707 Adjacent_nodes:        3733        1757        1755        3660
+        3708 Adjacent_nodes:        3734        1759        1757        3661
+        3709 Adjacent_nodes:        3735        1761        1759        3662
+        3710 Adjacent_nodes:        3738        3737        3667        1765
+        1763        3664
+        3711 Adjacent_nodes:        3740        3739        3669        1767
+        1765        3666
+        3712 Adjacent_nodes:        3742        3741        3671        1769
+        1767        3668
+        3713 Adjacent_nodes:        3744        3743        3673        1771
+        1769        3670
+        3714 Adjacent_nodes:        3746        3745        3675        1773
+        1771        3672
+        3715 Adjacent_nodes:        3749        1777        1775        3676
+        3716 Adjacent_nodes:        3750        1633        1777        3678
+        3717 Adjacent_nodes:        3752        3751        3681        1629
+        1633        3679
+        3718 Adjacent_nodes:        3754        3753        1629        3680
+        3683        1635
+        3719 Adjacent_nodes:        3756        3755        1778        1635
+        3682
+        3720 Adjacent_nodes:        3758        3757        1782        1778
+        3684
+        3721 Adjacent_nodes:        3722        3689        3686        2059
+        1788        1555
+        3722 Adjacent_nodes:        3764        3763        3689        1794
+        1555        3721
+        3723 Adjacent_nodes:        3763        3765        1794        3688
+        3691        1373
+        3724 Adjacent_nodes:        3767        3766        1360        1373
+        3690
+        3725 Adjacent_nodes:        3768        1148        1360        3692
+        3726 Adjacent_nodes:        1829        3696        1828        1578
+        1830
+        3727 Adjacent_nodes:        3730        1518        3728        3704
+        1751
+        3728 Adjacent_nodes:        1516        3727        1518        1749
+        3704
+        3729 Adjacent_nodes:        3732        1520        3730        3705
+        1753
+        3730 Adjacent_nodes:        3727        1518        3729        1520
+        1751        3705
+        3731 Adjacent_nodes:        3769        1524        1522        3732
+        3706        1755
+        3732 Adjacent_nodes:        3729        1520        3731        1522
+        1753        3706
+        3733 Adjacent_nodes:        3770        1526        3707        1757
+        1755        1524
+        3734 Adjacent_nodes:        3771        1528        3708        1759
+        1757        1526
+        3735 Adjacent_nodes:        1530        3709        1761        1759
+        1528
+        3736 Adjacent_nodes:        3738        1763        1761        1530
+        3737 Adjacent_nodes:        3740        1532        3738        3710
+        1765
+        3738 Adjacent_nodes:        3736        1530        3737        1532
+        1763        3710
+        3739 Adjacent_nodes:        3772        3742        1534        3740
+        3711        1767
+        3740 Adjacent_nodes:        3737        1532        3739        1534
+        1765        3711
+        3741 Adjacent_nodes:        3773        3744        1536        3742
+        3712        1769
+        3742 Adjacent_nodes:        3772        3739        3741        1536
+        1767        3712
+        3743 Adjacent_nodes:        3746        1538        3744        3713
+        1771
+        3744 Adjacent_nodes:        3773        3741        3743        1538
+        1769        3713
+        3745 Adjacent_nodes:        3748        1540        3746        3714
+        1773
+        3746 Adjacent_nodes:        3743        1538        3745        1540
+        1771        3714
+        3747 Adjacent_nodes:        1544        1775        1542        3748
+        3748 Adjacent_nodes:        3745        1540        3747        1542
+        1775        1773
+        3749 Adjacent_nodes:        3774        1405        3715        1777
+        1775        1544
+        3750 Adjacent_nodes:        3775        3751        3716        1633
+        1777        1405
+        3751 Adjacent_nodes:        3775        3750        3752        1403
+        3717        1633
+        3752 Adjacent_nodes:        3753        3776        3717        1629
+        1403        3751
+        3753 Adjacent_nodes:        3752        3776        3754        1402
+        3718        1629
+        3754 Adjacent_nodes:        3756        3777        3718        1635
+        1402        3753
+        3755 Adjacent_nodes:        3778        3758        3719        1778
+        3756        1407
+        3756 Adjacent_nodes:        3754        3777        1635        3719
+        3755        1407
+        3757 Adjacent_nodes:        3760        3720        1782        3758
+        1545
+        3758 Adjacent_nodes:        3755        3778        1778        3720
+        3757        1545
+        3759 Adjacent_nodes:        3761        1788        1549        3760
+        3760 Adjacent_nodes:        3757        1545        3759        1549
+        1788        1782
+        3761 Adjacent_nodes:        3759        1549        3762        1331
+        1555        1788
+        3762 Adjacent_nodes:        3779        1555        1331        3761
+        3763 Adjacent_nodes:        3765        3723        3722        1794
+        3764        1157
+        3764 Adjacent_nodes:        3780        1555        3722        3763
+        1157
+        3765 Adjacent_nodes:        3781        3767        1157        3763
+        3723        1373
+        3766 Adjacent_nodes:        3782         956        1150        3767
+        3724        1360
+        3767 Adjacent_nodes:        3765        3781        3766        1150
+        1373        3724
+        3768 Adjacent_nodes:        3783         957        3725        1148
+        1360         956
+        3769 Adjacent_nodes:        3790        3789        1524        1522
+        3731
+        3770 Adjacent_nodes:        3792        3791        1526        1524
+        3733
+        3771 Adjacent_nodes:        3793        1528        1526        3734
+        3772 Adjacent_nodes:        3800        3799        3742        1536
+        1534        3739
+        3773 Adjacent_nodes:        3802        3801        3744        1538
+        1536        3741
+        3774 Adjacent_nodes:        3808        1405        1544        3749
+        3775 Adjacent_nodes:        3810        3809        3751        1403
+        1405        3750
+        3776 Adjacent_nodes:        3812        3811        3753        1402
+        3752        1403
+        3777 Adjacent_nodes:        3814        3813        3756        1407
+        3754        1402
+        3778 Adjacent_nodes:        3816        3815        1407        3755
+        3758        1545
+        3779 Adjacent_nodes:        3821         772        3762        1555
+        1331         961
+        3780 Adjacent_nodes:        3824        3764        1157        1555
+         772
+        3781 Adjacent_nodes:        3824        3825        1157        3765
+        3767        1150
+        3782 Adjacent_nodes:        3826         956        1150        3766
+        3783 Adjacent_nodes:        3827         957         956        3768
+        3784 Adjacent_nodes:        3786        1518        1516        1300
+        3785 Adjacent_nodes:        3788        1520        1302        3786
+        3786 Adjacent_nodes:        3784        1300        3785        1302
+        1520        1518
+        3787 Adjacent_nodes:        3790        1522        1304        3788
+        3788 Adjacent_nodes:        3785        1302        3787        1304
+        1522        1520
+        3789 Adjacent_nodes:        3792        1306        3790        3769
+        1524
+        3790 Adjacent_nodes:        3787        1304        3789        1306
+        1522        3769
+        3791 Adjacent_nodes:        1310        1308        3792        3770
+        1526
+        3792 Adjacent_nodes:        3789        1306        3791        1308
+        1524        3770
+        3793 Adjacent_nodes:        1312        3771        1528        1526
+        1310
+        3794 Adjacent_nodes:        3796        1530        1528        1312
+        3795 Adjacent_nodes:        3798        1532        1314        3796
+        3796 Adjacent_nodes:        3794        1312        3795        1314
+        1532        1530
+        3797 Adjacent_nodes:        3800        1534        1316        3798
+        3798 Adjacent_nodes:        3795        1314        3797        1316
+        1534        1532
+        3799 Adjacent_nodes:        3802        1318        3800        3772
+        1536
+        3800 Adjacent_nodes:        3797        1316        3799        1318
+        1534        3772
+        3801 Adjacent_nodes:        3804        1320        3802        3773
+        1538
+        3802 Adjacent_nodes:        3799        1318        3801        1320
+        1536        3773
+        3803 Adjacent_nodes:        3806        1540        1322        3804
+        3804 Adjacent_nodes:        3801        1320        3803        1322
+        1540        1538
+        3805 Adjacent_nodes:        3807        1542        1324        3806
+        3806 Adjacent_nodes:        3803        1322        3805        1324
+        1542        1540
+        3807 Adjacent_nodes:        3805        1324        1326        1544
+        1542
+        3808 Adjacent_nodes:        3810        3774        1405        1544
+        1191
+        3809 Adjacent_nodes:        3829        3811        1189        3810
+        3775        1403
+        3810 Adjacent_nodes:        3808        1191        3809        1189
+        1405        3775
+        3811 Adjacent_nodes:        3829        3809        3812        1182
+        3776        1403
+        3812 Adjacent_nodes:        3813        3830        3776        1402
+        1182        3811
+        3813 Adjacent_nodes:        3812        3830        3814        1188
+        3777        1402
+        3814 Adjacent_nodes:        3815        3831        3777        1407
+        1188        3813
+        3815 Adjacent_nodes:        3814        3831        3816        1194
+        3778        1407
+        3816 Adjacent_nodes:        3818        3832        3778        1545
+        1194        3815
+        3817 Adjacent_nodes:        3833        3819        1549        1327
+        3818
+        3818 Adjacent_nodes:        3816        3832        3817        1327
+        1549        1545
+        3819 Adjacent_nodes:        3833        3817        3820        1124
+        1331        1549
+        3820 Adjacent_nodes:        3823        1331        1124        3819
+        3821 Adjacent_nodes:        3834         772         961        3779
+        3822 Adjacent_nodes:        3835         961         775        3823
+        3823 Adjacent_nodes:        3820        1124        3822         775
+         961        1331
+        3824 Adjacent_nodes:        3781        3825        3780        1157
+         772         959
+        3825 Adjacent_nodes:        3837        3781        1150        3824
+         959
+        3826 Adjacent_nodes:        3839         755        3782         956
+        1150         769
+        3827 Adjacent_nodes:        3828         940        3783         957
+         956         755
+        3828 Adjacent_nodes:        3840         940         755        3827
+        3829 Adjacent_nodes:        3867        3866        3811        1182
+        1189        3809
+        3830 Adjacent_nodes:        3869        3868        3813        1188
+        3812        1182
+        3831 Adjacent_nodes:        3871        3870        3815        1194
+        3814        1188
+        3832 Adjacent_nodes:        3873        3872        3818        1327
+        3816        1194
+        3833 Adjacent_nodes:        3872        3874        3819        1124
+        1327        3817
+        3834 Adjacent_nodes:        3836         959        3821         772
+         961         589
+        3835 Adjacent_nodes:        3877         589        3822         961
+         775         590
+        3836 Adjacent_nodes:        3880         959         589        3834
+        3837 Adjacent_nodes:        3838         769        3825        1150
+         959         768
+        3838 Adjacent_nodes:        3882         769         768        3837
+        3839 Adjacent_nodes:        3883         755         769        3826
+        3840 Adjacent_nodes:        3841         750        3828         940
+         755         569
+        3841 Adjacent_nodes:        3885         568         750         569
+        3840
+        3842 Adjacent_nodes:        3845        1302        1098        3843
+        3843 Adjacent_nodes:        1096        3842        1098        1302
+        1300
+        3844 Adjacent_nodes:        3847        1304        1100        3845
+        3845 Adjacent_nodes:        3842        1098        3844        1100
+        1304        1302
+        3846 Adjacent_nodes:        3849        1306        1102        3847
+        3847 Adjacent_nodes:        3844        1100        3846        1102
+        1306        1304
+        3848 Adjacent_nodes:        3851        1308        1104        3849
+        3849 Adjacent_nodes:        3846        1102        3848        1104
+        1308        1306
+        3850 Adjacent_nodes:        1108        1310        1106        3851
+        3851 Adjacent_nodes:        3848        1104        3850        1106
+        1310        1308
+        3852 Adjacent_nodes:        3854        1314        1312        1110
+        3853 Adjacent_nodes:        3856        1316        1112        3854
+        3854 Adjacent_nodes:        3852        1110        3853        1112
+        1316        1314
+        3855 Adjacent_nodes:        3858        1318        1114        3856
+        3856 Adjacent_nodes:        3853        1112        3855        1114
+        1318        1316
+        3857 Adjacent_nodes:        3860        1320        1116        3858
+        3858 Adjacent_nodes:        3855        1114        3857        1116
+        1320        1318
+        3859 Adjacent_nodes:        3862        1322        1118        3860
+        3860 Adjacent_nodes:        3857        1116        3859        1118
+        1322        1320
+        3861 Adjacent_nodes:        3863        1324        1120        3862
+        3862 Adjacent_nodes:        3859        1118        3861        1120
+        1324        1322
+        3863 Adjacent_nodes:        3861        1120        1122        1326
+        1324
+        3864 Adjacent_nodes:         989        1191        1326         991
+        3865 Adjacent_nodes:        3866        1189        1191         989
+        3866 Adjacent_nodes:        3865         989        3867         984
+        3829        1189
+        3867 Adjacent_nodes:        3869        3829        1182         984
+        3866
+        3868 Adjacent_nodes:        3887        3871         981        3869
+        3830        1188
+        3869 Adjacent_nodes:        3867         984        3868         981
+        1182        3830
+        3870 Adjacent_nodes:        3888        3873         988        3871
+        3831        1194
+        3871 Adjacent_nodes:        3887        3868        3870         988
+        1188        3831
+        3872 Adjacent_nodes:        3874        3833        3832        1327
+        3873         994
+        3873 Adjacent_nodes:        3888        3870        1194        3832
+        3872         994
+        3874 Adjacent_nodes:        3890        3889         994        3872
+        3833        1124
+        3875 Adjacent_nodes:        3879         775         592        3876
+        3876 Adjacent_nodes:        3889         807        3875         592
+         775        1124
+        3877 Adjacent_nodes:        3891         589         590        3835
+        3878 Adjacent_nodes:        3892         590         415        3879
+        3879 Adjacent_nodes:        3875         592        3878         415
+         590         775
+        3880 Adjacent_nodes:        3881         768        3836         959
+         589         587
+        3881 Adjacent_nodes:         410         768         587        3880
+        3882 Adjacent_nodes:        3895         579        3838         769
+         768         578
+        3883 Adjacent_nodes:        3884         569        3839         755
+         769         579
+        3884 Adjacent_nodes:        3896         569         579        3883
+        3885 Adjacent_nodes:        3897         568         569        3841
+        3886 Adjacent_nodes:        3898         574         939         750
+         568
+        3887 Adjacent_nodes:        3919        3871         988         981
+        3868
+        3888 Adjacent_nodes:        3921        3920        3873         994
+         988        3870
+        3889 Adjacent_nodes:        3876         807        3890        3874
+        1124
+        3890 Adjacent_nodes:        3922        3920        3889         807
+         994        3874
+        3891 Adjacent_nodes:        3893         587        3877         589
+         590         413
+        3892 Adjacent_nodes:        3926         413        3878         590
+         415         246
+        3893 Adjacent_nodes:        3927         587         413        3891
+        3894 Adjacent_nodes:        3929         578         768         410
+        3895 Adjacent_nodes:         407         579         578        3882
+        3896 Adjacent_nodes:         398        3884         569         579
+         400
+        3897 Adjacent_nodes:        3930         396        3885         568
+         569         398
+        3898 Adjacent_nodes:        3931         574         568        3886
+        3899 Adjacent_nodes:        3901        1098        1096         906
+        3900 Adjacent_nodes:        3903        1100         908        3901
+        3901 Adjacent_nodes:        3899         906        3900         908
+        1100        1098
+        3902 Adjacent_nodes:        3905        1102         910        3903
+        3903 Adjacent_nodes:        3900         908        3902         910
+        1102        1100
+        3904 Adjacent_nodes:        3907        1104         912        3905
+        3905 Adjacent_nodes:        3902         910        3904         912
+        1104        1102
+        3906 Adjacent_nodes:        3908        1106         914        3907
+        3907 Adjacent_nodes:        3904         912        3906         914
+        1106        1104
+        3908 Adjacent_nodes:        3906         914         916        1108
+        1106
+        3909 Adjacent_nodes:        3911        1114        1112         922
+        3910 Adjacent_nodes:        3913        1116         924        3911
+        3911 Adjacent_nodes:        3909         922        3910         924
+        1116        1114
+        3912 Adjacent_nodes:        3915        1118         926        3913
+        3913 Adjacent_nodes:        3910         924        3912         926
+        1118        1116
+        3914 Adjacent_nodes:        3916        1120         928        3915
+        3915 Adjacent_nodes:        3912         926        3914         928
+        1120        1118
+        3916 Adjacent_nodes:        3914         928         930        1122
+        1120
+        3917 Adjacent_nodes:         793         984         989         797
+        3918 Adjacent_nodes:         796         981         984         793
+        3919 Adjacent_nodes:        3921        3887         988         981
+         796
+        3920 Adjacent_nodes:        3922        3890         801        3921
+        3888         994
+        3921 Adjacent_nodes:        3919         796        3920         801
+         988        3888
+        3922 Adjacent_nodes:        3933        3890         807         801
+        3920
+        3923 Adjacent_nodes:        3925         592         417        3924
+        3924 Adjacent_nodes:        3933         617        3923         417
+         592         807
+        3925 Adjacent_nodes:        3923         417         249         415
+         592
+        3926 Adjacent_nodes:        3934         413         246        3892
+        3927 Adjacent_nodes:        3928         410        3893         587
+         413         243
+        3928 Adjacent_nodes:         241         410         243        3927
+        3929 Adjacent_nodes:        3937         407        3894         578
+         410         241
+        3930 Adjacent_nodes:         234         396         398        3897
+        3931 Adjacent_nodes:        3932         405        3898         574
+         568         396
+        3932 Adjacent_nodes:         233         405         396        3931
+        3933 Adjacent_nodes:        3924        3922         807         801
+         617
+        3934 Adjacent_nodes:        3936        3926         413         246
+         197
+        3935 Adjacent_nodes:        3940         243         194        3936
+        3936 Adjacent_nodes:        3934         197        3935         194
+         243         413
+        3937 Adjacent_nodes:         191         407         241        3929
+        3938 Adjacent_nodes:         235         398         400         236
+        3939 Adjacent_nodes:         617         801         796         613
+        3940 Adjacent_nodes:         193        3935         243         194
+         195
+        3941 Adjacent_nodes:         192         241         243         193
+        3942 Adjacent_nodes:         399         236         191         237

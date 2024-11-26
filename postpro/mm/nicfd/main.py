@@ -32,9 +32,6 @@ CP.CoolProp.get_global_param_string("HOME")
 # fluidname = "PR::MD4M"
 # G = CP.CoolProp.PropsSI('fundamental_derivative_of_gas_dynamics', 'P',P,'T', T,fluidname)
 # print("G = :", G)  
-# cv = CP.CoolProp.PropsSI('CVMASS','T', T, 'P', P,  fluidname)
-# cp = CP.CoolProp.PropsSI('CPMASS','T', T, 'P', P,  fluidname)
-# g = cp/cv
 # Z = CP.CoolProp.PropsSI('Z', 'P',P,'T', T,fluidname)
 
 Zt = 0.9
@@ -42,4 +39,6 @@ Tt = 500
 
 Pt, Gt = PGfromZT(Zt,Tt)
 
-
+cv = CP.CoolProp.PropsSI('CVMASS','T', Tt, 'P', Pt,  fluidname)
+cp = CP.CoolProp.PropsSI('CPMASS','T', Tt, 'P', Pt,  fluidname)
+g = cp/cv

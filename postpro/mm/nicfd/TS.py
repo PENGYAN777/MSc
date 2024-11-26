@@ -76,8 +76,9 @@ test points
 nc = 10
 colors = plt.cm.tab20(np.linspace(0, 1, nc))
 
-z_p = [ 4.4e5, ]
-z_t = [ 500, ]
+
+z_p = [ 4.41e5, 8.13e5, 1.12e6, 1.35e6, 1.43e6,  ]
+z_t = [ 500, 500, 500, 500, 500,   ]
 z_s = CP.CoolProp.PropsSI('Smass','P',z_p,'T',z_t,fluidname)
 plt.plot(z_s,z_t,'ro' ,lw = lw,label = "working conditions")
 
@@ -92,5 +93,5 @@ plt.xlabel('S [J/K]')
 plt.ylabel('T [K]')
 # plt.title('Contour of Z and $\Gamma$ for siloxane MM')
 plt.tight_layout()
-fig.savefig("files/mm_nicfd_Contour_TS.eps")
+fig.savefig("files/mm_nicfd_Contour_TS.png")
 print("plotcontour.py called")

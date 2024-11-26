@@ -76,8 +76,8 @@ test points
 nc = 10
 colors = plt.cm.tab20(np.linspace(0, 1, nc))
 
-z_p = [ 4.4e5, ]
-z_t = [ 500, ]
+z_p = [ 4.41e5, 8.13e5, 1.12e6, 1.35e6, 1.43e6,  ]
+z_t = [ 500, 500, 500, 500, 500,  ]
 plt.plot(z_t,z_p,'ro', lw = lw, label = "working conditions")
 
 
