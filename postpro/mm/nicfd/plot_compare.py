@@ -45,6 +45,9 @@ z8_x = [2.89, ]
 z7_pr = [15,  ]
 z7_x = [2.82, ]
 
+z6_pr = [15,  ]
+z6_x = [2.78, ]
+
 # z9_r = [0.56, ]
 
 De = 0.0039*2
@@ -62,6 +65,7 @@ axes.plot(x, y1, 'k', lw=lwh, label="Ideal")
 axes.plot(z9_pr  , z9_x ,'o', color=colors[0], lw=lwh, label="$Z_t = 0.9$")
 axes.plot(z8_pr  , z8_x ,'o', color=colors[1], lw=lwh, label="$Z_t = 0.8$")
 axes.plot(z7_pr  , z7_x ,'o', color=colors[2], lw=lwh, label="$Z_t = 0.7$")
+axes.plot(z6_pr  , z6_x ,'o', color=colors[3], lw=lwh, label="$Z_t = 0.6$")
 
 # axes.yaxis.set_major_formatter(FormatStrFormatter('%.2f'))
 

@@ -34,7 +34,7 @@ CP.CoolProp.get_global_param_string("HOME")
 # print("G = :", G)  
 # Z = CP.CoolProp.PropsSI('Z', 'P',P,'T', T,fluidname)
 
-Zt = 0.9
+Zt = 0.6
 Tt = 500
 
 Pt, Gt = PGfromZT(Zt,Tt)
