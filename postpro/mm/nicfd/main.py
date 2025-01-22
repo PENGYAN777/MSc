@@ -34,11 +34,15 @@ CP.CoolProp.get_global_param_string("HOME")
 # print("G = :", G)  
 # Z = CP.CoolProp.PropsSI('Z', 'P',P,'T', T,fluidname)
 
-Zt = 0.6
+Zt = 0.8
 Tt = 500
 
 Pt, Gt = PGfromZT(Zt,Tt)
 
-cv = CP.CoolProp.PropsSI('CVMASS','T', Tt, 'P', Pt,  fluidname)
-cp = CP.CoolProp.PropsSI('CPMASS','T', Tt, 'P', Pt,  fluidname)
-g = cp/cv
+
+Z = CP.CoolProp.PropsSI('Z','T', Tt, 'P', Pt,  fluidname)
+print("Z:", Z)
+
+# cv = CP.CoolProp.PropsSI('CVMASS','T', Tt, 'P', Pt,  fluidname)
+# cp = CP.CoolProp.PropsSI('CPMASS','T', Tt, 'P', Pt,  fluidname)
+# g = cp/cv
