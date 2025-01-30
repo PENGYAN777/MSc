@@ -11,12 +11,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.ticker import FormatStrFormatter
 
-refer= pd.read_csv("ref/radial.csv", ",", skiprows=0)
-gd= pd.read_csv("gra/d/radial.csv", ",", skiprows=0)
-gm= pd.read_csv("gra/m/radial.csv", ",", skiprows=0)
-gp= pd.read_csv("gra/p/radial.csv", ",", skiprows=0)
-gt= pd.read_csv("gra/t/radial.csv", ",", skiprows=0)
-ge= pd.read_csv("gra/e/radial.csv", ",", skiprows=0)
+refer= pd.read_csv("../ref/radial.csv", ",", skiprows=0)
+gd= pd.read_csv("d/radial.csv", ",", skiprows=0)
+gm= pd.read_csv("m/radial.csv", ",", skiprows=0)
+gp= pd.read_csv("p/radial.csv", ",", skiprows=0)
+gt= pd.read_csv("t/radial.csv", ",", skiprows=0)
+ge= pd.read_csv("e/radial.csv", ",", skiprows=0)
 
 D=6.5
 
@@ -30,11 +30,11 @@ axes.plot(gp.iloc[:,7]/D , gp.iloc[:,0]/refer.iloc[0,0] , 'g', lw=lwh, label="$\
 axes.plot(gt.iloc[:,7]/D , gt.iloc[:,0]/refer.iloc[0,0] , 'y', lw=lwh, label="$\\nabla T$")
 axes.plot(ge.iloc[:,7]/D , ge.iloc[:,0]/refer.iloc[0,0] , 'm', lw=lwh, label="$\\nabla s$")
 
-axes.set_xlabel('$X/D$',fontsize=12)
+axes.set_xlabel('$Y/D$',fontsize=12)
 #axes.set_yscale("log")
-axes.set_ylabel('$\\rho/\\rho_t$',fontsize=12) 
+axes.set_ylabel('$\\rho/\\rho_s$',fontsize=12) 
 # axes.set_aspect('equal', 'box')
-axes.set_title('$\\rho/\\rho_t$ at $X=10[mm]$',fontsize=14)
+# axes.set_title('$\\rho/\\rho_t$ at $X=10[mm]$',fontsize=14)
 
 axes.legend(loc=0 , prop={'size': 10}) # 
 # axes.set_xlim(0,0.12)
@@ -52,11 +52,11 @@ axes.plot(gp.iloc[:,7]/D , gp.iloc[:,1], 'g', lw=lwh, label="$\\nabla P$")
 axes.plot(gt.iloc[:,7]/D , gt.iloc[:,1] , 'y', lw=lwh, label="$\\nabla T$")
 axes.plot(ge.iloc[:,7]/D , ge.iloc[:,1] , 'm', lw=lwh, label="$\\nabla s$")
 
-axes.set_xlabel('$X/D$',fontsize=12)
+axes.set_xlabel('$Y/D$',fontsize=12)
 #axes.set_yscale("log")
 axes.set_ylabel('Mach',fontsize=12) 
 # axes.set_aspect('equal', 'box')
-axes.set_title('Mach at $X=10[mm]$',fontsize=14)
+# axes.set_title('Mach at $X=10[mm]$',fontsize=14)
 
 axes.legend(loc=0 , prop={'size': 10}) # 
 # axes.set_xlim(0,0.12)
@@ -74,11 +74,11 @@ axes.plot(gp.iloc[:,7]/D , gp.iloc[:,3]/refer.iloc[0,3] , 'g', lw=lwh, label="$\
 axes.plot(gt.iloc[:,7]/D , gt.iloc[:,3]/refer.iloc[0,3] , 'y', lw=lwh, label="$\\nabla T$")
 axes.plot(ge.iloc[:,7]/D , ge.iloc[:,3]/refer.iloc[0,3] , 'm', lw=lwh, label="$\\nabla s$")
 
-axes.set_xlabel('$X/D$',fontsize=12)
+axes.set_xlabel('$Y/D$',fontsize=12)
 #axes.set_yscale("log")
-axes.set_ylabel('$T/T_t$',fontsize=12) 
+axes.set_ylabel('$T/T_s$',fontsize=12) 
 # axes.set_aspect('equal', 'box')
-axes.set_title('$T/T_t$ at $X=10[mm]$',fontsize=14)
+# axes.set_title('$T/T_t$ at $X=10[mm]$',fontsize=14)
 
 axes.legend(loc=0 , prop={'size': 10}) # 
 # axes.set_xlim(0,0.12)

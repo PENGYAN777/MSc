@@ -11,12 +11,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.ticker import FormatStrFormatter
 
-refer= pd.read_csv("ref/axis.csv", ",", skiprows=0)
-gd= pd.read_csv("gra/d/axis.csv", ",", skiprows=0)
-gm= pd.read_csv("gra/m/axis.csv", ",", skiprows=0)
-gp= pd.read_csv("gra/p/axis.csv", ",", skiprows=0)
-gt= pd.read_csv("gra/t/axis.csv", ",", skiprows=0)
-ge= pd.read_csv("gra/e/axis.csv", ",", skiprows=0)
+refer= pd.read_csv("../ref/axis.csv", ",", skiprows=0)
+gd= pd.read_csv("d/axis.csv", ",", skiprows=0)
+gm= pd.read_csv("m/axis.csv", ",", skiprows=0)
+gp= pd.read_csv("p/axis.csv", ",", skiprows=0)
+gt= pd.read_csv("t/axis.csv", ",", skiprows=0)
+ge= pd.read_csv("e/axis.csv", ",", skiprows=0)
 
 
 D=6.5
@@ -38,7 +38,7 @@ axes.set_xlabel('$X/D$',fontsize=12)
 #axes.set_yscale("log")
 axes.set_ylabel('$P/P_t$',fontsize=12) 
 # axes.set_aspect('equal', 'box')
-axes.set_title('$P/P_t$ along symmetry axis',fontsize=14)
+# axes.set_title('$P/P_t$ along symmetry axis',fontsize=14)
 
 axes.legend(loc=0 , prop={'size': 10}) # 
 # axes.set_xlim(0,0.12)
