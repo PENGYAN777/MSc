@@ -38,12 +38,15 @@ CP.CoolProp.get_global_param_string("HOME")
 """
 
 
-pt = Pc*0.8 # total pressure
-zt = 0.9
+
+# pt = 1.55e6 # total pressure
+# pt = 2.13e6 # total pressure
+pt = 2.32e6 # total pressure
+zt = 0.5
 tt,gt = TGfromZP(zt,pt)
 
-cp = CP.CoolProp.PropsSI('Cpmass','P',pt,'T',tt,fluidname)
-cv = CP.CoolProp.PropsSI('Cvmass','P',pt,'T',tt,fluidname)
+cp = CP.CoolProp.PropsSI('Cpmass','P',pt*0.2,'T',tt*0.95,fluidname)
+cv = CP.CoolProp.PropsSI('Cvmass','P',pt*0.2,'T',tt*0.95,fluidname)
 gamma = cp/cv
 
 
