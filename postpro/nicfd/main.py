@@ -14,11 +14,12 @@ from newIOpairs import TGfromZP, PGfromZT, PTfromZG, ZPfromTG, ZTfromPG, ZGfromP
 
 # compute active degree of freedom
 print("------------compute N-----------")
-fluidname = "PR::MM"
+fluidname = "HEOS::MM"
 # fluidname = "HEOS::D6"
 Pc = CP.CoolProp.PropsSI('Pcrit',fluidname)
 Tc = CP.CoolProp.PropsSI('Tcrit',fluidname)
 dc = CP.CoolProp.PropsSI('rhocrit',fluidname)
+ec = CP.CoolProp.PropsSI('Umass','P', Pc , 'T', Tc ,fluidname)
 vc = 1/dc
 w = CP.CoolProp.PropsSI('ACENTRIC',fluidname)
 print("fluid name:", fluidname)
@@ -37,16 +38,26 @@ CP.CoolProp.get_global_param_string("HOME")
 1. input total conditions
 """
 
+# # pt = 1.55e6 # total pressure
+# # pt = 2.13e6 # total pressure
+# pt = 2.32e6 # total pressure
+# zt = 0.5
+# tt,gt = TGfromZP(zt,pt)
 
+# cp = CP.CoolProp.PropsSI('Cpmass','P',pt*0.2,'T',tt*0.95,fluidname)
+# cv = CP.CoolProp.PropsSI('Cvmass','P',pt*0.2,'T',tt*0.95,fluidname)
+# gamma = cp/cv
 
-# pt = 1.55e6 # total pressure
-# pt = 2.13e6 # total pressure
-pt = 2.32e6 # total pressure
-zt = 0.5
-tt,gt = TGfromZP(zt,pt)
+# Secant reached maximum number of iterations example
+# x = CP.CoolProp.PropsSI('P','Umass',392617, 'Dmass', 268.92+0.01 ,fluidname)
+# print(x)
 
-cp = CP.CoolProp.PropsSI('Cpmass','P',pt*0.2,'T',tt*0.95,fluidname)
-cv = CP.CoolProp.PropsSI('Cvmass','P',pt*0.2,'T',tt*0.95,fluidname)
-gamma = cp/cv
+# # Secant reached maximum number of iterations example
+# x = CP.CoolProp.PropsSI('P','Umass',2.29588e+06, 'Dmass', 5.75102 ,fluidname)
+# print(x)
 
+p = 1.64798e+06
+t = 503.712
+x = CP.CoolProp.PropsSI('Dmass','P',p, 'T', t ,fluidname)
+print(x)
 
