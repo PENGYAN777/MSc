@@ -45,7 +45,7 @@ D2=0.0065
 
 
 ex = pd.read_csv("ex.csv", ",", skiprows=0)
-cfd = pd.read_csv("paper_cfd.csv", ",", skiprows=0)
+# cfd = pd.read_csv("paper_cfd.csv", ",", skiprows=0)
 euler = pd.read_csv("euler/cfd/m8new.csv", ",", skiprows=0)
 rans = pd.read_csv("rans/cfd/m8new.csv", ",", skiprows=0)
 # un = pd.read_csv("unstable/m1new.csv", ",", skiprows=0)
@@ -57,7 +57,7 @@ axes = fig1.add_axes([0.15, 0.15, 0.7, 0.7]) #size of figure
 axes.plot(ex.iloc[:,0] , ex.iloc[:,1], 'ko', lw=lwh, label="Katanoda et.al Ex")
 # axes.plot(cfd.iloc[:,0] , cfd.iloc[:,1], 'k', lw=lwh, label="Katanoda et.al CFD $P_i$")
 axes.plot(euler.iloc[:,-8]/D1 , euler.iloc[:,-4]/P0, 'b', lw=lwh, label="EULER")
-# axes.plot(rans.iloc[:,-8]/D2 , rans.iloc[:,-4]/P0, 'b--', lw=lwh, label="RANS")
+axes.plot(rans.iloc[:,-8]/D2 , rans.iloc[:,-4]/P0, 'b--', lw=lwh, label="RANS")
 
 # axes.plot(un.iloc[:,-5]/D , un.iloc[:,-2]/P0, 'k--', lw=lwh, label="Unstable")
 
