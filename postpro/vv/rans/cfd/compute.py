@@ -11,7 +11,7 @@ import CoolProp as CP
 import pandas as pd
 
 fluidname = "HEOS::nitrogen"
-data = pd.read_csv("m2.csv", ",")
+data = pd.read_csv("m8.csv", ",")
 # data = pd.read_csv("rd035.csv", ",")
 P = data.iloc[:,10] 
 T = data.iloc[:,15] 
@@ -30,8 +30,7 @@ g = 1.4
 R = 297
 print("size", P.index)
 
-PT = 804804
-TT = 339.56
+
 # ht = CP.CoolProp.PropsSI('Hmass','T',TT,'P',PT,fluidname)
 s = np.zeros(P.size)
 ht = np.zeros(P.size)
@@ -71,5 +70,5 @@ for i in P.index:
 shG =pd.DataFrame({'pt':pt, 'pi':pi,'s':s, 'ht':ht,  'Z':Z, })
 newData = pd.concat([data, shG], join = 'outer', axis = 1)
 # save newData in csv file
-newData.to_csv("m2new.csv")
+newData.to_csv("m8new.csv")
 # newData.to_csv("rd035new.csv")
