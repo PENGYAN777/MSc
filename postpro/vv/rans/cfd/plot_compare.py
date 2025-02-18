@@ -31,8 +31,8 @@ Pc = CP.CoolProp.PropsSI('Pcrit',fluidname)
 Tc = CP.CoolProp.PropsSI('Tcrit',fluidname)
 dc = CP.CoolProp.PropsSI('rhocrit',fluidname)
 
-P0 = 804804
-D=0.0065
+P0 = 8e5
+D=6.5
 
 
 mesh8 = pd.read_csv("m8new.csv", ",", skiprows=0)
@@ -47,9 +47,9 @@ mesh10 = pd.read_csv("m10new.csv", ",", skiprows=0)
 fig1 = plt.figure( dpi=300)
 lwh = 2
 axes = fig1.add_axes([0.15, 0.15, 0.7, 0.7]) #size of figure
-axes.plot(mesh8.iloc[:,-8]/D , mesh8.iloc[:,11]/P0, 'r', lw=lwh, label="166k")
-axes.plot(mesh9.iloc[:,-8]/D , mesh9.iloc[:,11]/P0, 'g', lw=lwh, label="213k")
-axes.plot(mesh10.iloc[:,-8]/D, mesh10.iloc[:,11]/P0, 'b', lw=lwh, label="272k")
+axes.plot(mesh8.iloc[:,-8]/D , mesh8.iloc[:,11]/P0, 'r', lw=lwh, label="26k")
+axes.plot(mesh9.iloc[:,-8]/D , mesh9.iloc[:,11]/P0, 'g', lw=lwh, label="32k")
+axes.plot(mesh10.iloc[:,-8]/D, mesh10.iloc[:,11]/P0, 'b', lw=lwh, label="36k")
 # axes.yaxis.set_major_formatter(FormatStrFormatter('%.2f'))
 
 axes.set_xlabel('$X/D$',fontsize=12)
@@ -59,21 +59,21 @@ axes.legend(loc=0) #
 
 fig1.savefig("vv_rans_p.pdf")
 
-# # fig 2
-# fig2 = plt.figure( dpi=300)
-# lwh = 2
-# axes = fig2.add_axes([0.15, 0.15, 0.7, 0.7]) #size of figure
-# axes.plot(mesh6.iloc[:,-7]/D , mesh6.iloc[:,3], 'r', lw=lwh, label="166k")
-# axes.plot(mesh7.iloc[:,-8]/D , mesh7.iloc[:,6], 'g', lw=lwh, label="213k")
-# axes.plot(mesh8.iloc[:,-8]/D , mesh8.iloc[:,6], 'b', lw=lwh, label="272k")
-# # axes.yaxis.set_major_formatter(FormatStrFormatter('%.2f'))
+# fig 2
+fig2 = plt.figure( dpi=300)
+lwh = 2
+axes = fig2.add_axes([0.15, 0.15, 0.7, 0.7]) #size of figure
+axes.plot(mesh8.iloc[:,-8]/D , mesh8.iloc[:,6], 'r', lw=lwh, label="26k")
+axes.plot(mesh9.iloc[:,-8]/D , mesh9.iloc[:,6], 'g', lw=lwh, label="32k")
+axes.plot(mesh10.iloc[:,-8]/D , mesh10.iloc[:,6], 'b', lw=lwh, label="36k")
+# axes.yaxis.set_major_formatter(FormatStrFormatter('%.2f'))
 
-# axes.set_xlabel('$X/D$',fontsize=12)
-# axes.set_ylabel('Mach',fontsize=12) 
-# axes.set_title('Mach number along centerline',fontsize=14)
-# axes.legend(loc=0) # 
+axes.set_xlabel('$X/D$',fontsize=12)
+axes.set_ylabel('Mach',fontsize=12) 
+axes.set_title('Mach number along centerline',fontsize=14)
+axes.legend(loc=0) # 
 
-# fig2.savefig("vv_rans_m.pdf")
+fig2.savefig("vv_rans_m.pdf")
 
 
 # # fig 3
@@ -81,7 +81,7 @@ fig1.savefig("vv_rans_p.pdf")
 # lwh = 2
 # axes = fig3.add_axes([0.15, 0.15, 0.7, 0.7]) #size of figure
 
-# axes.plot(mesh8.iloc[:,-8]/D , mesh8.iloc[:,-2], 'b', lw=lwh, label="lvl 10")
+# axes.plot(mesh3.iloc[:,-8]/D , mesh3.iloc[:,-3], 'b', lw=lwh, label="lvl 10")
 # # axes.plot(mesh8.iloc[:,-8]/D , mesh8.iloc[:,-5]/P0, 'b', lw=lwh, label="lvl 10")
 # # axes.yaxis.set_major_formatter(FormatStrFormatter('%.2f'))
 

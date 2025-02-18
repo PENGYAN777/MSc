@@ -18,18 +18,16 @@ T = data.iloc[:,15]
 D = data.iloc[:,0] 
 M = data.iloc[:,5]  
 
-################# find location of Mach disk
+# ################# find location of Mach disk
 max_index = np.argmax(M)
 # pre Mach disk entropy
 s0 = CP.CoolProp.PropsSI('Smass','T',T[0],'P',P[0],fluidname)
 # post Mach disk entropy
 s1 = CP.CoolProp.PropsSI('Smass','T',T[T.size-1],'P',P[P.size-1],fluidname)
 
-
 g = 1.4
 R = 297
 print("size", P.index)
-
 
 # ht = CP.CoolProp.PropsSI('Hmass','T',TT,'P',PT,fluidname)
 s = np.zeros(P.size)
@@ -39,10 +37,11 @@ for i in P.index:
         s[i] =  CP.CoolProp.PropsSI('Smass','T',T[i],'P',P[i],fluidname)
         h = CP.CoolProp.PropsSI('Hmass','T',T[i],'P',P[i],fluidname)
         c = CP.CoolProp.PropsSI('A','T',T[i],'P',P[i],fluidname)
+        # c =  np.sqrt(g*R*T[i])
         u = c*M[i]
         ht[i] = h +0.5*u*u
-        # s[i] = R/(g-1)*np.log(T[i]) + R*np.log(1/D[i] )
-
+        
+max_index = np.argmin(ht)
 pt = np.zeros(P.size)
 pi = np.zeros(P.size)
 f1 = np.zeros(P.size)
@@ -50,7 +49,7 @@ f2 = np.zeros(P.size)
 Z = np.zeros(P.size)
 for i in P.index:
     # if i<= max_index:
-    #     s[i] = s0
+    #     ht[i] = ht[0]
     # else:
     #     s[i] = s1
     Z[i] =  CP.CoolProp.PropsSI('Z','T',T[i],'P',P[i],fluidname)
