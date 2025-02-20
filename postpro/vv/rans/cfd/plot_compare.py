@@ -53,8 +53,8 @@ axes.plot(mesh10.iloc[:,-8]/D, mesh10.iloc[:,11]/P0, 'b', lw=lwh, label="36k")
 # axes.yaxis.set_major_formatter(FormatStrFormatter('%.2f'))
 
 axes.set_xlabel('$X/D$',fontsize=12)
-axes.set_ylabel('$P/P_0$',fontsize=12) 
-axes.set_title('$P/P_0$ along centerline',fontsize=14)
+axes.set_ylabel('$P/P_t$',fontsize=12) 
+axes.set_title('$P/P_t$ along centerline',fontsize=14)
 axes.legend(loc=0) # 
 
 fig1.savefig("vv_rans_p.pdf")
