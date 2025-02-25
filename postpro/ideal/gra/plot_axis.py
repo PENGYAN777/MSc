@@ -18,7 +18,10 @@ gd= pd.read_csv("d/axis.csv", ",", skiprows=0)
 gm= pd.read_csv("m/axis.csv", ",", skiprows=0)
 gp= pd.read_csv("p/axis.csv", ",", skiprows=0)
 gt= pd.read_csv("t/axis.csv", ",", skiprows=0)
-ge= pd.read_csv("e/axis.csv", ",", skiprows=0)
+dm= pd.read_csv("dm/axis.csv", ",", skiprows=0)
+dp= pd.read_csv("dp/axis.csv", ",", skiprows=0)
+pm= pd.read_csv("pm/axis.csv", ",", skiprows=0)
+
 
 
 
@@ -30,9 +33,9 @@ axes.plot(gd.iloc[:,-3]/D , gd.iloc[:,10]/gd.iloc[0,10] , 'r', lw=lwh, label="$\
 axes.plot(gm.iloc[:,-3]/D , gm.iloc[:,10]/gm.iloc[0,10] , 'b', lw=lwh, label="$\\nabla M$")
 axes.plot(gp.iloc[:,-3]/D , gp.iloc[:,10]/gp.iloc[0,10] , 'g', lw=lwh, label="$\\nabla P$")
 axes.plot(gt.iloc[:,-3]/D , gt.iloc[:,10]/gt.iloc[0,10] , 'y', lw=lwh, label="$\\nabla T$")
-axes.plot(ge.iloc[:,-3]/D , ge.iloc[:,11]/ge.iloc[0,11] , 'm', lw=lwh, label="$\\nabla s$")
-
-
+axes.plot(dm.iloc[:,-3]/D , dm.iloc[:,10]/dm.iloc[0,10] , 'm', lw=lwh, label="$\\nabla \\rho$ + $\\nabla M$")
+axes.plot(dp.iloc[:,-3]/D , dp.iloc[:,10]/dp.iloc[0,10] , 'c', lw=lwh, label="$\\nabla \\rho$ + $\\nabla P$")
+axes.plot(pm.iloc[:,-3]/D , pm.iloc[:,10]/dp.iloc[0,10] , 'orange', lw=lwh, label="$\\nabla P$ + $\\nabla M$")
 
 
 axes.set_xlabel('$X/D$',fontsize=12)
