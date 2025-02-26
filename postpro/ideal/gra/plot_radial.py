@@ -19,6 +19,7 @@ gt= pd.read_csv("t/radial.csv", ",", skiprows=0)
 dm= pd.read_csv("dm/radial.csv", ",", skiprows=0)
 dp= pd.read_csv("dp/radial.csv", ",", skiprows=0)
 pm= pd.read_csv("pm/radial.csv", ",", skiprows=0)
+# dp= pd.read_csv("../ref/radial.csv", ",", skiprows=0)
 
 D = 6.5
 
