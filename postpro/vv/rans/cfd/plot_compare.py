@@ -46,9 +46,9 @@ mesh10 = pd.read_csv("m10new.csv", ",", skiprows=0)
 fig1 = plt.figure( dpi=300)
 lwh = 2
 axes = fig1.add_axes([0.15, 0.15, 0.7, 0.7]) #size of figure
-axes.plot(mesh6.iloc[:,-8]/D , mesh6.iloc[:,11]/P0, 'r', lw=lwh, label="31k")
-axes.plot(mesh8.iloc[:,-8]/D , mesh8.iloc[:,11]/P0, 'g', lw=lwh, label="35k")
-axes.plot(mesh10.iloc[:,-8]/D, mesh10.iloc[:,11]/P0, 'b', lw=lwh, label="39k")
+axes.plot(mesh6.iloc[:,-8]/D , mesh6.iloc[:,11]/P0, 'r', lw=lwh, label="218k")
+axes.plot(mesh8.iloc[:,-8]/D , mesh8.iloc[:,11]/P0, 'g', lw=lwh, label="266k")
+axes.plot(mesh10.iloc[:,-8]/D, mesh10.iloc[:,11]/P0, 'b', lw=lwh, label="315k")
 # axes.yaxis.set_major_formatter(FormatStrFormatter('%.2f'))
 
 axes.set_xlabel('$X/D$',fontsize=12)

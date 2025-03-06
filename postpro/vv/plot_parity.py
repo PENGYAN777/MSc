@@ -56,8 +56,9 @@ max_val = max(max(x_exp), max(y_pred))
 ax.plot([min_val, max_val], [min_val, max_val], 'k--', lw=1.5, label="Parity Line (y=x)")
 
 # 10% Error Band
-upper_band = 1.10 * np.array([min_val, max_val])
-lower_band = 0.90 * np.array([min_val, max_val])
+band = 0.10
+upper_band = (1+band) * np.array([min_val, max_val])
+lower_band = (1-band) * np.array([min_val, max_val])
 ax.fill_between([min_val, max_val], lower_band, upper_band, color='gray', alpha=0.3, label="±10% Error Band")
 
 # Formatting
