@@ -67,10 +67,8 @@ fig1 = plt.figure( dpi=300)
 lwh = 2
 axes = fig1.add_axes([0.15, 0.15, 0.7, 0.7]) #size of figure
 axes.plot(ex.iloc[:,0] , ex.iloc[:,1], 'ko', lw=lwh, label="Katanoda et.al Ex")
-axes.plot(euler.iloc[:,-8]/D1 , euler.iloc[:,-4]/P0, 'b', lw=lwh, label="EULER")
-# axes.plot(m1.iloc[0:270,-8]/D1 , m1.iloc[0:270,-4]/P0, 'b--', lw=lwh)
-# axes.plot(m2.iloc[300:-1,-8]/D1 , m2.iloc[300:-1,-4]/P0, 'b--', lw=lwh,label="RANS")
-axes.plot(xd , yd, 'b--', lw=lwh, label="RANS")
+axes.plot(euler.iloc[:,-8]/D1 , euler.iloc[:,-4]/P0, 'b--', lw=lwh, label="EULER")
+axes.plot(xd , yd, 'b', lw=lwh, label="RANS")
 
 
 # axes.yaxis.set_major_formatter(FormatStrFormatter('%.2f'))
