@@ -100,6 +100,6 @@ labels = [
 ]
 
 # Generate plots
-create_parity_plot(ref_p_rho, [gd_p_rho, gm_p_rho, gp_p_rho, gt_p_rho, dm_p_rho, dp_p_rho, pm_p_rho], labels, "$\\rho/\\rho_s$", "parity_i_gra_d.pdf")
-create_parity_plot(ref_p_mach, [gd_p_mach, gm_p_mach, gp_p_mach, gt_p_mach, dm_p_mach, dp_p_mach, pm_p_mach], labels, "Mach", "parity_i_gra_m.pdf")
-create_parity_plot(ref_p_temp, [gd_p_temp, gm_p_temp, gp_p_temp, gt_p_temp, dm_p_temp, dp_p_temp, pm_p_temp], labels, "$T/T_s$", "parity_i_gra_t.pdf")
+create_parity_plot(ref_p_rho, [gd_p_rho, gm_p_rho, gp_p_rho, gt_p_rho, dm_p_rho, dp_p_rho, pm_p_rho], labels, "$\\rho/\\rho_s$", "parity_n_gra_d.pdf")
+create_parity_plot(ref_p_mach, [gd_p_mach, gm_p_mach, gp_p_mach, gt_p_mach, dm_p_mach, dp_p_mach, pm_p_mach], labels, "Mach", "parity_n_gra_m.pdf")
+create_parity_plot(ref_p_temp, [gd_p_temp, gm_p_temp, gp_p_temp, gt_p_temp, dm_p_temp, dp_p_temp, pm_p_temp], labels, "$T/T_s$", "parity_n_gra_t.pdf")

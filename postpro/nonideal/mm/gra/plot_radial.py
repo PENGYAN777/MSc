@@ -19,7 +19,7 @@ gt= pd.read_csv("t/radial.csv", ",", skiprows=0)
 dm= pd.read_csv("dm/radial.csv", ",", skiprows=0)
 dp= pd.read_csv("dp/radial.csv", ",", skiprows=0)
 pm= pd.read_csv("pm/radial.csv", ",", skiprows=0)
-# dp= pd.read_csv("../ref/radial.csv", ",", skiprows=0)
+
 
 D = 6.5
 
@@ -41,7 +41,7 @@ axes.set_ylabel('$\\rho/\\rho_s$',fontsize=12)
 # axes.set_title('$\\rho/\\rho_s$ at $X/D=1.54$',fontsize=14)
 
 axes.legend(loc=0 , prop={'size': 10}) # 
-fig1.savefig("ideal_gra_rho.pdf")
+fig1.savefig("non_gra_rho.pdf")
 
 fig2 = plt.figure( dpi=300)
 lwh = 2
@@ -62,7 +62,7 @@ axes.set_ylabel('Mach',fontsize=12)
 # axes.set_title('Mach at $X/D=1.54$',fontsize=14)
 
 axes.legend(loc=0 , prop={'size': 10}) # 
-fig2.savefig("ideal_gra_m.pdf")
+fig2.savefig("non_gra_m.pdf")
 
 fig3 = plt.figure( dpi=300)
 lwh = 2
@@ -83,4 +83,4 @@ axes.set_ylabel('$T/T_s$',fontsize=12)
 # axes.set_title('$T/T_s$ at $X/D=1.54$',fontsize=14)
 
 axes.legend(loc=0 , prop={'size': 10}) # 
-fig3.savefig("ideal_gra_t.pdf")
+fig3.savefig("non_gra_t.pdf")

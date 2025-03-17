@@ -13,7 +13,7 @@ D = 6.5
 
 # Load datasets
 try:
-    ex = pd.read_csv("../../vv/ex.csv", ",", skiprows=0)
+    ex = pd.read_csv("../../../vv/ex.csv", ",", skiprows=0)
     refer = pd.read_csv("../ref/axis.csv", ",", skiprows=0)
     gd = pd.read_csv("d/axis.csv", ",", skiprows=0)
     gm = pd.read_csv("m/axis.csv", ",", skiprows=0)
@@ -87,5 +87,5 @@ ax.legend(loc="best", fontsize=10)
 ax.grid(True, linestyle='--', linewidth=0.5)
 
 # Save and show the plot
-plt.savefig("parity_i_gra_p.pdf", bbox_inches='tight')
+plt.savefig("parity_n_gra_p.pdf", bbox_inches='tight')
 plt.show()

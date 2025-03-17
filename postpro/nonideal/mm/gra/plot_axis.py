@@ -36,7 +36,7 @@ axes.plot(gt.iloc[:,-3]/D , gt.iloc[:,10]/gt.iloc[0,10] , 'y', lw=lwh, label="$\
 axes.plot(dm.iloc[:,-3]/D , dm.iloc[:,10]/dm.iloc[0,10] , 'm', lw=lwh, label="$\\nabla \\rho$ + $\\nabla M$")
 axes.plot(dp.iloc[:,-3]/D , dp.iloc[:,10]/dp.iloc[0,10] , 'c', lw=lwh, label="$\\nabla \\rho$ + $\\nabla P$")
 axes.plot(pm.iloc[:,-3]/D , pm.iloc[:,10]/dp.iloc[0,10] , 'orange', lw=lwh, label="$\\nabla P$ + $\\nabla M$")
-
+# 
 
 axes.set_xlabel('$X/D$',fontsize=12)
 #axes.set_yscale("log")
@@ -45,4 +45,4 @@ axes.set_ylabel('$P/P_t$',fontsize=12)
 # axes.set_title('$P/P_t$ along symmetry axis',fontsize=14)
 
 axes.legend(loc=0 , prop={'size': 10}) # 
-fig1.savefig("ideal_gra_p.pdf")
+fig1.savefig("non_gra_p.pdf")
