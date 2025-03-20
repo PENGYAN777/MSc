@@ -42,12 +42,11 @@ diff = (y_pred - x_exp) / x_exp * 100
 diff_ave = np.mean(abs(diff))
 print(f'Average Difference: {diff_ave:.2f}%')
 
-# === PLOT: Parity Plot with 5% Band ===
-fig1 = plt.figure( dpi=300)
-lwh = 2
-ax = fig1.add_axes([0.15, 0.15, 0.7, 0.7]) #size of figure
+# === PLOT: Parity Plot with 5% and 10% Error Bands ===
+fig1 = plt.figure(dpi=300)
+ax = fig1.add_axes([0.15, 0.15, 0.7, 0.7])  # Set figure size
 
-# Plot numerical vs. experimental data
+# Scatter plot of numerical vs. experimental data
 ax.scatter(x_exp, y_pred, color='b', label="Numerical vs. Experimental", alpha=0.7)
 
 # Parity line (y = x)
@@ -55,19 +54,24 @@ min_val = min(min(x_exp), min(y_pred))
 max_val = max(max(x_exp), max(y_pred))
 ax.plot([min_val, max_val], [min_val, max_val], 'k--', lw=1.5, label="Parity Line (y=x)")
 
-# 10% Error Band
-band = 0.10
-upper_band = (1+band) * np.array([min_val, max_val])
-lower_band = (1-band) * np.array([min_val, max_val])
-ax.fill_between([min_val, max_val], lower_band, upper_band, color='gray', alpha=0.3, label="±10% Error Band")
+# 5% and 10% Error Bands
+for band, color, label in [(0.05, 'lightgreen', "±5% Error Band"), (0.10, 'gray', "±10% Error Band")]:
+    upper_band = (1 + band) * np.array([min_val, max_val])
+    lower_band = (1 - band) * np.array([min_val, max_val])
+    ax.fill_between([min_val, max_val], lower_band, upper_band, color=color, alpha=0.3, label=label)
+
+# Set axis limits from 0 to 1
+ax.set_xlim(0.2, 1)
+ax.set_ylim(0.2, 1)
+ax.set_aspect('equal')
+
 
 # Formatting
 ax.set_xlabel("Experimental Data", fontsize=12)
 ax.set_ylabel("Numerical Prediction", fontsize=12)
-ax.set_title("Parity Plot: Numerical vs. Experimental", fontsize=14)
-ax.legend()
+# ax.set_title("Parity Plot: Numerical vs. Experimental", fontsize=14)
+ax.legend(loc=0, fontsize="8" ) # 
 ax.grid(True, linestyle="--", alpha=0.5)
 
 # Save the figure
 fig1.savefig("parity_plot.pdf")
-

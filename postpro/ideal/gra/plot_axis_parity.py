@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Modified: Parity Plot with Sorted Reference Values and 10% Error Band
+Modified: Parity Plot with Sorted Reference Values, 5% and 10% Error Bands
 """
 
 import numpy as np
@@ -66,10 +66,9 @@ fig, ax = plt.subplots(figsize=(6,6), dpi=300)
 # Reference parity line (y = x)
 ax.plot(ref_p, ref_p, 'k--', lw=1.5, label="Parity Line ($y = x$)")
 
-# 10% Error Band
-lower_bound = ref_p * 0.9
-upper_bound = ref_p * 1.1
-ax.fill_between(ref_p, lower_bound, upper_bound, color='gray', alpha=0.2, label="±10% Error Band")
+# 5% and 10% Error Bands
+ax.fill_between(ref_p, ref_p * 0.95, ref_p * 1.05, color='lightgreen', alpha=0.3, label="±5% Error Band")
+ax.fill_between(ref_p, ref_p * 0.90, ref_p * 1.10, color='gray', alpha=0.2, label="±10% Error Band")
 
 # Scatter plots for each dataset
 ax.scatter(ref_p, gd_p, color='r', label="$\\nabla \\rho$", marker='o')
@@ -80,10 +79,15 @@ ax.scatter(ref_p, dm_p, color='m', label="$\\nabla \\rho$ + $\\nabla M$", marker
 ax.scatter(ref_p, dp_p, color='c', label="$\\nabla \\rho$ + $\\nabla P$", marker='o')
 ax.scatter(ref_p, pm_p, color='orange', label="$\\nabla P$ + $\\nabla M$", marker='o')
 
+# Set axis limits from 0 to 1
+ax.set_xlim(0.0, 0.35)
+ax.set_ylim(0.0, 0.35)
+ax.set_aspect('equal')
+
 # Labels and legend
 ax.set_xlabel("Reference Solution $P/P_t$", fontsize=12)
 ax.set_ylabel("Predicted Solutions $P/P_t$", fontsize=12)
-ax.legend(loc="best", fontsize=10)
+ax.legend(loc="best", fontsize=8)
 ax.grid(True, linestyle='--', linewidth=0.5)
 
 # Save and show the plot
