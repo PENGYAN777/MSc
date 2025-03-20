@@ -26,7 +26,7 @@ D = 6.5  # Reference diameter
 
 # Select axial positions [0, 0.5, 1.0, 1.5, 2.0, 2.5]
 # axial_positions = np.array([0, 0.5, 1.0, 1.5, 2.0, 2.5])
-axial_positions = np.arange(0, 2.6, 0.25)  # End value is exclusive, so use 2.6 to include 2.5
+axial_positions = np.arange(0, 2.6, 0.2)  # End value is exclusive, so use 2.6 to include 2.5
 
 ref_x = refer.iloc[:, -2] / D  # Normalize X-axis
 selected_indices = [np.abs(ref_x - x).idxmin() for x in axial_positions]  # Find closest indices
