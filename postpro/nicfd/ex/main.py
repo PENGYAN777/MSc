@@ -10,17 +10,14 @@ main function of CoolProp extensions
 import os
 import CoolProp as CP
 import math
-from newIOpairs import TGfromZP, PGfromZT, PTfromZG, ZPfromTG, ZTfromPG, ZGfromPT
 
 # compute active degree of freedom
 print("------------compute N-----------")
-# fluidname = "HEOS::MM"
-fluidname = "HEOS::Nitrogen"
+fluidname = "HEOS::MM"
 # fluidname = "HEOS::D6"
 Pc = CP.CoolProp.PropsSI('Pcrit',fluidname)
 Tc = CP.CoolProp.PropsSI('Tcrit',fluidname)
 dc = CP.CoolProp.PropsSI('rhocrit',fluidname)
-ec = CP.CoolProp.PropsSI('Umass','P', Pc , 'T', Tc ,fluidname)
 vc = 1/dc
 w = CP.CoolProp.PropsSI('ACENTRIC',fluidname)
 print("fluid name:", fluidname)
@@ -35,28 +32,18 @@ CP.CoolProp.get_global_param_string("HOME")
 # G = CP.CoolProp.PropsSI('fundamental_derivative_of_gas_dynamics', 'P',P,'T', T,fluidname)
 # print("G = :", G)  
 
-"""
-1. input total conditions
-"""
-
-# pt = 1.55e6 # total pressure
-# pt = 2.13e6 # total pressure
-# pt = 9e5 # total pressure
-# zt = 0.8
-# tt,gt = TGfromZP(zt,pt)
-
-pt = 1e6
-tt = 120
-z = CP.CoolProp.PropsSI('Z','P',pt,'T',tt,fluidname)
-print(z)
-cp = CP.CoolProp.PropsSI('Cpmass','P',pt*0.2,'T',tt*0.95,fluidname)
-cv = CP.CoolProp.PropsSI('Cvmass','P',pt*0.2,'T',tt*0.95,fluidname)
-gamma = cp/cv
-print(gamma)
-
-# # Secant reached maximum number of iterations example
-# x = CP.CoolProp.PropsSI('P','Umass',2.29588e+06, 'Dmass', 5.75102 ,fluidname)
-# print(x)
+P = 1.84e6
+T = 521.58
+# c = CP.CoolProp.PropsSI('A','T', t, 'P', p,  fluidname)
+# d = CP.CoolProp.PropsSI('Dmass','T', t, 'P', p,  fluidname)
+# m = 1e-2
+# u =c*m
 
 
-
+cv = CP.CoolProp.PropsSI('CVMASS','T', T, 'P', P,  fluidname)
+cp = CP.CoolProp.PropsSI('CPMASS','T', T, 'P', P,  fluidname)
+g = cp/cv
+Z = CP.CoolProp.PropsSI('Z', 'P',P,'T', T,fluidname)
+G = CP.CoolProp.PropsSI('fundamental_derivative_of_gas_dynamics', 'P',P,'T', T,fluidname)
+print("Z = :", Z)  
+print("G = :", G)  

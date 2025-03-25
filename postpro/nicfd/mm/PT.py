@@ -76,29 +76,29 @@ test points
 nc = 10
 colors = plt.cm.tab20(np.linspace(0, 1, nc))
 
-z9_p = [1.55e6,]
-z9_t = [673, ]
+z9_p = [4.31E5,]
+z9_t = [496.67, ]
 plt.plot(z9_t,z9_p,'o' ,color=colors[0], lw = lw, label = "Z=0.9")
 
 
-z8_p = [1.55e6,]
-z8_t = [584.85, ]
+z8_p = [8.65E5 ,]
+z8_t = [507.78, ]
 plt.plot(z8_t,z8_p,'o' ,color=colors[1],lw = lw,label = "Z=0.8")
 
-z7_p = [  2.13e6,  ]
-z7_t = [   577.21 ]
+z7_p = [  1.23E6,  ]
+z7_t = [   512.22, ]
 plt.plot(z7_t,z7_p,'o' , color=colors[2],lw = lw,label = "Z=0.7")
 
-z6_p =  [ 2.13e6,   ]
-z6_t =  [  550.71  ]
+z6_p =  [ 1.57E6,   ]
+z6_t =  [  516.94,  ]
 plt.plot(z6_t,z6_p,'o' , color=colors[3],lw = lw,label = "Z=0.6")
 
-z5_p =  [  2.32E6  ]
-z5_t =  [  543.88  ]
+z5_p =  [  1.84E6,  ]
+z5_t =  [  521.58,  ]
 plt.plot(z5_t,z5_p,'o' ,color=colors[4],lw = lw,label = "Z=0.5")
 
-z4_p =  [   2.32E6  ]
-z4_t =  [ 535.13   ]
+z4_p =  [   2.20E6,  ]
+z4_t =  [530.98,  ]
 plt.plot(z4_t,z4_p,'o' , color=colors[5],lw = lw,label = "Z=0.4")
 
 ax.legend(loc=3) # 2 means left top
