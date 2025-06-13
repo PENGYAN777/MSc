@@ -38,10 +38,10 @@ nozzle = pd.read_csv("nozzle.csv", ",", skiprows=0)
 fig1 = plt.figure( dpi=300)
 lwh = 2
 axes = fig1.add_axes([0.15, 0.15, 0.7, 0.7]) #size of figure
-axes.plot(inlet.iloc[:,0] , inlet.iloc[:,1], 'r', lw=lwh, label="inlet")
-axes.plot(outlet.iloc[:,0] , outlet.iloc[:,1], 'g', lw=lwh, label="outlet")
-axes.plot(sym.iloc[:,0] , sym.iloc[:,1], 'b', lw=lwh, label="symmetry")
-axes.plot(wall.iloc[:,0] , wall.iloc[:,1], 'k', lw=lwh, label="wall")
+axes.plot(inlet.iloc[:,0] , inlet.iloc[:,1], 'r', lw=lwh, label="Riemann inlet")
+axes.plot(outlet.iloc[:,0] , outlet.iloc[:,1], 'g', lw=lwh, label="Riemann outlet")
+axes.plot(sym.iloc[:,0] , sym.iloc[:,1], 'b', lw=lwh, label="Axisymmetry")
+axes.plot(wall.iloc[:,0] , wall.iloc[:,1], 'k', lw=lwh, label="Non-slip wall")
 axes.plot(nozzle.iloc[:,0] , nozzle.iloc[:,1], 'k', lw=lwh)
 axes.plot(top.iloc[:,0] , top.iloc[:,1], 'k', lw=lwh)
 
@@ -55,7 +55,7 @@ axes.plot(top.iloc[:,0] , top.iloc[:,1], 'k', lw=lwh)
 
 axes.set_xlabel('$X[mm]$',fontsize=12)
 axes.set_ylabel('$Y[mm]$',fontsize=12) 
-axes.set_title('Geometry of the nozzle',fontsize=14)
+axes.set_title('Nozzle and exterior downstream area',fontsize=14)
 axes.legend(loc=0, fontsize="8" ) # 
 axes.set_aspect('equal')
 
