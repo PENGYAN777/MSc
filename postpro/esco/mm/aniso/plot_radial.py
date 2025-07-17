@@ -23,7 +23,7 @@ D=6.5
 fig1 = plt.figure( dpi=300)
 lwh = 2
 axes = fig1.add_axes([0.15, 0.15, 0.7, 0.7]) #size of figure
-axes.plot(refer.iloc[:,7]/D , gd.iloc[:,0]/refer.iloc[0,0], 'k', lw=lwh, label="reference")
+axes.plot(refer.iloc[:,7]/D , refer.iloc[:,0]/refer.iloc[0,0], 'k', lw=lwh, label="reference")
 axes.plot(gd.iloc[:,7]/D , gd.iloc[:,0]/refer.iloc[0,0] , 'r', lw=lwh, label="aniso $\\rho$")
 axes.plot(gm.iloc[:,7]/D , gm.iloc[:,0]/refer.iloc[0,0] , 'b', lw=lwh, label="aniso $M$")
 axes.plot(gp.iloc[:,7]/D , gp.iloc[:,0]/refer.iloc[0,0] , 'g', lw=lwh, label="aniso $P$")
